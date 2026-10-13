@@ -31,3 +31,9 @@
 - `data/translations-YYYY.json`：その年の日本語訳
 - Art Gallery の作品には論文の概要（Abstract）がないため、概要と訳は Art Papers だけです。Art Gallery の作品を開くと、その旨の注記が出ます
 - 新しい年は「YYYY年の概要と訳を作って」とClaudeに頼めば、この2つのファイルを作ります。カードをクリックすると概要と訳が表示されます
+
+## 公開サイトの更新
+
+公開サイトの更新は `./update.sh` を実行するだけ（ビルド → commit → push。GitHub Pages に数分で反映）。
+
+公開URL: https://akiranakayasu-eng.github.io/siggraph-art-archive/
