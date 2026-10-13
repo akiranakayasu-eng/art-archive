@@ -6,7 +6,7 @@
 html,body{overflow-x:hidden}
 body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Hiragino Sans","Helvetica Neue",sans-serif}
 header{position:sticky;top:0;z-index:2;background:var(--bg);border-bottom:1px solid var(--line);padding:14px 16px}
-.wrap{max-width:1280px;margin:0 auto}
+.wrap{margin:0 auto;padding:0 clamp(0px,1.5vw,24px)} /* 幅は固定せずウィンドウに合わせる（広げるほど列が増える） */
 h1{font-size:18px;margin:0 0 10px;font-weight:650;letter-spacing:.01em}
 h1 span{color:var(--mut);font-weight:400;font-size:14px;margin-left:8px}
 .bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
@@ -18,8 +18,14 @@ select{padding:8px;border:1px solid var(--line);border-radius:8px;background:var
 main{padding:8px 16px 48px}
 h2{font-size:15px;font-weight:600;margin:28px 0 12px;color:var(--mut);display:flex;gap:10px;align-items:baseline}
 h2 b{color:var(--fg);font-size:20px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(210px,100%),1fr));gap:16px}
-@media (max-width:520px){.grid{grid-template-columns:1fr 1fr;gap:10px}.t{font-size:13px}.body{padding:8px 9px 10px}}
+.grid{--cw:210px;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(var(--cw),100%),1fr));gap:16px}
+body[data-size=s] .grid{--cw:140px;gap:10px}
+body[data-size=l] .grid{--cw:340px;gap:20px}
+body[data-size=s] .card .body{padding:7px 8px 9px}
+body[data-size=s] .card .t{font-size:12.5px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+body[data-size=s] .card .au,body[data-size=s] .card .tag{display:none} /* 小は画像とタイトルだけ */
+.size{margin-left:auto}
+@media (max-width:520px){.grid{grid-template-columns:1fr 1fr;gap:10px}body[data-size=s] .grid{grid-template-columns:1fr 1fr 1fr;gap:6px}body[data-size=l] .grid{grid-template-columns:1fr}.t{font-size:13px}.body{padding:8px 9px 10px}}
 a.card{cursor:pointer;display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;color:inherit;text-decoration:none;transition:transform .15s,border-color .15s}
 a.card:hover{transform:translateY(-2px);border-color:var(--mut)}
 .img{aspect-ratio:4/3;background:var(--chip);overflow:hidden}

@@ -14,6 +14,9 @@
     <select id="year"><option value="">全年度</option></select>
     <div class="chips" id="conf"></div>
     <div class="chips" id="cat"></div>
+    <div class="chips size" id="size" aria-label="サムネイルの大きさ">
+      <button class="chip" data-s="s">小</button><button class="chip" data-s="m">中</button><button class="chip" data-s="l">大</button>
+    </div>
   </div>
 </div></header>
 <main><div class="wrap" id="out"></div></main>
@@ -68,6 +71,15 @@ uniq(d => d.y).sort((a,b)=>b-a).forEach(y => $('#year').insertAdjacentHTML('befo
 chips($('#conf'), 'conf', uniq(d => d.c).sort());
 chips($('#cat'), 'cat', uniq(d => d.k).sort().reverse());
 $('#year').onchange = e => { state.year = e.target.value; render(); };
+// サムネイルの大きさ（小・中・大）。選んだ大きさはこのブラウザに記憶する
+function setSize(s){
+  document.body.dataset.size = s;
+  $('#size').querySelectorAll('.chip').forEach(b => b.setAttribute('aria-pressed', b.dataset.s === s));
+  try { localStorage.setItem('thumbSize', s); } catch(e) {}
+}
+$('#size').onclick = e => { const b = e.target.closest('.chip'); if (b) setSize(b.dataset.s); };
+let saved = 'm'; try { saved = localStorage.getItem('thumbSize') || 'm'; } catch(e) {}
+setSize(saved);
 $('#q').oninput = e => { state.q = e.target.value.trim().toLowerCase(); render(); };
 
 const TPL = document.getElementById('card-tpl').content;
