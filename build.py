@@ -231,7 +231,7 @@ def add_extra_data(items, out_dir, report):
             added += 1
         report.append(f"過去分（legacy.json）: {added}件 / 画像 {with_img}")
     for f in sorted(data.glob("*.json")):
-        if f.name == "legacy.json":
+        if f.name in ("legacy.json", "thumb-pos.json"):
             continue
         n = 0
         for doi, v in json.loads(f.read_text(encoding="utf-8")).items():
@@ -293,6 +293,22 @@ def build(data_dir, out_dir):
             line += "\n   対応する論文がない画像: " + "; ".join(extra)
         report.append(line)
     add_extra_data(items, out_dir, report)
+    # data/thumb-crops/<name>.jpg replaces docs/thumbs/<name>.jpg (e.g. the artwork cut out of a paper page)
+    crops = Path(__file__).parent / "data" / "thumb-crops"
+    if crops.is_dir():
+        n = 0
+        for p in crops.glob("*.jpg"):
+            if (out_dir / "thumbs" / p.name).exists():
+                shutil.copy2(p, out_dir / "thumbs" / p.name)
+                n += 1
+        report.append(f"トリミング画像（data/thumb-crops）: {n}枚")
+    # data/thumb-pos.json: {"<name>.jpg": "50% 0%"} sets where a card crops that image (CSS object-position)
+    pos_file = Path(__file__).parent / "data" / "thumb-pos.json"
+    if pos_file.exists():
+        pos = json.loads(pos_file.read_text(encoding="utf-8"))
+        for it in items:
+            if it.get("img") and Path(it["img"]).name in pos:
+                it["pos"] = pos[Path(it["img"]).name]
     items.sort(key=lambda x: (-x["y"], x["c"], x["k"], x["t"].lower()))
     tpl = (Path(__file__).parent / "template.html").read_text(encoding="utf-8")
     page = tpl.replace("/*DATA*/[]", json.dumps(items, ensure_ascii=False)

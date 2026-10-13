@@ -81,7 +81,13 @@ function fill(el, d){
   el.querySelectorAll('[data-f="doi"]').forEach(n => { n.href = `https://doi.org/${d.doi}`; n.textContent = d.doi ? "ACM Digital Library で開く ↗" : ''; });
   el.querySelectorAll('[data-f="img"]').forEach(n => {
     const box = n.parentElement;
-    if (d.img) { n.src = d.img; n.hidden = false; box.classList.remove('none'); }
+    if (d.img) {
+      n.src = d.img; n.hidden = false; box.classList.remove('none');
+      n.style.objectPosition = d.pos || '';
+      // とても横長の画像はカードでは切らずに全体を見せる（data/thumb-pos.json で位置を指定した画像は除く）
+      const fit = () => box.classList.toggle('wide', !d.pos && n.naturalWidth / n.naturalHeight > 1.9);
+      if (n.complete && n.naturalWidth) fit(); else n.onload = fit;
+    }
     else { n.removeAttribute('src'); n.hidden = true; box.classList.add('none'); }
   });
 }
