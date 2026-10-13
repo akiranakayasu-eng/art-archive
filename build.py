@@ -239,7 +239,7 @@ def add_extra_data(items, out_dir, report):
             if not it:
                 continue
             v = {"abs": v} if isinstance(v, str) else v
-            for k in ("abs", "ja", "tags"):
+            for k in ("abs", "ja", "tags", "src"):  # src: "body" = text taken from the paper body, not an ACM abstract
                 if v.get(k) and not it.get(k):
                     it[k] = v[k]
                     n += 1
