@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SIGGRAPH Art Archive</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap">
+  <h1>SIGGRAPH Art Archive<span id="count"></span></h1>
+  <div class="bar">
+    <input type="search" id="q" placeholder="タイトル・作者・概要で検索">
+    <select id="year"><option value="">全年度</option></select>
+    <div class="chips" id="conf"></div>
+    <div class="chips" id="cat"></div>
+  </div>
+</div></header>
+<main><div class="wrap" id="out"></div></main>
+
+<!-- カード1枚分のHTML。data-f の付いた要素に中身が入ります:
+     img=サムネイル, title=タイトル, authors=作者, event=会議と年, kind=種別, venue=掲載誌 -->
+<template id="card-tpl">
+  <a class="card">
+    <div class="img"><img data-f="img" loading="lazy" alt=""></div>
+    <div class="body">
+      <div class="t" data-f="title"></div>
+      <div class="au" data-f="authors"></div>
+      <div class="tag"><span data-f="event"></span> · <span data-f="kind"></span></div>
+    </div>
+  </a>
+</template>
+
+<!-- クリックしたときの詳細表示。data-f: abs=概要, ja=日本語訳, tags=キーワード, doi=DOIリンク
+     data-show="noabs" は概要のない Art Gallery 作品だけに出る注記 -->
+<dialog id="detail">
+  <button class="close" aria-label="閉じる">×</button>
+  <div class="d-img"><img data-f="img" alt=""></div>
+  <div class="d-body">
+    <div class="tag"><span data-f="event"></span> · <span data-f="kind"></span></div>
+    <h3 data-f="title"></h3>
+    <p class="au" data-f="authors"></p>
+    <a class="d-doi" data-f="doi" target="_blank" rel="noopener"></a>
+    <section data-show="ja"><h4>概要（日本語訳）</h4><p data-f="ja"></p></section>
+    <section data-show="abs"><h4>Abstract</h4><p data-f="abs" lang="en"></p></section>
+    <p class="d-note" data-show="noabs">Art Gallery の作品には論文の概要（Abstract）がありません。作品の説明は ACM Digital Library のPDFをご覧ください。</p>
+    <p class="d-tags" data-f="tags"></p>
+  </div>
+</dialog>
+<script>
+const DATA = /*DATA*/[];
+const $ = s => document.querySelector(s);
+const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const state = {q:'', year:'', conf:'', cat:''};
+
+function chips(el, field, values){
+  const all = [''].concat(values);
+  el.innerHTML = all.map(v => `<button class="chip" data-v="${esc(v)}" aria-pressed="${v===''}">${v||'すべて'}</button>`).join('');
+  el.onclick = e => {
+    const b = e.target.closest('.chip'); if(!b) return;
+    state[field] = b.dataset.v;
+    el.querySelectorAll('.chip').forEach(x => x.setAttribute('aria-pressed', x===b));
+    render();
+  };
+}
+const uniq = f => [...new Set(DATA.map(f))];
+uniq(d => d.y).sort((a,b)=>b-a).forEach(y => $('#year').insertAdjacentHTML('beforeend', `<option>${y}</option>`));
+chips($('#conf'), 'conf', uniq(d => d.c).sort());
+chips($('#cat'), 'cat', uniq(d => d.k).sort().reverse());
+$('#year').onchange = e => { state.year = e.target.value; render(); };
+$('#q').oninput = e => { state.q = e.target.value.trim().toLowerCase(); render(); };
+
+const TPL = document.getElementById('card-tpl').content;
+function fill(el, d){
+  const set = (f, v) => el.querySelectorAll(`[data-f="${f}"]`).forEach(n => n.textContent = v || '');
+  set('title', d.t); set('authors', d.a.join(', ')); set('event', `${d.c} ${d.y}`);
+  set('kind', d.k); set('venue', d.v); set('abs', d.abs); set('ja', d.ja);
+  set('tags', (d.tags || []).map(x => '#' + x).join('  '));
+  const noabs = d.k === 'Art Gallery' && !d.abs && !d.ja;
+  el.querySelectorAll('[data-show]').forEach(n => n.hidden = !(n.dataset.show === 'noabs' ? noabs : d[n.dataset.show]));
+  el.querySelectorAll('[data-f="doi"]').forEach(n => { n.href = `https://doi.org/${d.doi}`; n.textContent = d.doi ? "ACM Digital Library で開く ↗" : ''; });
+  el.querySelectorAll('[data-f="img"]').forEach(n => {
+    const box = n.parentElement;
+    if (d.img) { n.src = d.img; n.hidden = false; box.classList.remove('none'); }
+    else { n.removeAttribute('src'); n.hidden = true; box.classList.add('none'); }
+  });
+}
+function card(d){
+  const el = TPL.firstElementChild.cloneNode(true);
+  // カードはリンクにしない（ACMへは詳細表示の中のリンクから）
+  el.tabIndex = 0; el.setAttribute('role', 'button');
+  fill(el, d);
+  el.onclick = e => { e.preventDefault(); open(d); };
+  el.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(d); } };
+  return el;
+}
+const DLG = $('#detail');
+function open(d){ fill(DLG, d); DLG.showModal(); DLG.scrollTop = 0; }
+DLG.querySelector('.close').onclick = () => DLG.close();
+DLG.onclick = e => { if (e.target === DLG) DLG.close(); };
+function render(){
+  const list = DATA.filter(d =>
+    (!state.year || String(d.y) === state.year) &&
+    (!state.conf || d.c === state.conf) &&
+    (!state.cat || d.k === state.cat) &&
+    (!state.q || [d.t, d.a.join(' '), d.abs, d.ja, (d.tags||[]).join(' ')].join(' ').toLowerCase().includes(state.q)));
+  $('#count').textContent = `${list.length} / ${DATA.length} 件`;
+  const groups = new Map();
+  list.forEach(d => { const g = `${d.c} ${d.y}|${d.k}`; (groups.get(g) || groups.set(g, []).get(g)).push(d); });
+  const out = $('#out'); out.replaceChildren();
+  if (!list.length) { out.innerHTML = '<div class="empty">該当なし</div>'; return; }
+  for (const [g, ds] of groups) {
+    const [ev, k] = g.split('|');
+    out.insertAdjacentHTML('beforeend', `<h2><b>${esc(ev)}</b>${esc(k)} · ${ds.length}</h2><div class="grid"></div>`);
+    out.lastElementChild.append(...ds.map(card));
+  }
+}
+render();
+</script>
+</body>
+</html>
