@@ -5223,6 +5223,17 @@
   "file": "1400385.1400424.jpg"
  },
  {
+  "t": "A landscape of 3D-printed skyscrapers",
+  "a": [
+   "Lira Nikolovska",
+   "Lorna Goulden"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2008,
+  "k": "Art Gallery",
+  "doi": "10.1145/1400385.1400396"
+ },
+ {
   "t": "African Kuba textiles",
   "a": [
    "Cheryl Kolak Dudek",
@@ -5273,6 +5284,16 @@
   "k": "Art Gallery",
   "doi": "10.1145/1400385.1400391",
   "file": "1400385.1400391.jpg"
+ },
+ {
+  "t": "Ch'an mind, zen mind series",
+  "a": [
+   "Jing Zhou"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2008,
+  "k": "Art Gallery",
+  "doi": "10.1145/1400385.1400466"
  },
  {
   "t": "Chorus",
@@ -5355,6 +5376,16 @@
   "file": "1400385.1400431.jpg"
  },
  {
+  "t": "Evan Douglis studio",
+  "a": [
+   "Richard Sarrach"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2008,
+  "k": "Art Gallery",
+  "doi": "10.1145/1400385.1400398"
+ },
+ {
   "t": "FF-",
   "a": [
    "David Gladstein"
@@ -5387,6 +5418,16 @@
   "k": "Art Gallery",
   "doi": "10.1145/1400385.1400465",
   "file": "1400385.1400465.jpg"
+ },
+ {
+  "t": "Foster + partners",
+  "a": [
+   "STT Group"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2008,
+  "k": "Art Gallery",
+  "doi": "10.1145/1400385.1400399"
  },
  {
   "t": "Fourier carpet and body blanket",
@@ -5446,6 +5487,16 @@
   "file": "1400385.1400400.jpg"
  },
  {
+  "t": "HOK international",
+  "a": [
+   "Miles Walker"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2008,
+  "k": "Art Gallery",
+  "doi": "10.1145/1400385.1400401"
+ },
+ {
   "t": "Ice-rays",
   "a": [
    "George Stiny"
@@ -5455,6 +5506,16 @@
   "k": "Art Gallery",
   "doi": "10.1145/1400385.1400410",
   "file": "1400385.1400410.jpg"
+ },
+ {
+  "t": "Imagine the algorithm",
+  "a": [
+   "William J. Mitchell"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2008,
+  "k": "Art Gallery",
+  "doi": "10.1145/1400385.1400387"
  },
  {
   "t": "Islamic patterns",
@@ -5488,6 +5549,16 @@
   "k": "Art Gallery",
   "doi": "10.1145/1400385.1400451",
   "file": "1400385.1400451.jpg"
+ },
+ {
+  "t": "Kohn Pedersen Fox associates",
+  "a": [
+   "Onur Yuce Gun"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2008,
+  "k": "Art Gallery",
+  "doi": "10.1145/1400385.1400402"
  },
  {
   "t": "Kolam",
@@ -5613,6 +5684,16 @@
   "file": "1400385.1400417.jpg"
  },
  {
+  "t": "Origins and ends",
+  "a": [
+   "Phillip G. Bernstein"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2008,
+  "k": "Art Gallery",
+  "doi": "10.1145/1400385.1400388"
+ },
+ {
   "t": "Parametric urbanism, procedural complexity",
   "a": [
    "Nils Fischer",
@@ -5691,6 +5772,26 @@
   "k": "Art Gallery",
   "doi": "10.1145/1400385.1400423",
   "file": "1400385.1400423.jpg"
+ },
+ {
+  "t": "SHoP architects",
+  "a": [
+   "Busan International Architecture"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2008,
+  "k": "Art Gallery",
+  "doi": "10.1145/1400385.1400403"
+ },
+ {
+  "t": "Skidmore, Owings & Merrill",
+  "a": [
+   "Ajmal Aqtash"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2008,
+  "k": "Art Gallery",
+  "doi": "10.1145/1400385.1400404"
  },
  {
   "t": "Skorpions",
@@ -5962,107 +6063,6 @@
   "file": "1400385.1400420.jpg"
  },
  {
-  "t": "A landscape of 3D-printed skyscrapers",
-  "a": [
-   "Lira Nikolovska",
-   "Lorna Goulden"
-  ],
-  "c": "SIGGRAPH",
-  "y": 2008,
-  "k": "Art Papers",
-  "doi": "10.1145/1400385.1400396"
- },
- {
-  "t": "Ch'an mind, zen mind series",
-  "a": [
-   "Jing Zhou"
-  ],
-  "c": "SIGGRAPH",
-  "y": 2008,
-  "k": "Art Papers",
-  "doi": "10.1145/1400385.1400466"
- },
- {
-  "t": "Evan Douglis studio",
-  "a": [
-   "Richard Sarrach"
-  ],
-  "c": "SIGGRAPH",
-  "y": 2008,
-  "k": "Art Papers",
-  "doi": "10.1145/1400385.1400398"
- },
- {
-  "t": "Foster + partners",
-  "a": [
-   "STT Group"
-  ],
-  "c": "SIGGRAPH",
-  "y": 2008,
-  "k": "Art Papers",
-  "doi": "10.1145/1400385.1400399"
- },
- {
-  "t": "HOK international",
-  "a": [
-   "Miles Walker"
-  ],
-  "c": "SIGGRAPH",
-  "y": 2008,
-  "k": "Art Papers",
-  "doi": "10.1145/1400385.1400401"
- },
- {
-  "t": "Imagine the algorithm",
-  "a": [
-   "William J. Mitchell"
-  ],
-  "c": "SIGGRAPH",
-  "y": 2008,
-  "k": "Art Papers",
-  "doi": "10.1145/1400385.1400387"
- },
- {
-  "t": "Kohn Pedersen Fox associates",
-  "a": [
-   "Onur Yuce Gun"
-  ],
-  "c": "SIGGRAPH",
-  "y": 2008,
-  "k": "Art Papers",
-  "doi": "10.1145/1400385.1400402"
- },
- {
-  "t": "Origins and ends",
-  "a": [
-   "Phillip G. Bernstein"
-  ],
-  "c": "SIGGRAPH",
-  "y": 2008,
-  "k": "Art Papers",
-  "doi": "10.1145/1400385.1400388"
- },
- {
-  "t": "SHoP architects",
-  "a": [
-   "Busan International Architecture"
-  ],
-  "c": "SIGGRAPH",
-  "y": 2008,
-  "k": "Art Papers",
-  "doi": "10.1145/1400385.1400403"
- },
- {
-  "t": "Skidmore, Owings & Merrill",
-  "a": [
-   "Ajmal Aqtash"
-  ],
-  "c": "SIGGRAPH",
-  "y": 2008,
-  "k": "Art Papers",
-  "doi": "10.1145/1400385.1400404"
- },
- {
   "t": "Zaha Hadid architects",
   "a": [
    "Nils Fischer",
@@ -6070,7 +6070,3843 @@
   ],
   "c": "SIGGRAPH",
   "y": 2008,
-  "k": "Art Papers",
+  "k": "Art Gallery",
   "doi": "10.1145/1400385.1400405"
+ },
+ {
+  "t": "25 - Birth and Decay",
+  "a": [
+   "Julian Konczak"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280193",
+  "file": "1280120.1280193.jpg"
+ },
+ {
+  "t": "_zur form",
+  "a": [
+   "Thomas Kienzl"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280164",
+  "file": "1280120.1280164.jpg"
+ },
+ {
+  "t": "A bar at the Folies Bergère",
+  "a": [
+   "Shawn Lawson",
+   "Wafaa Bilal"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280168",
+  "file": "1280120.1280168.jpg"
+ },
+ {
+  "t": "A digital window for watching snow scenes",
+  "a": [
+   "Qinglian Guo"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280161",
+  "file": "1280120.1280161.jpg"
+ },
+ {
+  "t": "A rhyme of the Tang Dynasty",
+  "a": [
+   "Xiaohua Sun",
+   "Ping Jin",
+   "Lihong Lei",
+   "Nan Zhang"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280146",
+  "file": "1280120.1280146.jpg"
+ },
+ {
+  "t": "Algorithmic mirror",
+  "a": [
+   "Vlatko Ceric"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280211",
+  "file": "1280120.1280211.jpg"
+ },
+ {
+  "t": "Alternative networks",
+  "a": [],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280275",
+  "abs": "Article Share on Alternative networksSIGGRAPH '07: ACM SIGGRAPH 2007 art galleryAugust 2007 https://doi.org/10.1145/1280120.1280275Published:05 August 2007Publication History 0citation33DownloadsMetricsTotal Citations0Total Downloads33Last 12 Months0Last 6 weeks0 Get Citation AlertsNew Citation Alert added!This alert has been successfully added and will be sent to:You will be notified whenever a record that you have chosen has been cited.To manage your alert preferences, click on the button below.Manage my Alerts New Citation Alert!Please log in to your account Save to BinderSave to BinderCreate a New BinderNameCancelCreateExport CitationPublisher SiteGet Access"
+ },
+ {
+  "t": "Around the antenna tree",
+  "a": [
+   "Lisa Parks"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280266"
+ },
+ {
+  "t": "ATLAS in Silico",
+  "a": [
+   "Ruth G. West"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280182",
+  "file": "1280120.1280182.jpg"
+ },
+ {
+  "t": "Autocosm 2007",
+  "a": [
+   "J. Walt Adamczyk"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280134",
+  "file": "1280120.1280134.jpg"
+ },
+ {
+  "t": "Autopoiesis/Mimesis",
+  "a": [
+   "Maja Cerar",
+   "Liubo Borissov"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280136"
+ },
+ {
+  "t": "Bibigi (theremin based on computer-vision technology)",
+  "a": [
+   "Hyung Min Lee"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280141"
+ },
+ {
+  "t": "Big hairy Bush",
+  "a": [
+   "Don Relyea"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280246",
+  "file": "1280120.1280246.jpg"
+ },
+ {
+  "t": "Blue Faith",
+  "a": [
+   "Joohyun Pyune"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280245",
+  "file": "1280120.1280245.jpg"
+ },
+ {
+  "t": "bogs",
+  "a": [
+   "Masato Takahashi"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280179",
+  "file": "1280120.1280179.jpg"
+ },
+ {
+  "t": "Boscometro",
+  "a": [
+   "Chiara Boeri"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280151",
+  "file": "1280120.1280151.jpg"
+ },
+ {
+  "t": "Building possible dreams",
+  "a": [
+   "Heitor Capuzzo"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280264"
+ },
+ {
+  "t": "Case study 9983 & 9983-B",
+  "a": [
+   "Tammy Knipp"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280166",
+  "file": "1280120.1280166.jpg"
+ },
+ {
+  "t": "Chang-Tei System",
+  "a": [
+   "Koh Sueda"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280177",
+  "file": "1280120.1280177.jpg"
+ },
+ {
+  "t": "Chinese media art preview",
+  "a": [],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280273",
+  "abs": "Article Share on Chinese media art previewSIGGRAPH '07: ACM SIGGRAPH 2007 art galleryAugust 2007 https://doi.org/10.1145/1280120.1280273Published:05 August 2007Publication History 0citation101DownloadsMetricsTotal Citations0Total Downloads101Last 12 Months3Last 6 weeks1 Get Citation AlertsNew Citation Alert added!This alert has been successfully added and will be sent to:You will be notified whenever a record that you have chosen has been cited.To manage your alert preferences, click on the button below.Manage my Alerts New Citation Alert!Please log in to your account Save to BinderSave to BinderCreate a New BinderNameCancelCreateExport CitationPublisher SiteGet Access"
+ },
+ {
+  "t": "Clear water act; Wires",
+  "a": [
+   "Anna Ursyn"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280253",
+  "file": "1280120.1280253.jpg"
+ },
+ {
+  "t": "Connections",
+  "a": [
+   "Robert Trempe"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280252",
+  "file": "1280120.1280252.jpg"
+ },
+ {
+  "t": "Consuming conversation, 2001-2004",
+  "a": [
+   "Harriete Estel Berman"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280149",
+  "file": "1280120.1280149.jpg"
+ },
+ {
+  "t": "Core air",
+  "a": [
+   "Qian Li"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280232"
+ },
+ {
+  "t": "Cowboy",
+  "a": [
+   "Michael Wright"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280257",
+  "file": "1280120.1280257.jpg"
+ },
+ {
+  "t": "Crowded with voices",
+  "a": [
+   "Anya Belkina"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280185",
+  "file": "1280120.1280185.jpg"
+ },
+ {
+  "t": "CyborGLOGGER performance of globaleyesation",
+  "a": [
+   "Steve Mann"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280142"
+ },
+ {
+  "t": "Cyvers viral city",
+  "a": [
+   "Susana Sulic"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280250",
+  "file": "1280120.1280250.jpg"
+ },
+ {
+  "t": "Dark filament",
+  "a": [
+   "James Faure Walker"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280255",
+  "file": "1280120.1280255.jpg"
+ },
+ {
+  "t": "Database documentaries and global knowledge",
+  "a": [],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280268",
+  "abs": "Article Share on Database documentaries and global knowledge: transnational city symphonies, constructivist courseware, and interactive scienceSIGGRAPH '07: ACM SIGGRAPH 2007 art galleryAugust 2007 https://doi.org/10.1145/1280120.1280268Published:05 August 2007Publication History 0citation60DownloadsMetricsTotal Citations0Total Downloads60Last 12 Months0Last 6 weeks0 Get Citation AlertsNew Citation Alert added!This alert has been successfully added and will be sent to:You will be notified whenever a record that you have chosen has been cited.To manage your alert preferences, click on the button below.Manage my Alerts New Citation Alert!Please log in to your account Save to BinderSave to BinderCreate a New BinderNameCancelCreateExport CitationPublisher SiteGet Access"
+ },
+ {
+  "t": "De Vez En Cuando",
+  "a": [
+   "Johanna Reich"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280202",
+  "file": "1280120.1280202.jpg"
+ },
+ {
+  "t": "Deep dark",
+  "a": [
+   "Rudy Poat"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280172",
+  "file": "1280120.1280172.jpg"
+ },
+ {
+  "t": "Desert views, desert deaths",
+  "a": [
+   "Lucy Petrovich",
+   "Johnie Hugh Horn"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280171",
+  "file": "1280120.1280171.jpg"
+ },
+ {
+  "t": "Diorama table",
+  "a": [
+   "Keiko Takahashi"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280178",
+  "file": "1280120.1280178.jpg"
+ },
+ {
+  "t": "Dog years",
+  "a": [
+   "Matt Hamon"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280220",
+  "file": "1280120.1280220.jpg"
+ },
+ {
+  "t": "Dreaming a fingertip conversation with you",
+  "a": [
+   "Haemin Kim",
+   "Junghyun Ahn"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280165",
+  "file": "1280120.1280165.jpg"
+ },
+ {
+  "t": "Dynamic spaces",
+  "a": [
+   "Pauline Oliveros"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280145",
+  "file": "1280120.1280145.jpg"
+ },
+ {
+  "t": "Dynamo green streamlines",
+  "a": [
+   "Mark Stock"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280249",
+  "file": "1280120.1280249.jpg"
+ },
+ {
+  "t": "e*scapes",
+  "a": [
+   "Mariela Cádiz",
+   "Kent Clelland",
+   "Denis Lelong"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280135",
+  "file": "1280120.1280135.jpg"
+ },
+ {
+  "t": "eco-echo",
+  "a": [
+   "Ming-Yang Yu",
+   "Po-Kuang Chen"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280183",
+  "file": "1280120.1280183.jpg"
+ },
+ {
+  "t": "Elevation #2",
+  "a": [
+   "Mike Wong"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280256",
+  "file": "1280120.1280256.jpg"
+ },
+ {
+  "t": "Eleven Fifty Nine; Landfill; Running on Empty; Robotman; Drought; Here, There",
+  "a": [
+   "Marte Newcombe"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280240",
+  "file": "1280120.1280240.jpg"
+ },
+ {
+  "t": "Eternity (Ch'an Mind, Zen Mind Series)",
+  "a": [
+   "Jing Zhou"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280261",
+  "file": "1280120.1280261.jpg"
+ },
+ {
+  "t": "Exhale",
+  "a": [
+   "Kooj Chuhan"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280138",
+  "file": "1280120.1280138.jpg"
+ },
+ {
+  "t": "FACES",
+  "a": [
+   "Adrian Goya"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280158",
+  "file": "1280120.1280158.jpg"
+ },
+ {
+  "t": "falling water",
+  "a": [
+   "Peter Hardie"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280221",
+  "file": "1280120.1280221.jpg"
+ },
+ {
+  "t": "Flow",
+  "a": [
+   "Masa Inakage"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280225",
+  "file": "1280120.1280225.jpg"
+ },
+ {
+  "t": "Flow 9, Flow 19",
+  "a": [
+   "Andy Lomas"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280233"
+ },
+ {
+  "t": "Flowers of learning",
+  "a": [
+   "Roman Verostko"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280254",
+  "file": "1280120.1280254.jpg"
+ },
+ {
+  "t": "Future perfect",
+  "a": [
+   "Christian Croft",
+   "Ariel Efron",
+   "Ed Purver"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280154",
+  "file": "1280120.1280154.jpg"
+ },
+ {
+  "t": "Gesture down",
+  "a": [
+   "Cedar Sherbert"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280205",
+  "file": "1280120.1280205.jpg"
+ },
+ {
+  "t": "Global environment and digital media",
+  "a": [],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280269",
+  "abs": "Article Share on Global environment and digital mediaSIGGRAPH '07: ACM SIGGRAPH 2007 art galleryAugust 2007 https://doi.org/10.1145/1280120.1280269Published:05 August 2007Publication History 0citation65DownloadsMetricsTotal Citations0Total Downloads65Last 12 Months2Last 6 weeks1 Get Citation AlertsNew Citation Alert added!This alert has been successfully added and will be sent to:You will be notified whenever a record that you have chosen has been cited.To manage your alert preferences, click on the button below.Manage my Alerts New Citation Alert!Please log in to your account Save to BinderSave to BinderCreate a New BinderNameCancelCreateExport CitationPublisher SiteGet Access"
+ },
+ {
+  "t": "Global eyes web site",
+  "a": [
+   "Alejandro Perez-Avila"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280198",
+  "file": "1280120.1280198.jpg"
+ },
+ {
+  "t": "Hawker, Hacker, Herald",
+  "a": [
+   "Andrew Johnson"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280226",
+  "file": "1280120.1280226.jpg"
+ },
+ {
+  "t": "Hitch-Haiku",
+  "a": [
+   "Naoko Tosa"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280203",
+  "file": "1280120.1280203.jpg"
+ },
+ {
+  "t": "HMS Royal Oak",
+  "a": [
+   "Chris Rowland"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280247",
+  "file": "1280120.1280247.jpg"
+ },
+ {
+  "t": "Hydrodynamics ocean",
+  "a": [
+   "Yoichiro Kawaguchi"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280162",
+  "file": "1280120.1280162.jpg"
+ },
+ {
+  "t": "I was scared to death/I could have died of joy",
+  "a": [
+   "Catherine Richards"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280173",
+  "file": "1280120.1280173.jpg"
+ },
+ {
+  "t": "Identifying new myths for convergence and creative collaboration in the age of digitalia",
+  "a": [
+   "Richard L. Loveless"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280265",
+  "abs": "Article Share on Identifying new myths for convergence and creative collaboration in the age of digitalia Author: Richard L. Loveless College at Arizona State University College at Arizona State UniversityView Profile Authors Info & Claims SIGGRAPH '07: ACM SIGGRAPH 2007 art galleryAugust 2007 https://doi.org/10.1145/1280120.1280265Published:05 August 2007Publication History 0citation236DownloadsMetricsTotal Citations0Total Downloads236Last 12 Months3Last 6 weeks1 Get Citation AlertsNew Citation Alert added!This alert has been successfully added and will be sent to:You will be notified whenever a record that you have chosen has been cited.To manage your alert preferences, click on the button below.Manage my Alerts New Citation Alert!Please log in to your account Save to BinderSave to BinderCreate a New BinderNameCancelCreateExport CitationPublisher SiteGet Access"
+ },
+ {
+  "t": "If dreams could talk",
+  "a": [
+   "Lyn Bishop"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280129",
+  "file": "1280120.1280129.jpg"
+ },
+ {
+  "t": "imago",
+  "a": [
+   "Joreg"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280139",
+  "file": "1280120.1280139.jpg"
+ },
+ {
+  "t": "Improvised empathetic device",
+  "a": [
+   "Matthew Kenyon"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280227",
+  "file": "1280120.1280227.jpg"
+ },
+ {
+  "t": "IN THE SWEET BYE & BYE SL (a Second Life installation)",
+  "a": [
+   "Philip Mallory Jones"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280192",
+  "file": "1280120.1280192.jpg"
+ },
+ {
+  "t": "Indigenous people and digital media",
+  "a": [],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280270",
+  "abs": "Article Share on Indigenous people and digital mediaSIGGRAPH '07: ACM SIGGRAPH 2007 art galleryAugust 2007 https://doi.org/10.1145/1280120.1280270Published:05 August 2007Publication History 0citation125DownloadsMetricsTotal Citations0Total Downloads125Last 12 Months2Last 6 weeks1 Get Citation AlertsNew Citation Alert added!This alert has been successfully added and will be sent to:You will be notified whenever a record that you have chosen has been cited.To manage your alert preferences, click on the button below.Manage my Alerts New Citation Alert!Please log in to your account Save to BinderSave to BinderCreate a New BinderNameCancelCreateExport CitationPublisher SiteGet Access"
+ },
+ {
+  "t": "Integrity",
+  "a": [
+   "John McGhee"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280237",
+  "file": "1280120.1280237.jpg"
+ },
+ {
+  "t": "Intertwined",
+  "a": [
+   "Jessica Maloney"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280235",
+  "file": "1280120.1280235.jpg"
+ },
+ {
+  "t": "Ireva",
+  "a": [
+   "Shunsaku hayashi"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280123",
+  "file": "1280120.1280123.jpg"
+ },
+ {
+  "t": "ISAST I",
+  "a": [],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280271",
+  "abs": "Article Share on ISAST I: the planet has changed: art, environment, and sustainable developmentSIGGRAPH '07: ACM SIGGRAPH 2007 art galleryAugust 2007 https://doi.org/10.1145/1280120.1280271Published:05 August 2007Publication History 0citation52DownloadsMetricsTotal Citations0Total Downloads52Last 12 Months0Last 6 weeks0 Get Citation AlertsNew Citation Alert added!This alert has been successfully added and will be sent to:You will be notified whenever a record that you have chosen has been cited.To manage your alert preferences, click on the button below.Manage my Alerts New Citation Alert!Please log in to your account Save to BinderSave to BinderCreate a New BinderNameCancelCreateExport CitationPublisher SiteGet Access"
+ },
+ {
+  "t": "ISAST II",
+  "a": [],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280272",
+  "abs": "Article Share on ISAST II: artists have changed: art, science, technology interactionSIGGRAPH '07: ACM SIGGRAPH 2007 art galleryAugust 2007 https://doi.org/10.1145/1280120.1280272Published:05 August 2007Publication History 0citation61DownloadsMetricsTotal Citations0Total Downloads61Last 12 Months1Last 6 weeks1 Get Citation AlertsNew Citation Alert added!This alert has been successfully added and will be sent to:You will be notified whenever a record that you have chosen has been cited.To manage your alert preferences, click on the button below.Manage my Alerts New Citation Alert!Please log in to your account Save to BinderSave to BinderCreate a New BinderNameCancelCreateExport CitationPublisher SiteGet Access"
+ },
+ {
+  "t": "Japan media arts festival lighting doodle project \"Pika Pika\"",
+  "a": [
+   "Nagata Takeshi",
+   "Monno Kazue"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280126",
+  "file": "1280120.1280126.jpg"
+ },
+ {
+  "t": "Kanyon reconstructed",
+  "a": [
+   "Murat Germen"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280218",
+  "file": "1280120.1280218.jpg"
+ },
+ {
+  "t": "La Grua y la Jirafa",
+  "a": [
+   "Vladimir Bellini"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280122",
+  "file": "1280120.1280122.jpg"
+ },
+ {
+  "t": "Letters I, Letters II",
+  "a": [
+   "Dan Lu"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280234",
+  "file": "1280120.1280234.jpg"
+ },
+ {
+  "t": "Life squared",
+  "a": [
+   "Lynn Hershman"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280191",
+  "file": "1280120.1280191.jpg"
+ },
+ {
+  "t": "Linkages",
+  "a": [
+   "Alma de la Serra"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280248",
+  "file": "1280120.1280248.jpg"
+ },
+ {
+  "t": "LISSEN HERE!",
+  "a": [
+   "Philip Mallory Jones"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280131",
+  "file": "1280120.1280131.jpg"
+ },
+ {
+  "t": "Local concerns",
+  "a": [],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280274",
+  "abs": "Article Share on Local concerns: global artSIGGRAPH '07: ACM SIGGRAPH 2007 art galleryAugust 2007 https://doi.org/10.1145/1280120.1280274Published:05 August 2007Publication History 0citation40DownloadsMetricsTotal Citations0Total Downloads40Last 12 Months0Last 6 weeks0 Get Citation AlertsNew Citation Alert added!This alert has been successfully added and will be sent to:You will be notified whenever a record that you have chosen has been cited.To manage your alert preferences, click on the button below.Manage my Alerts New Citation Alert!Please log in to your account Save to BinderSave to BinderCreate a New BinderNameCancelCreateExport CitationPublisher SiteGet Access"
+ },
+ {
+  "t": "Looking back 25 years",
+  "a": [
+   "Copper Frances Giloth"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280190",
+  "file": "1280120.1280190.jpg"
+ },
+ {
+  "t": "Luminous presence",
+  "a": [
+   "Paula Dawson"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280213",
+  "file": "1280120.1280213.jpg"
+ },
+ {
+  "t": "maang (message stick)",
+  "a": [
+   "r e a"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280201",
+  "file": "1280120.1280201.jpg"
+ },
+ {
+  "t": "Meteor crater observatory on old route 66, Arizona",
+  "a": [
+   "Dave Poindexter"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280244",
+  "file": "1280120.1280244.jpg"
+ },
+ {
+  "t": "Mobile heart health",
+  "a": [
+   "Margaret Morris"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280170",
+  "file": "1280120.1280170.jpg"
+ },
+ {
+  "t": "Most wanted",
+  "a": [
+   "Taraneh Hemami"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280223",
+  "file": "1280120.1280223.jpg"
+ },
+ {
+  "t": "N.",
+  "a": [
+   "Andrea Polli",
+   "Joe Gilmore"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280199",
+  "file": "1280120.1280199.jpg"
+ },
+ {
+  "t": "NaturArte",
+  "a": [
+   "Ellen McMahon"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280196",
+  "file": "1280120.1280196.jpg"
+ },
+ {
+  "t": "No. 6, from the series thread and carbon, oil and steel",
+  "a": [
+   "Sally Grizzell Larson"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280231",
+  "file": "1280120.1280231.jpg"
+ },
+ {
+  "t": "Nou La",
+  "a": [
+   "Anna Chupa"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280153",
+  "file": "1280120.1280153.jpg"
+ },
+ {
+  "t": "OLE coordinate system",
+  "a": [
+   "Jun Fujiki"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280156",
+  "file": "1280120.1280156.jpg"
+ },
+ {
+  "t": "Palavrador",
+  "a": [
+   "Francisco Marinho"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280169",
+  "file": "1280120.1280169.jpg"
+ },
+ {
+  "t": "Performing arts for the future mobile generation",
+  "a": [
+   "Hiroshi Matoba"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280144",
+  "file": "1280120.1280144.jpg"
+ },
+ {
+  "t": "Perry's Do-Bu-Ro-Ku",
+  "a": [
+   "Shunsaku Hayashi"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280222"
+ },
+ {
+  "t": "Places of memory",
+  "a": [
+   "Devika Coles"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280186",
+  "file": "1280120.1280186.jpg"
+ },
+ {
+  "t": "Psychogeographical studies",
+  "a": [
+   "Joseph Rabie"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280200",
+  "file": "1280120.1280200.jpg"
+ },
+ {
+  "t": "Rage to know",
+  "a": [
+   "Michael Masucci"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280143",
+  "file": "1280120.1280143.jpg"
+ },
+ {
+  "t": "Re-formation; Transpacific",
+  "a": [
+   "Masakazu Takano"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280251",
+  "file": "1280120.1280251.jpg"
+ },
+ {
+  "t": "Re-remembered, digital palimpsests",
+  "a": [
+   "Brian DeLevie"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280214",
+  "file": "1280120.1280214.jpg"
+ },
+ {
+  "t": "Revolution",
+  "a": [
+   "Mostafa Barakate"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280209",
+  "file": "1280120.1280209.jpg"
+ },
+ {
+  "t": "RHODADALIA",
+  "a": [
+   "Stan Bowman"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280210",
+  "file": "1280120.1280210.jpg"
+ },
+ {
+  "t": "Royal, Nebraska",
+  "a": [
+   "Toby Lee",
+   "Fotini Lazaridou-Hatzigoga"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280194",
+  "file": "1280120.1280194.jpg"
+ },
+ {
+  "t": "Rutopia 2",
+  "a": [
+   "Daria Tsoupikova"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280181",
+  "file": "1280120.1280181.jpg"
+ },
+ {
+  "t": "Salad",
+  "a": [
+   "Till Nowak"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280241",
+  "file": "1280120.1280241.jpg"
+ },
+ {
+  "t": "scan Gate",
+  "a": [
+   "Kazuhiko Kobayashi"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280229",
+  "file": "1280120.1280229.jpg"
+ },
+ {
+  "t": "See - Buy - Fly",
+  "a": [
+   "Solvita Zarina"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280259",
+  "file": "1280120.1280259.jpg"
+ },
+ {
+  "t": "SEEN",
+  "a": [
+   "Osman Khan",
+   "Omar Khan"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280163",
+  "file": "1280120.1280163.jpg"
+ },
+ {
+  "t": "Selected works from the 10th Japan Media Arts Festival",
+  "a": [],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280204",
+  "abs": "Article Share on Selected works from the 10th Japan Media Arts FestivalSIGGRAPH '07: ACM SIGGRAPH 2007 art galleryAugust 2007 https://doi.org/10.1145/1280120.1280204Published:05 August 2007Publication History 0citation58DownloadsMetricsTotal Citations0Total Downloads58Last 12 Months1Last 6 weeks1 Get Citation AlertsNew Citation Alert added!This alert has been successfully added and will be sent to:You will be notified whenever a record that you have chosen has been cited.To manage your alert preferences, click on the button below.Manage my Alerts New Citation Alert!Please log in to your account Save to BinderSave to BinderCreate a New BinderNameCancelCreateExport CitationPublisher SiteGet Access"
+ },
+ {
+  "t": "Selected works from the 2007 Northeastern University Visual Music marathon",
+  "a": [
+   "Dennis Miller"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280125",
+  "file": "1280120.1280125.jpg"
+ },
+ {
+  "t": "Selections from ZoneZero.com",
+  "a": [
+   "Pedro Meyer"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280197"
+ },
+ {
+  "t": "Self-transparency",
+  "a": [
+   "Arina Melkozernova"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280124",
+  "file": "1280120.1280124.jpg"
+ },
+ {
+  "t": "SelfPortrait06_Diptych",
+  "a": [
+   "Chi-wah Man"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280236",
+  "file": "1280120.1280236.jpg"
+ },
+ {
+  "t": "Seven sisters",
+  "a": [
+   "Kathy Beal"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280128",
+  "file": "1280120.1280128.jpg"
+ },
+ {
+  "t": "Silent dancing",
+  "a": [
+   "Max Chandler"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280212",
+  "file": "1280120.1280212.jpg"
+ },
+ {
+  "t": "Something that happened only once",
+  "a": [
+   "Roderick Coover"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280187",
+  "file": "1280120.1280187.jpg"
+ },
+ {
+  "t": "sonata (pipilo)",
+  "a": [
+   "Brian Evans"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280215",
+  "file": "1280120.1280215.jpg"
+ },
+ {
+  "t": "Songhua",
+  "a": [
+   "J. P. Sniadecki"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280206",
+  "file": "1280120.1280206.jpg"
+ },
+ {
+  "t": "soul of the place - genius loci",
+  "a": [
+   "Murat Germen"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280217",
+  "file": "1280120.1280217.jpg"
+ },
+ {
+  "t": "Spheres of influence",
+  "a": [
+   "Alexander Villacorta"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280207",
+  "file": "1280120.1280207.jpg"
+ },
+ {
+  "t": "SphèrAléas",
+  "a": [
+   "Scenocosme"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280174",
+  "file": "1280120.1280174.jpg"
+ },
+ {
+  "t": "Substitute Judgment + Metal catalogue",
+  "a": [
+   "Jeffrey Treviño",
+   "Ross Karre"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280147"
+ },
+ {
+  "t": "Sunday morning at the City Hall Doors/Dimanche Matin aux Portes d'Hôtel de Ville",
+  "a": [
+   "Copper Frances Giloth"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280219"
+ },
+ {
+  "t": "Super*Nature",
+  "a": [
+   "Guan Hong Yeoh"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280258",
+  "file": "1280120.1280258.jpg"
+ },
+ {
+  "t": "Tactical sound garden toolkit",
+  "a": [
+   "Mark Shepard"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280176",
+  "file": "1280120.1280176.jpg"
+ },
+ {
+  "t": "Takashi's seasons",
+  "a": [
+   "Takashi Kawashima"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280140",
+  "file": "1280120.1280140.jpg"
+ },
+ {
+  "t": "Texture of reality no.7",
+  "a": [
+   "Andrzej Zarzycki"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280260",
+  "file": "1280120.1280260.jpg"
+ },
+ {
+  "t": "The automatic confession machine",
+  "a": [
+   "Gregory Garvey"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280157",
+  "file": "1280120.1280157.jpg"
+ },
+ {
+  "t": "The Night Journey",
+  "a": [],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280188",
+  "abs": "Article Share on The Night Journey: walk throughSIGGRAPH '07: ACM SIGGRAPH 2007 art galleryAugust 2007 https://doi.org/10.1145/1280120.1280188Published:05 August 2007Publication History 0citation61DownloadsMetricsTotal Citations0Total Downloads61Last 12 Months1Last 6 weeks1 Get Citation AlertsNew Citation Alert added!This alert has been successfully added and will be sent to:You will be notified whenever a record that you have chosen has been cited.To manage your alert preferences, click on the button below.Manage my Alerts New Citation Alert!Please log in to your account Save to BinderSave to BinderCreate a New BinderNameCancelCreateExport CitationPublisher SiteGet Access",
+  "file": "1280120.1280188.jpg"
+ },
+ {
+  "t": "The Orb",
+  "a": [
+   "James Sears"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280175",
+  "file": "1280120.1280175.jpg"
+ },
+ {
+  "t": "The scalable city",
+  "a": [
+   "Sheldon Brown"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280152",
+  "file": "1280120.1280152.jpg"
+ },
+ {
+  "t": "The travels of Mariko Horo",
+  "a": [
+   "Tamiko Thiel"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280180",
+  "file": "1280120.1280180.jpg"
+ },
+ {
+  "t": "The Weight of Reason (after Goya); Guns and Kolbasa",
+  "a": [
+   "Davida Kidd"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280228",
+  "file": "1280120.1280228.jpg"
+ },
+ {
+  "t": "These are some Jews that Hitler did not get",
+  "a": [
+   "Dena Elisabeth Eber"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280130",
+  "file": "1280120.1280130.jpg"
+ },
+ {
+  "t": "Time bracketing study",
+  "a": [
+   "Guy Hoffman"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280224",
+  "file": "1280120.1280224.jpg"
+ },
+ {
+  "t": "time slice (meliá)",
+  "a": [
+   "Brian Evans"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280216",
+  "file": "1280120.1280216.jpg"
+ },
+ {
+  "t": "Topography drive (Pacific Rim)",
+  "a": [
+   "Ingo Günther"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280160",
+  "file": "1280120.1280160.jpg"
+ },
+ {
+  "t": "Transdisciplinarity, Yesterday and Today",
+  "a": [
+   "Carlos Antônio Leite Brandão"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280263"
+ },
+ {
+  "t": "V9-U9 a digital portfolio",
+  "a": [
+   "Tom Piper",
+   "Sushma Bahl"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280243"
+ },
+ {
+  "t": "Viral confections",
+  "a": [
+   "Caitlin Berrigan"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280150",
+  "file": "1280120.1280150.jpg"
+ },
+ {
+  "t": "Visual genealogy",
+  "a": [
+   "Jin Wan Park",
+   "June Seok Seo"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280242",
+  "file": "1280120.1280242.jpg"
+ },
+ {
+  "t": "Viva la revolution",
+  "a": [
+   "Nataliya Nadtoka"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280238",
+  "file": "1280120.1280238.jpg"
+ },
+ {
+  "t": "West meets east",
+  "a": [
+   "Kent Manske"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280132",
+  "file": "1280120.1280132.jpg"
+ },
+ {
+  "t": "What about job?",
+  "a": [
+   "Ben Maggos"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280195",
+  "file": "1280120.1280195.jpg"
+ },
+ {
+  "t": "What if I'm not real",
+  "a": [
+   "Kooj Chuhan"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280137",
+  "file": "1280120.1280137.jpg"
+ },
+ {
+  "t": "Windowseat lounge",
+  "a": [
+   "Maaike Evers",
+   "Mike Simonian"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280155",
+  "file": "1280120.1280155.jpg"
+ },
+ {
+  "t": "Witness No. 02 and No. 04",
+  "a": [
+   "Viktor Koen"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280230",
+  "file": "1280120.1280230.jpg"
+ },
+ {
+  "t": "WORLD",
+  "a": [
+   "Santiago Echeverry"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280189"
+ },
+ {
+  "t": "World identity cards",
+  "a": [
+   "Joe Nalven"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280239",
+  "file": "1280120.1280239.jpg"
+ },
+ {
+  "t": "Worldprocessor.com",
+  "a": [
+   "Ingo Günther"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280159"
+ },
+ {
+  "t": "Wu Wei",
+  "a": [
+   "Shawn Lawson"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2007,
+  "k": "Art Gallery",
+  "doi": "10.1145/1280120.1280167",
+  "file": "1280120.1280167.jpg"
+ },
+ {
+  "t": "0512",
+  "a": [
+   "Terry Calen"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179002",
+  "file": "1178977.1179002.jpg"
+ },
+ {
+  "t": "4^16",
+  "a": [
+   "Paul Brown"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1178980",
+  "file": "1178977.1178980.jpg"
+ },
+ {
+  "t": "8520 S.W. 27th pl. v.2",
+  "a": [
+   "Fernando Orellana"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179055",
+  "file": "1178977.1179055.jpg"
+ },
+ {
+  "t": "A Society of Stickpeople (captured, #31)",
+  "a": [
+   "Nathan Selikoff"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179060",
+  "file": "1178977.1179060.jpg"
+ },
+ {
+  "t": "Abracadabra",
+  "a": [
+   "Jun Oh",
+   "Min Jeong Kang"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179084"
+ },
+ {
+  "t": "Aggregation 22",
+  "a": [
+   "Andy Lomas"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179045",
+  "file": "1178977.1179045.jpg"
+ },
+ {
+  "t": "Akkad",
+  "a": [
+   "Grégoire Pierre",
+   "Pierre Hénon"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179104",
+  "file": "1178977.1179104.jpg"
+ },
+ {
+  "t": "Alive",
+  "a": [
+   "Lucy Blackwell"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179097",
+  "file": "1178977.1179097.jpg"
+ },
+ {
+  "t": "Altar-ations",
+  "a": [
+   "Juliet Davis"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179007",
+  "file": "1178977.1179007.jpg"
+ },
+ {
+  "t": "Annual Checkup: Pharmaceuticals for the 21st Century",
+  "a": [
+   "Lisa Erdman"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179013",
+  "file": "1178977.1179013.jpg"
+ },
+ {
+  "t": "Audio Ballerinas",
+  "a": [
+   "Benoit Maubrey"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179083"
+ },
+ {
+  "t": "Autarkeia Aggregatum",
+  "a": [
+   "Bret Battey"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179095",
+  "file": "1178977.1179095.jpg"
+ },
+ {
+  "t": "Axiomatic Wisdom",
+  "a": [
+   "Alexdrina Chong"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179004",
+  "file": "1178977.1179004.jpg"
+ },
+ {
+  "t": "Beyond Brush and Easel: The Computer Art of Charles A. Csuri from 1963 to present",
+  "a": [
+   "Janice M. Glowski"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179113"
+ },
+ {
+  "t": "biomes",
+  "a": [
+   "Vicky Isley",
+   "Paul Smith"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1178994",
+  "file": "1178977.1178994.jpg"
+ },
+ {
+  "t": "Bion",
+  "a": [
+   "Adam Brown",
+   "Andrew Fagg"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1178997",
+  "file": "1178977.1178997.jpg"
+ },
+ {
+  "t": "Biophilia",
+  "a": [
+   "Mark Cypher"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179006",
+  "file": "1178977.1179006.jpg"
+ },
+ {
+  "t": "Blot 2005/01/02/10, Blot 2005/11/14/368",
+  "a": [
+   "David Hart"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179025",
+  "file": "1178977.1179025.jpg"
+ },
+ {
+  "t": "Brush Traces I",
+  "a": [
+   "Alain Bittler"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1178993",
+  "file": "1178977.1178993.jpg"
+ },
+ {
+  "t": "C++",
+  "a": [
+   "Teppei Kuroyanagi"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179102",
+  "file": "1178977.1179102.jpg"
+ },
+ {
+  "t": "Café Bouillu",
+  "a": [
+   "Stéphane Berla"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179096",
+  "file": "1178977.1179096.jpg"
+ },
+ {
+  "t": "Caligraft",
+  "a": [
+   "Ricard Marxer Piñón"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179056",
+  "file": "1178977.1179056.jpg"
+ },
+ {
+  "t": "Charles A. Csuri Retrospective",
+  "a": [
+   "Charles A. Csuri"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179110"
+ },
+ {
+  "t": "cNOTE",
+  "a": [
+   "Chris Hinton",
+   "Madeleine Belisle"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179101",
+  "file": "1178977.1179101.jpg"
+ },
+ {
+  "t": "Code",
+  "a": [
+   "Sadam Fujioka",
+   "Osamu Sambuichi"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179016",
+  "file": "1178977.1179016.jpg"
+ },
+ {
+  "t": "CODE_LINE_Blue, CODE_LINE_Green, CODE_LINE_Red, CODE_LINE_Yellow",
+  "a": [
+   "Toshihiro Kamei"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179030",
+  "file": "1178977.1179030.jpg"
+ },
+ {
+  "t": "Collapse: Focus",
+  "a": [
+   "Joe Reinsel"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179086"
+ },
+ {
+  "t": "Contemplations on Inner Space 4",
+  "a": [
+   "Anne Behrnes"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1178979",
+  "file": "1178977.1178979.jpg"
+ },
+ {
+  "t": "Contemplations: 2005.2",
+  "a": [
+   "Kenneth A. Huff"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1178984",
+  "file": "1178977.1178984.jpg"
+ },
+ {
+  "t": "Cybernetic Ceremony in Black Velvet",
+  "a": [
+   "Sherban Epuré"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179012",
+  "file": "1178977.1179012.jpg"
+ },
+ {
+  "t": "Dark Peculiar Toy No. 03, Dark Peculiar Toy No. 04, Dark Peculiar Toy No. 19, Dark Peculiar Toy No. 21",
+  "a": [
+   "Viktor Koen"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179035",
+  "file": "1178977.1179035.jpg"
+ },
+ {
+  "t": "Data_Cosm",
+  "a": [
+   "Michael Takeo Magruder"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179048",
+  "file": "1178977.1179048.jpg"
+ },
+ {
+  "t": "do you see what i see 15",
+  "a": [
+   "Diane Vetere"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179074",
+  "file": "1178977.1179074.jpg"
+ },
+ {
+  "t": "Dreams in High Fidelity",
+  "a": [
+   "Scott Draves"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179010",
+  "file": "1178977.1179010.jpg"
+ },
+ {
+  "t": "Dreams Stage 3- Procession",
+  "a": [
+   "Miguel Fiadante"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179015"
+ },
+ {
+  "t": "Driven 05, Driven 06, Driven 07, Driven 08",
+  "a": [
+   "Saritdikhun Somasa"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179066"
+ },
+ {
+  "t": "Drunk on Technology, Waiting for the Hangover",
+  "a": [
+   "Paul Hertz"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179118"
+ },
+ {
+  "t": "DSCN0779.1CC",
+  "a": [
+   "Hans Dehlinger"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179008",
+  "file": "1178977.1179008.jpg"
+ },
+ {
+  "t": "E-scape",
+  "a": [
+   "Masakazu Takano"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179069",
+  "file": "1178977.1179069.jpg"
+ },
+ {
+  "t": "electric MoOns",
+  "a": [
+   "Christopher Bauder"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1178991",
+  "file": "1178977.1178991.jpg"
+ },
+ {
+  "t": "Emergence: Order",
+  "a": [
+   "Santiago Lombeyda"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179046",
+  "file": "1178977.1179046.jpg"
+ },
+ {
+  "t": "Exertions of Exodus",
+  "a": [
+   "Jana Whittington"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1178988",
+  "file": "1178977.1178988.jpg"
+ },
+ {
+  "t": "Exponential Growth",
+  "a": [
+   "Jessica Maloney"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179049",
+  "file": "1178977.1179049.jpg"
+ },
+ {
+  "t": "Exuvia",
+  "a": [
+   "Alessandro Capozzo",
+   "Katja Noppes"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179003",
+  "file": "1178977.1179003.jpg"
+ },
+ {
+  "t": "Fall of Antioch",
+  "a": [
+   "Florian Witzel",
+   "Magid Hoff",
+   "Stephan Betz"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179107",
+  "file": "1178977.1179107.jpg"
+ },
+ {
+  "t": "Female Gape #3",
+  "a": [
+   "Mark Koven"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179037",
+  "file": "1178977.1179037.jpg"
+ },
+ {
+  "t": "Flashimation: The Context and Culture of Web Animation",
+  "a": [
+   "Dan L. Baldwin",
+   "Michael S. Daubs",
+   "John B. Ludwick"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179117"
+ },
+ {
+  "t": "Gemon Dance",
+  "a": [
+   "Yoichiro Kawaguchi"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179081"
+ },
+ {
+  "t": "Gemotional Bumpy Screen",
+  "a": [
+   "Yoichiro Kawaguchi"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179031",
+  "file": "1178977.1179031.jpg"
+ },
+ {
+  "t": "Generative and Genetic Art",
+  "a": [
+   "William Latham"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179114"
+ },
+ {
+  "t": "Global Happenings Excel 23, Infoscan 4",
+  "a": [
+   "Sandra Crisp"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179005",
+  "file": "1178977.1179005.jpg"
+ },
+ {
+  "t": "God Save us From Intoxicating Glances",
+  "a": [
+   "Davida Kidd"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179032",
+  "file": "1178977.1179032.jpg"
+ },
+ {
+  "t": "GORI.Node Garden - Gardening Two",
+  "a": [
+   "Jee Hyun Oh"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179054",
+  "file": "1178977.1179054.jpg"
+ },
+ {
+  "t": "Graffiti Analysis",
+  "a": [
+   "fi5e"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179014",
+  "file": "1178977.1179014.jpg"
+ },
+ {
+  "t": "Green",
+  "a": [
+   "Shawn Decker"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1178981",
+  "file": "1178977.1178981.jpg"
+ },
+ {
+  "t": "Heartbeats",
+  "a": [
+   "Daphna Talithman",
+   "Orna Portugaly",
+   "Sharon Younger"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179070",
+  "file": "1178977.1179070.jpg"
+ },
+ {
+  "t": "Hilbert Cube",
+  "a": [
+   "Carlo Séquin"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179061",
+  "file": "1178977.1179061.jpg"
+ },
+ {
+  "t": "HOEReographien",
+  "a": [
+   "J. U. Lensing"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179082"
+ },
+ {
+  "t": "Ignotus the Mage",
+  "a": [
+   "Paul Hertz"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1178983"
+ },
+ {
+  "t": "Imaginary Flight over Okinawa",
+  "a": [
+   "Thomas Suter"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179068",
+  "file": "1178977.1179068.jpg"
+ },
+ {
+  "t": "Inside the Dishwasher",
+  "a": [
+   "sin sin"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179106",
+  "file": "1178977.1179106.jpg"
+ },
+ {
+  "t": "Introspection",
+  "a": [
+   "Dennis H. Miller"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179050",
+  "file": "1178977.1179050.jpg"
+ },
+ {
+  "t": "Jam'aa for Haile",
+  "a": [
+   "Gil Weinberg"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179093"
+ },
+ {
+  "t": "Kite form: Laminate, Kite form: Chrome Bowl",
+  "a": [
+   "Mark Millstein"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179051",
+  "file": "1178977.1179051.jpg"
+ },
+ {
+  "t": "Krakow: a woven story of memory and erasure",
+  "a": [
+   "Joanna Berzowska"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1178992",
+  "file": "1178977.1178992.jpg"
+ },
+ {
+  "t": "LavaBody + 6",
+  "a": [
+   "LiQin Tan"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1178987",
+  "file": "1178977.1178987.jpg"
+ },
+ {
+  "t": "Leonardo Log",
+  "a": [
+   "Jorn Ebner"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1178982",
+  "file": "1178977.1178982.jpg"
+ },
+ {
+  "t": "Light Attack",
+  "a": [
+   "Daniel Sauter"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179087"
+ },
+ {
+  "t": "little_one",
+  "a": [
+   "John Slepian"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179065",
+  "file": "1178977.1179065.jpg"
+ },
+ {
+  "t": "Living Laboratories: Making and Curating Interactive Art",
+  "a": [
+   "Lizzie Muller",
+   "Ernest Edmonds"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179120"
+ },
+ {
+  "t": "Locative Media: Urban Landscapes and Pervasive Technology Within Art",
+  "a": [
+   "Michael Salmond"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179112"
+ },
+ {
+  "t": "Magic Mirror",
+  "a": [
+   "Benedict Sheehan"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179062",
+  "file": "1178977.1179062.jpg"
+ },
+ {
+  "t": "MANDALA",
+  "a": [
+   "Benjamin Vigoda"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179091"
+ },
+ {
+  "t": "Margoa, Village",
+  "a": [
+   "Dorothy Krause"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179038"
+ },
+ {
+  "t": "Marking Space: On Spatial Representation in Contemporary Visual Culture",
+  "a": [
+   "Joseph Tekippe"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179122"
+ },
+ {
+  "t": "Mask of Intent, Mask of Sleep, Mask of Whispers",
+  "a": [
+   "Gil Bruvel"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1178999",
+  "file": "1178977.1178999.jpg"
+ },
+ {
+  "t": "Media Mirror",
+  "a": [
+   "Jefferson Y. Han"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179023",
+  "file": "1178977.1179023.jpg"
+ },
+ {
+  "t": "Meditation",
+  "a": [
+   "Hye Kyung Kim"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179033",
+  "file": "1178977.1179033.jpg"
+ },
+ {
+  "t": "Meta-Visual/Media/Space-Algorithmic \"Intersection,\" the new aspect of media art exhibition",
+  "a": [
+   "Tomoe Moriyama"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179119"
+ },
+ {
+  "t": "Mnemonicon 23",
+  "a": [
+   "Phillip George"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179019"
+ },
+ {
+  "t": "Moderation",
+  "a": [
+   "Zack Booth Simpson"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179064",
+  "file": "1178977.1179064.jpg"
+ },
+ {
+  "t": "MorphoTower / Spiral Swirl",
+  "a": [
+   "Sachiko Kodama"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179034",
+  "file": "1178977.1179034.jpg"
+ },
+ {
+  "t": "New Interactions: Communities and Information",
+  "a": [
+   "Ian Gwilt"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179115"
+ },
+ {
+  "t": "New Media, New Craft?",
+  "a": [
+   "Andrew Richardson"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179121"
+ },
+ {
+  "t": "Nå av da (Now by Then)",
+  "a": [
+   "Øyvind Kolås"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179036"
+ },
+ {
+  "t": "On-the-fly Counterpoint",
+  "a": [
+   "Ge Wang",
+   "Perry R. Cook"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179092"
+ },
+ {
+  "t": "Open House",
+  "a": [
+   "Mark Stock"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179067",
+  "file": "1178977.1179067.jpg"
+ },
+ {
+  "t": "Oreille remplie de plumes",
+  "a": [
+   "Luis Nieto",
+   "Pierre Hénon"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179103",
+  "file": "1178977.1179103.jpg"
+ },
+ {
+  "t": "Painting in a Digital World: I Told You So",
+  "a": [
+   "James Faure Walker"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179123"
+ },
+ {
+  "t": "Perceivable Bodies",
+  "a": [
+   "Frieder Weiss"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179085"
+ },
+ {
+  "t": "Pixelboxes",
+  "a": [
+   "Patrick Lichty"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179043",
+  "file": "1178977.1179043.jpg"
+ },
+ {
+  "t": "Psychopharmacology",
+  "a": [
+   "Gene Greger"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179022",
+  "file": "1178977.1179022.jpg"
+ },
+ {
+  "t": "Queensbridge Wind Power",
+  "a": [
+   "Andrea Polli"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1178985",
+  "file": "1178977.1178985.jpg"
+ },
+ {
+  "t": "randomSeed 001",
+  "a": [
+   "Vicky Isley",
+   "Paul Smith"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1178995",
+  "file": "1178977.1178995.jpg"
+ },
+ {
+  "t": "Ray Tracings of the In Between: Living Space, Ray Tracings of the In Between: Tractor Space",
+  "a": [
+   "Shawn Lawson"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179040",
+  "file": "1178977.1179040.jpg"
+ },
+ {
+  "t": "Reading the Space as an Entity",
+  "a": [
+   "Murat Germen"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179020",
+  "file": "1178977.1179020.jpg"
+ },
+ {
+  "t": "Rocking Circle C",
+  "a": [
+   "Madge Gleeson"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179021",
+  "file": "1178977.1179021.jpg"
+ },
+ {
+  "t": "Rondo",
+  "a": [
+   "Anna Ursyn"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179072",
+  "file": "1178977.1179072.jpg"
+ },
+ {
+  "t": "Rosettes grises",
+  "a": [
+   "Jean-Pierre Hébert"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179026",
+  "file": "1178977.1179026.jpg"
+ },
+ {
+  "t": "Rupture",
+  "a": [
+   "Jean Detheux",
+   "Madeleine Belisle"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179099",
+  "file": "1178977.1179099.jpg"
+ },
+ {
+  "t": "Sand and Grasses 1",
+  "a": [
+   "Cynthia Beth Rubin"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179057",
+  "file": "1178977.1179057.jpg"
+ },
+ {
+  "t": "Scenes from Ludea",
+  "a": [
+   "Troy Innocent"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179028",
+  "file": "1178977.1179028.jpg"
+ },
+ {
+  "t": "Shape.69c, Shape.53a#2",
+  "a": [
+   "Tim Borgmann"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1178996",
+  "file": "1178977.1178996.jpg"
+ },
+ {
+  "t": "Sheep Jet Head",
+  "a": [
+   "Brit Bunkley"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179000",
+  "file": "1178977.1179000.jpg"
+ },
+ {
+  "t": "Shifting Nature",
+  "a": [
+   "Yeoh Guan Hong"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179027",
+  "file": "1178977.1179027.jpg"
+ },
+ {
+  "t": "Singularity",
+  "a": [
+   "Mark Ballora"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179080"
+ },
+ {
+  "t": "Slink",
+  "a": [
+   "Jeff Lieberman"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179044",
+  "file": "1178977.1179044.jpg"
+ },
+ {
+  "t": "Soothsayers",
+  "a": [
+   "Marte Newcombe"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179052",
+  "file": "1178977.1179052.jpg"
+ },
+ {
+  "t": "spatial oscillator",
+  "a": [
+   "Hyojung Seo",
+   "Seunghye Kim"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179088"
+ },
+ {
+  "t": "Spotlight",
+  "a": [
+   "Orit Zuckerman"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179076",
+  "file": "1178977.1179076.jpg"
+ },
+ {
+  "t": "Still Life #2",
+  "a": [
+   "Vladimir Sierra"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179063",
+  "file": "1178977.1179063.jpg"
+ },
+ {
+  "t": "Studio",
+  "a": [
+   "Philip Sanders"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1178986"
+ },
+ {
+  "t": "Suprematist Composition V",
+  "a": [
+   "Gregory Garvey"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179018",
+  "file": "1178977.1179018.jpg"
+ },
+ {
+  "t": "Swim",
+  "a": [
+   "Sil van der Woerd"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179108",
+  "file": "1178977.1179108.jpg"
+ },
+ {
+  "t": "Symmetric Sculptures",
+  "a": [
+   "Ergun Akleman"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1178990",
+  "file": "1178977.1178990.jpg"
+ },
+ {
+  "t": "Talking Walls",
+  "a": [
+   "Jody Zellen"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179075",
+  "file": "1178977.1179075.jpg"
+ },
+ {
+  "t": "TEMPLE: Time Tapestry",
+  "a": [
+   "Leah Dixon"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179009",
+  "file": "1178977.1179009.jpg"
+ },
+ {
+  "t": "The Eye of the Pilot",
+  "a": [
+   "Addictive TV"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179078"
+ },
+ {
+  "t": "the reacTable",
+  "a": [
+   "Sergi Jordà"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179029",
+  "file": "1178977.1179029.jpg"
+ },
+ {
+  "t": "The Rocktown Scrolls, Black Elk Speaks",
+  "a": [
+   "Roman Verostko"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179073",
+  "file": "1178977.1179073.jpg"
+ },
+ {
+  "t": "Thermoesthesia",
+  "a": [
+   "Kumiko Kushiyama"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179039",
+  "file": "1178977.1179039.jpg"
+ },
+ {
+  "t": "Thorn, Evolution",
+  "a": [
+   "Masashi Nishimura"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179053",
+  "file": "1178977.1179053.jpg"
+ },
+ {
+  "t": "Through",
+  "a": [
+   "Keith Brown"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1178998"
+ },
+ {
+  "t": "Time Away",
+  "a": [
+   "Dave Schwan"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179105",
+  "file": "1178977.1179105.jpg"
+ },
+ {
+  "t": "Tortuosity #59c",
+  "a": [
+   "Sheriann Ki Sun Burnham"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179001",
+  "file": "1178977.1179001.jpg"
+ },
+ {
+  "t": "Transition I, Transition III",
+  "a": [
+   "Dan Lu"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179047"
+ },
+ {
+  "t": "TRANSREC",
+  "a": [
+   "Patrick Doan"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179100",
+  "file": "1178977.1179100.jpg"
+ },
+ {
+  "t": "Unfolding no. 14",
+  "a": [
+   "Ansen Seale"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179059",
+  "file": "1178977.1179059.jpg"
+ },
+ {
+  "t": "Unheimlich",
+  "a": [
+   "Paul Sermon",
+   "Steve Dixon",
+   "Mathias Fuchs",
+   "Andrea Zapp"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179089"
+ },
+ {
+  "t": "Unspoken_Series",
+  "a": [
+   "Hoyun Son"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179090"
+ },
+ {
+  "t": "Untitled Wall Hanging",
+  "a": [
+   "Barbara Layne"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179041",
+  "file": "1178977.1179041.jpg"
+ },
+ {
+  "t": "UpDown Fall",
+  "a": [
+   "Peter Hardie"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179024",
+  "file": "1178977.1179024.jpg"
+ },
+ {
+  "t": "VJ Fleet [Redux]",
+  "a": [
+   "Julie Andreyev"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179079"
+ },
+ {
+  "t": "Voice Mosaic",
+  "a": [
+   "Martha Carrer Cruz Gabriel"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179017",
+  "file": "1178977.1179017.jpg"
+ },
+ {
+  "t": "Wall Sculpture with Postits",
+  "a": [
+   "Ed Eaton"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179011",
+  "file": "1178977.1179011.jpg"
+ },
+ {
+  "t": "Want #1 (continuous)",
+  "a": [
+   "Mark Scheeff"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179058",
+  "file": "1178977.1179058.jpg"
+ },
+ {
+  "t": "Water Lights",
+  "a": [
+   "Jae Min Lee"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179042",
+  "file": "1178977.1179042.jpg"
+ },
+ {
+  "t": "Your Memory, Connected. - Shall I Compare Thee to a Summer's Day",
+  "a": [
+   "Chao-Ming James Teng"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179071",
+  "file": "1178977.1179071.jpg"
+ },
+ {
+  "t": "À tort ou à raison",
+  "a": [
+   "Virginie Giachino",
+   "Philippe Massonnet"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2006,
+  "k": "Art Gallery",
+  "doi": "10.1145/1178977.1179098",
+  "file": "1178977.1179098.jpg"
+ },
+ {
+  "t": "Afanassy Pud",
+  "a": [
+   "Afanassy Pud"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086123",
+  "file": "1086057.1086123.jpg"
+ },
+ {
+  "t": "Amit Pitaru",
+  "a": [
+   "Amit Pitaru"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086121",
+  "file": "1086057.1086121.jpg"
+ },
+ {
+  "t": "Andy Lomas",
+  "a": [
+   "Andy Lomas"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086108",
+  "file": "1086057.1086108.jpg"
+ },
+ {
+  "t": "Anna Dumitriu",
+  "a": [
+   "Anna Dumitriu"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086081",
+  "file": "1086057.1086081.jpg"
+ },
+ {
+  "t": "Anna Ursyn",
+  "a": [
+   "Anna Ursyn"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086134",
+  "file": "1086057.1086134.jpg"
+ },
+ {
+  "t": "AnnMarie LeBlanc",
+  "a": [
+   "AnnMarie LeBlanc"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086105",
+  "file": "1086057.1086105.jpg"
+ },
+ {
+  "t": "Ansen Seale",
+  "a": [],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086128",
+  "abs": "Article Share on Ansen SealeSIGGRAPH '05: ACM SIGGRAPH 2005 Electronic Art and Animation CatalogAugust 2005 Pages 144–145https://doi.org/10.1145/1086057.1086128Published:01 August 2005Publication History 0citation110DownloadsMetricsTotal Citations0Total Downloads110Last 12 Months0Last 6 weeks0 Get Citation AlertsNew Citation Alert added!This alert has been successfully added and will be sent to:You will be notified whenever a record that you have chosen has been cited.To manage your alert preferences, click on the button below.Manage my AlertsNew Citation Alert!Please log in to your account Save to BinderSave to BinderCreate a New BinderNameCancelCreateExport CitationPublisher SiteGet Access",
+  "file": "1086057.1086128.jpg"
+ },
+ {
+  "t": "Brian Andrews",
+  "a": [
+   "Brian Andrews"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086069",
+  "file": "1086057.1086069.jpg"
+ },
+ {
+  "t": "Brian Evans",
+  "a": [
+   "Brian Evans"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086086",
+  "file": "1086057.1086086.jpg"
+ },
+ {
+  "t": "Brian Knep",
+  "a": [
+   "Brian Knep"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086103",
+  "file": "1086057.1086103.jpg"
+ },
+ {
+  "t": "Brigitta Zics",
+  "a": [
+   "Brigitta Zics"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086139",
+  "file": "1086057.1086139.jpg"
+ },
+ {
+  "t": "Camille Utterback",
+  "a": [
+   "Camille Utterback"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086066",
+  "file": "1086057.1086066.jpg"
+ },
+ {
+  "t": "Chiara Boeri",
+  "a": [
+   "Chiara Boeri"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086072"
+ },
+ {
+  "t": "Chiara Boeri",
+  "a": [
+   "Chiara Boeri"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086073"
+ },
+ {
+  "t": "David Crawford",
+  "a": [
+   "David Crawford"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086079",
+  "file": "1086057.1086079.jpg"
+ },
+ {
+  "t": "David Lu",
+  "a": [
+   "David Lu"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086109",
+  "file": "1086057.1086109.jpg"
+ },
+ {
+  "t": "Dice",
+  "a": [
+   "Hitoshi Akayama"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086154",
+  "file": "1086057.1086154.jpg"
+ },
+ {
+  "t": "Dolores Kaufman",
+  "a": [
+   "Dolores Kaufman"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086100",
+  "file": "1086057.1086100.jpg"
+ },
+ {
+  "t": "Doug Easterly",
+  "a": [
+   "Doug Easterly"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086082",
+  "file": "1086057.1086082.jpg"
+ },
+ {
+  "t": "Ecce Homology",
+  "a": [
+   "Ruth G. West"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086083",
+  "abs": "Ecce Homology, a physically interactive new-media work, visualizes genetic data as calligraphic forms. A novel computervision based user interface allows multiple participants, through their movement in the installation space, to select genes from the human genome for visualizing the Basic Local Alignment Search Tool (BLAST), a primary algorithm in comparative genomics. Ecce Homology was successfully installed in the UCLA Fowler Museum, November 6, 2003 - January 4, 2004. (http://www.insilicov1.org)",
+  "file": "1086057.1086083.jpg"
+ },
+ {
+  "t": "Eric Heller",
+  "a": [
+   "Eric Heller"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086095",
+  "file": "1086057.1086095.jpg"
+ },
+ {
+  "t": "exhale",
+  "a": [
+   "Thecia Schiphorst"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086087",
+  "file": "1086057.1086087.jpg"
+ },
+ {
+  "t": "Floyd Gillis",
+  "a": [
+   "Floyd Gillis"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086090",
+  "file": "1086057.1086090.jpg"
+ },
+ {
+  "t": "Hans Dehlinger",
+  "a": [
+   "Hans Dehlinger"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086080",
+  "file": "1086057.1086080.jpg"
+ },
+ {
+  "t": "Heather Elliott-Famularo",
+  "a": [
+   "Heather Elliott-Famularo"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086084",
+  "file": "1086057.1086084.jpg"
+ },
+ {
+  "t": "Hitoshi Akayama",
+  "a": [
+   "Hitoshi Akayama"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086068",
+  "file": "1086057.1086068.jpg"
+ },
+ {
+  "t": "Hue Walker Bumgarner-Kirby",
+  "a": [
+   "Hue Walker Bumgarner-Kirby"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086076",
+  "file": "1086057.1086076.jpg"
+ },
+ {
+  "t": "Jan Piribeck",
+  "a": [
+   "Jan Piribeck"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086120",
+  "file": "1086057.1086120.jpg"
+ },
+ {
+  "t": "Jean-Pierre Hébert",
+  "a": [
+   "Jean-Pierre Hébert"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086094",
+  "file": "1086057.1086094.jpg"
+ },
+ {
+  "t": "Jeff Prentice",
+  "a": [
+   "Jeff Prentice"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086122",
+  "file": "1086057.1086122.jpg"
+ },
+ {
+  "t": "Ji-Young Kim",
+  "a": [
+   "Ji-Young Kim"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086102",
+  "file": "1086057.1086102.jpg"
+ },
+ {
+  "t": "Jim Campbell",
+  "a": [
+   "Jim Campbell"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086062",
+  "abs": "Article Jim Campbell Share on Author: Jim Campbell San Francisco, California San Francisco, CaliforniaView Profile Authors Info & Claims SIGGRAPH '05: ACM SIGGRAPH 2005 Electronic Art and Animation CatalogAugust 2005 Pages 10–13https://doi.org/10.1145/1086057.1086062Online:01 August 2005Publication History 3citation351DownloadsMetricsTotal Citations3Total Downloads351Last 12 Months1Last 6 weeks0 Get Citation AlertsNew Citation Alert added!This alert has been successfully added and will be sent to:You will be notified whenever a record that you have chosen has been cited.To manage your alert preferences, click on the button below.Manage my AlertsNew Citation Alert!Please log in to your account Save to BinderSave to BinderCreate a New BinderNameCancelCreateExport CitationPublisher SiteGet Access",
+  "file": "1086057.1086062.jpg"
+ },
+ {
+  "t": "Joe Takayama",
+  "a": [
+   "Joe Takayama"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086131",
+  "file": "1086057.1086131.jpg"
+ },
+ {
+  "t": "John Gerrard",
+  "a": [
+   "John Gerrard"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086064",
+  "file": "1086057.1086064.jpg"
+ },
+ {
+  "t": "Jon Meyer",
+  "a": [
+   "Jon Meyer"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086111",
+  "file": "1086057.1086111.jpg"
+ },
+ {
+  "t": "Jonathan Wilkinson",
+  "a": [
+   "Jonathan Wilkinson"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086138",
+  "file": "1086057.1086138.jpg"
+ },
+ {
+  "t": "Joohyun Pyune",
+  "a": [
+   "Joohyun Pyune"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086125",
+  "file": "1086057.1086125.jpg"
+ },
+ {
+  "t": "Kate Chapman",
+  "a": [
+   "Kate Chapman"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086078",
+  "file": "1086057.1086078.jpg"
+ },
+ {
+  "t": "Kate Pemberton",
+  "a": [
+   "Kate Pemberton"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086119",
+  "file": "1086057.1086119.jpg"
+ },
+ {
+  "t": "Kate Pullinger, Stefan Schemat, babel",
+  "a": [
+   "The Breathing Wall"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086124",
+  "file": "1086057.1086124.jpg"
+ },
+ {
+  "t": "Kenneth A. Huff",
+  "a": [
+   "Kenneth A. Huff"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086098",
+  "file": "1086057.1086098.jpg"
+ },
+ {
+  "t": "Kenneth A. Huff",
+  "a": [
+   "Kenneth A. Huff"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086099",
+  "file": "1086057.1086099.jpg"
+ },
+ {
+  "t": "Kumiko Kushiyama",
+  "a": [
+   "Kumiko Kushiyama"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086104",
+  "file": "1086057.1086104.jpg"
+ },
+ {
+  "t": "Laura Nova",
+  "a": [
+   "Laura Nova"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086114",
+  "file": "1086057.1086114.jpg"
+ },
+ {
+  "t": "Laura Rusnak",
+  "a": [
+   "Laura Rusnak"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086127",
+  "file": "1086057.1086127.jpg"
+ },
+ {
+  "t": "Lee Arnold",
+  "a": [
+   "Lee Arnold"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086070",
+  "file": "1086057.1086070.jpg"
+ },
+ {
+  "t": "Ligorano/Reese",
+  "a": [
+   "Ligorano/Reese"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086107",
+  "file": "1086057.1086107.jpg"
+ },
+ {
+  "t": "LiQin Tan",
+  "a": [
+   "LiQin Tan",
+   "Shaun Jennings",
+   "David Thomlison"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086132",
+  "file": "1086057.1086132.jpg"
+ },
+ {
+  "t": "Marilyn Waligore",
+  "a": [
+   "Marilyn Waligore"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086137",
+  "file": "1086057.1086137.jpg"
+ },
+ {
+  "t": "Mark Millstein",
+  "a": [
+   "Mark Millstein"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086112",
+  "file": "1086057.1086112.jpg"
+ },
+ {
+  "t": "Max Chandler",
+  "a": [
+   "Max Chandler"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086077",
+  "file": "1086057.1086077.jpg"
+ },
+ {
+  "t": "Meats Meier",
+  "a": [
+   "Meats Meier"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086110",
+  "file": "1086057.1086110.jpg"
+ },
+ {
+  "t": "Meggan Gould",
+  "a": [
+   "Meggan Gould"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086092",
+  "file": "1086057.1086092.jpg"
+ },
+ {
+  "t": "Oral Fixations",
+  "a": [
+   "Jessica Hodgins"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086115",
+  "file": "1086057.1086115.jpg"
+ },
+ {
+  "t": "Patrick Lichty",
+  "a": [
+   "Patrick Lichty"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086106",
+  "file": "1086057.1086106.jpg"
+ },
+ {
+  "t": "Peter Horvath",
+  "a": [
+   "Peter Horvath"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086096",
+  "file": "1086057.1086096.jpg"
+ },
+ {
+  "t": "Roman Verostko",
+  "a": [
+   "Roman Verostko"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086135",
+  "file": "1086057.1086135.jpg"
+ },
+ {
+  "t": "Roman Verostko",
+  "a": [
+   "Roman Verostko"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086136",
+  "file": "1086057.1086136.jpg"
+ },
+ {
+  "t": "Sherban Epuré",
+  "a": [
+   "Sherban Epuré"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086085",
+  "file": "1086057.1086085.jpg"
+ },
+ {
+  "t": "Stephanie Owens",
+  "a": [
+   "Stephanie Owens"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086116",
+  "file": "1086057.1086116.jpg"
+ },
+ {
+  "t": "Thomas Briggs",
+  "a": [
+   "Thomas Briggs"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086075",
+  "file": "1086057.1086075.jpg"
+ },
+ {
+  "t": "Vivek Patel",
+  "a": [
+   "Vivek Patel"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086117",
+  "file": "1086057.1086117.jpg"
+ },
+ {
+  "t": "Vivek Patel",
+  "a": [
+   "Vivek Patel"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086118",
+  "file": "1086057.1086118.jpg"
+ },
+ {
+  "t": "Yoichiro Kawaguchi",
+  "a": [
+   "Yoichiro Kawaguchi"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086101",
+  "file": "1086057.1086101.jpg"
+ },
+ {
+  "t": "Yuta Nakayama",
+  "a": [
+   "Yuta Nakayama",
+   "Masaaki Kawata",
+   "Kenji Kohiyama"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2005,
+  "k": "Art Gallery",
+  "doi": "10.1145/1086057.1086113",
+  "file": "1086057.1086113.jpg"
  }
 ]
