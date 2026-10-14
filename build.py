@@ -119,6 +119,9 @@ def authors(raw):
     return out
 
 
+# Oldest year of data/backfill.json shown on the site. 2005-2008 have images but no ACM
+# abstracts, so they are kept in the data but left out; lower this to bring them back.
+BACKFILL_FROM = 2009
 THUMB_PX = 1000  # longest side of the copies in docs/thumbs
 
 
@@ -236,7 +239,7 @@ def add_extra_data(items, out_dir, report):
     if backfill.exists():
         added = with_img = 0
         for e in json.loads(backfill.read_text(encoding="utf-8")):
-            if e.get("doi", "").lower() in by_doi:
+            if e.get("doi", "").lower() in by_doi or e["y"] < BACKFILL_FROM:
                 continue
             e = {"v": "", "img": "", **e}
             src = data / "backfill-thumbs" / e.pop("file", "")
