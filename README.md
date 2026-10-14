@@ -2,7 +2,7 @@
 
 ## 仕組み
 - デスクトップ上の `Art Paperサムネイル/`（`2026sep/` のようなフォルダの中にあっても自動で見つけます）の中の年度フォルダ（例: `SIGGRAPH 2026 Art Papers`, `SIGGRAPH Asia 2025 Art Gallery`）をそのまま読みます。
-- 各フォルダの `.bib`（Crossref生成）と `{タイトル}.jpg` を照合し、このフォルダの `docs/` にサイトを書き出します。
+- 各フォルダの `.bib`（Crossref生成）と `{タイトル}.jpg` を照合し、このフォルダの `docs/siggraph/` にサイトを書き出します（`update.sh` が `../ars-expanded-archive/docs/` を `docs/ars/` にコピーし、`docs/index.html` から `siggraph/` へ転送）。
 - 必要なのは Mac に最初から入っている `python3` だけ。追加インストールなし。
 - `docs/` を GitHub Pages で公開すれば無料のサイトになります。
 

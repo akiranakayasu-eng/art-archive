@@ -10,7 +10,7 @@ DATA_DIR (default: the 'Art Paperサムネイル' folder found on the Desktop) c
         {title}.jpg ...
     SIGGRAPH Asia 2025 Art Gallery/
         ...
-OUT_DIR (default: <this folder>/docs) receives index.html and thumbs/.
+OUT_DIR (default: <this folder>/docs/siggraph) receives index.html and thumbs/.
 Only the Python standard library is used.
 """
 import hashlib
@@ -341,5 +341,5 @@ def find_data():
 if __name__ == "__main__":
     here = Path(__file__).resolve().parent
     data = Path(sys.argv[1]).expanduser() if len(sys.argv) > 1 else find_data()
-    out = Path(sys.argv[2]).expanduser() if len(sys.argv) > 2 else here / "docs"
+    out = Path(sys.argv[2]).expanduser() if len(sys.argv) > 2 else here / "docs" / "siggraph"
     build(data.resolve(), out.resolve())
