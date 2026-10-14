@@ -1497,5 +1497,2612 @@
   "k": "Art Papers",
   "doi": "10.1145/3143748.3143766",
   "abs": "Mind dome is a lighting installation art in a form of LED globe. Computer generates movement, color and shape into digital signal, from analog to digital. Participant feel connect to the dome, as their mind and body is part of the mind dome."
+ },
+ {
+  "t": "Crime scene",
+  "a": [
+   "Mogens Jacobsen"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2016,
+  "k": "Art Gallery",
+  "doi": "10.1145/2897843.2915198",
+  "abs": "The internet has enabled us to accomplish so many things. The universal appeal and power of the internet to change and augment our daily lives is both undeniable and inevitable. Every day we go online and consume endless amounts of media---audio, video, text, interactive experiences---that can be electrifyingly fun, educational, or a waste of time. Although a vast amount of information is available to us online, not all of it is free or legal to use without some sort of licensing agreement or pay-per-use model. Most of the bigger utility-like companies, such as Google, Yahoo, and Facebook, give away their online services for free; but when it comes to content created by professional companies, such as television studios, app creators, music or movie studios, there is a price that comes along with it. Despite this monetary inevitability, a great deal of data and information travel through the internet illegally, in violation of copyright and intellectual property laws.",
+  "file": "2897843.2915198.jpg"
+ },
+ {
+  "t": "Facebook demetricator 2012-present",
+  "a": [
+   "Benjamin Grosser"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2016,
+  "k": "Art Gallery",
+  "doi": "10.1145/2897843.2915192",
+  "abs": "Networks---especially social networks and news aggregators on the internet, such as Facebook, Vine, Twitter, YouTube, DIGG, and others---rely on numbers to rank and catalog content and status. People interacting online are now using these numbers as a form of \"social currency\" to rate each other based on how many friends they have, how many \"likes\" they earn on their Facebook and Instagram posts, and how many votes of approval they need to sell more products on sites like eBay, Amazon, and Etsy. Illinois-based artist Benjamin Grosser takes these numbers and metrics as a critical starting point: recognizing the self-perpetuating system of numericizing online activity (friends, \"likes,\" comments, votes, etc.), he decided to create an antidote.",
+  "file": "2897843.2915192.jpg"
+ },
+ {
+  "t": "Grafikdemo 2004",
+  "a": [
+   "Niklas Roy"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2016,
+  "k": "Art Gallery",
+  "doi": "10.1145/2897843.2915193",
+  "abs": "Virtual spaces and 3D-rendered objects can both be manipulated in on-screen environments and modified by designers in real time. We are now so accustomed to our ability to \"fly through\" these rendered spaces with computer mice or handheld controllers that they have become commonplace. In today's oversaturated media landscape, we often take for granted the fact that virtual objects can coexist with our physical spaces through head-mounted displays. Increasingly, these devices also allow for augmented reality (AR) such as Microsoft's HoloLens [2], Google's Glass [3], and the countless other VR viewers on the market.",
+  "file": "2897843.2915193.jpg"
+ },
+ {
+  "t": "Metaphase sound machine 2015",
+  "a": [
+   "Dmitry Morozov"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2016,
+  "k": "Art Gallery",
+  "doi": "10.1145/2897843.2915196",
+  "abs": "Russian artist Dmitry Morozov's Metaphase Sound Machine plays off of our increasing dependence on the information and electronic noise that permeates our everyday lives. The project is based on the ideas of American physicist Nick Herbert, who created the Metaphase Typewriter---invented as a quantum device capable of communicating with ghosts---and Quantum Megaphone, a speech synthesis machine [5]. According to Morozov, Herbert's interests also included the mixing of hallucinogenic drugs, paranormal activity, the nature of consciousness, and speculative connections. These early interests contributed to Herbert's desire to design a quantum computer, but they did not confirm any theoretical research. Morozov's piece was inspired by Herbert's work, especially in relation to the amalgam of devices and networks that permeate our daily routines.",
+  "file": "2897843.2915196.jpg"
+ },
+ {
+  "t": "Pixelbots 2014",
+  "a": [
+   "Tejaswi Digumarti",
+   "Javier Alonso-Mora",
+   "Roland Siegwart",
+   "Paul Beardsley"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2016,
+  "k": "Art Gallery",
+  "doi": "10.1145/2897843.2915197",
+  "abs": "In today's digital media landscape, we are constantly surrounded by displays, from the LCDs found on the phones in our pockets to the ubiquitous screens that greet us whenever we enter a store, airport, taxicab, doctor's office, or educational institution. This plethora of displays both allures us and contributes to the media's saturation of our lives. The truth remains that we are never far from the next form of information display. Disney Research's Pixelbots takes this truth as an inevitability and brings the display into a kinetic form, breaking the screen out of the confines of a rectangular or oval experience. Billed as \"Pixels with Personality,\" the Pixelbots' enticing presence rests on our ability to project human qualities onto objects that move as we do in physical space.",
+  "file": "2897843.2915197.jpg"
+ },
+ {
+  "t": "Plinko Poetry 2012",
+  "a": [
+   "Deqing Sun",
+   "Peiqi Su"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2016,
+  "k": "Art Gallery",
+  "doi": "10.1145/2897843.2915191",
+  "abs": "With the plethora of real-time information and news coming from both commercial news sources and individual broadcasters using the internet and Twitter to get their messages across, we seem to have arrived at a backlog of data chaos that is clamoring for order. Plinko Poetry, by Deqing Sun and Peiqi Su, playfully recontextualizes this heavy onslaught of information. The project gets its name from the game of Plinko, introduced in 1983 on the hit American television game show The Price Is Right. In the original game, contestants climbed a staircase and dropped large chips into a game board fitted with hundreds of pegs. The chips would hit the pegs as they fell, sending them off in different directions until they landed at the bottom of the board into one of several slots assigned with different dollar values.",
+  "file": "2897843.2915191.jpg"
+ },
+ {
+  "t": "Submergence 2013",
+  "a": [
+   "Anthony Rowe",
+   "Gaz Bushell",
+   "Liam Birtles",
+   "Chris Bennewith",
+   "Oliver Bown"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2016,
+  "k": "Art Gallery",
+  "doi": "10.1145/2897843.2915190",
+  "abs": "In a media landscape filled with touchscreens, flat displays, projections, and virtual reality goggles, immersion in a data landscape is a fairly common experience. Simply put on a headset with some form of VR software, and magically be transported to a 360-degree virtual landscape of your choosing. Whether it is a gaming environment, or a virtual instruction manual---complete with technician---to help fix your kitchen sink, virtual spaces are growing daily, along with our ability to engage with them.",
+  "file": "2897843.2915190.jpg"
+ },
+ {
+  "t": "The kinetic story teller 2016",
+  "a": [
+   "Tine Bech"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2016,
+  "k": "Art Gallery",
+  "doi": "10.1145/2897843.2915189",
+  "abs": "Social engagement in public space can be an awkward, challenging, and often difficult experience for people unfamiliar with each other or their surroundings. The need for an impartial mediator to connect people is something that artists have been tackling with their work for many years and is still being readdressed daily. This form of intervention allows for people occupying a space to engage in playful and anonymous interaction with others. Creatively speaking, this can take the form of a simple note on the wall that reminds people that others exist around them or a full-scale interactive experience that encourages interaction between people as well as inviting them to play with a system.",
+  "file": "2897843.2915189.jpg"
+ },
+ {
+  "t": "Deletion process_only you can see my history",
+  "a": [
+   "Kyriaki Goni"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2016,
+  "k": "Art Papers",
+  "doi": "10.1145/2897843.2915187",
+  "abs": "In light of recent controversies surrounding massive data collection by corporations and government agencies, digital privacy, the right to oblivion, and data ownership have become increasingly important concerns. This paper describes the author's artwork, Deletion Process_Only you can see my history, an interactive art installation based on her eight-year personal search history in the Google search engine. While the personal search history maintains a sense of privacy, according to the company's own declaration, the author reveals this archive to viewers in order to raise awareness and provoke reflection on the aforementioned subjects. The author discusses her motivation, describes the making process and the decisions made at each step of designing the installation, while integrating at the same time a deeper discussion on the place of digital privacy and oblivion within the contemporary approach to art and technology."
+ },
+ {
+  "t": "Doors 2015",
+  "a": [
+   "David-Alexandre Chanel",
+   "Romain Constant"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2016,
+  "k": "Art Papers",
+  "doi": "10.1145/2897843.2915199",
+  "abs": "In indoor physical spaces, the door is the main obstacle to entering and exiting rooms and hallways. From a usability perspective, Donald Norman is celebrated for wondering how \"such a simple thing as a door\" can be \"so confusing\" [7]. The door as physical object has been transformed metaphorically into a transportation device that allows us to completely shift our perspective from one location to the next. The object itself is often imagined as a \"portal\" between spaces and worlds, as it was in 1950 in the quintessential fantasy novel, The Lion, the Witch, and the Wardrobe, by C. S. Lewis. The children in the story open an apparently ordinary wardrobe door and are transported to the magical world of Narnia. Many other movies and stories use doors as portals through time and space, such as the phone booth door in the movie Bill and Ted's Excellent Adventure."
+ },
+ {
+  "t": "Flower 2014",
+  "a": [
+   "Viktor Jan"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2016,
+  "k": "Art Papers",
+  "doi": "10.1145/2897843.2915195",
+  "abs": "Although Viktor Jan's Flower may seem like an interloper among the many data sculptures and media representations appearing in this exhibition, it provides a contrast from the other works by focusing on how data can spur the creation and loss of natural entities. Inspired by the poem \"Flower,\" by one of South Korea's leading poets of the late 20th century (Kim Ch'un-Su), the flower \"blooms\" or comes to life in a dark environment, when visitors whisper into its microphone, or when it senses data streams on local networks. Unlike a natural flower, Jan's flower awakens in the evening and will never come to life unless someone calls its name. Flower reacts to the idea of \"the gaze\" in digital space, where people online are always vying for more views, likes, and mentions."
+ },
+ {
+  "t": "Perceptual cells",
+  "a": [
+   "Alla Gadassik"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2016,
+  "k": "Art Papers",
+  "doi": "10.1145/2897843.2915188",
+  "abs": "James Turrell's perceptual cells incorporate the neurophysiological apparatus as an active participant not only in the reception of projected moving-images, but also in the very production and transmission of virtual moving-images. Combining two perceptual phenomena---the stroboscopic effect and the Ganzfeld Effect---Turrell's perceptual cells integrate the architecture of projection with the architecture of organic vision to produce a single networked extra-sensory medium. This paper performs a phenomenological analysis of Turrell's Light Reignfall (2011) perceptual cell, following its design, effects on the viewer, and cultural and material history. In the process, the paper situates the perceptual cell between the history of avant-garde cinema (what historians have called \"paracinema\") and the history of perceptual psychology and parapsychology (what the author terms \"para-cinema\"). Between these two paracinemas, Turrell's perceptual cells activate the aesthetic potential of what the author discusses as \"edgeless projection.\""
+ },
+ {
+  "t": "Pulse Shape 22",
+  "a": [
+   "Mark Cetilia"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2016,
+  "k": "Art Papers",
+  "doi": "10.1145/2897843.2915186",
+  "abs": "Pulse Shape 22 is an improvisational audiovisual performance featuring shortwave radio transmissions as the sole source material for real-time audio processing alongside video of the sun projected through cast-glass lenses designed specifically for this piece. The structure of the piece is derived from metrics on energy accumulation over a period of 2.2 nanoseconds resulting from the targeting of 60 laser beams on a single tetrahedral hohlraum in weapons testing experiments as carried out by the Los Alamos Inertial Confinement Fusion unit, at the Omega Laser Facility at the University of Rochester. Pulse Shape 22 is an exploration of architectural space through the use of site- and time-specific information found in regions of the electromagnetic spectrum outside the reaches of the human sensory apparatus. It is an attempt to alter the audience's perceptions of their surroundings and create a moment of rupture from hidden worlds found in our local environment."
+ },
+ {
+  "t": "Raised on YouTube",
+  "a": [
+   "Misha Rabinovich"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2016,
+  "k": "Art Papers",
+  "doi": "10.1145/2897843.2915184",
+  "abs": "Raised on YouTube is an installation and game that grows plants using only the light of projected video and makes ecology legible as a multiplayer game. The challenge of finding the most nurturing video is crowdsourced online. As players watch a webcam feed of the plants surrounded by two-way mirrors, their computer power is diverted to photosynthetic video analysis. The system calculates the photosynthetic score for each video using a basic botanical model. The resulting shape and density of the plant grow bed serves as a data visualization of the energy patterns in the cultural stream. The system provides opportunities to reflect on the effects of long-term exposure to contemporary media and to imagine ecological possibilities of participatory culture."
+ },
+ {
+  "t": "Visual history with choson dynasty annals",
+  "a": [
+   "Seong Kuk Park",
+   "Eun Ju Lee",
+   "Jin Wan Park"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2016,
+  "k": "Art Papers",
+  "doi": "10.1145/2897843.2915185",
+  "abs": "For this paper, the authors selected three historical events taken from the Annals of the Choson Dynasty that represent dramatic and tragic stories about parents and their sons for data visualization. By connecting names with entities indicating conductions from history books, they found interesting patterns that tell stories with embedded relations. The visualized images in this paper were mainly code-generated, based on the data of the Annals, with some graphic embellishment added."
+ },
+ {
+  "t": "Agitato",
+  "a": [
+   "Rebecca Ruige Xu",
+   "Sean Hongsheng Zhai"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2016,
+  "k": "Art Gallery",
+  "doi": "10.1145/3004257.3004469",
+  "abs": "Project Agitato attempts to represent evolving musical information within a single image frame, in the hope of capturing the subjective and perceptual qualities of time as expressed in music. The title of the project, named from the music term agitato, depicts the restless agitated style of the music. Each image in this series is generated based on a musical passage from Nicolas Scherzinger's inter-sax-tive. For any given moment in time, spectrum of the music's frequencies is analyzed and used as the input to construct visual elements with various characteristics. As the music progress, the visual elements accumulate and are composed into a single image reflecting the music material within a defined duration of time, allowing viewers to perceive the movement of music from a single viewpoint, rather than as a linear experience of time.",
+  "file": "3004257.3004469.jpg"
+ },
+ {
+  "t": "Bodygraphe",
+  "a": [
+   "Esteban Garcia Bravo",
+   "Tim McGraw",
+   "Aaron Zernack"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2016,
+  "k": "Art Gallery",
+  "doi": "10.1145/3004257.3004476",
+  "abs": "Bodygraphe is an interactive, visual music application that unifies gestural computing with live performance art. Dancers become instruments and conductors that wholly generate graphics and sounds that correspond with their movements in real time. This video is the result of a process in computational aesthetics that explores the relationship between the body and form. Most specifically, we were inspired by visual art avant-gardes that prioritized expressive geometry, such as the Neo-concrete movement of the 1950s. Trough this project, we seek to make an aesthetic statement while also offering new implications for research regarding the interconnectivity between body and technology.",
+  "file": "3004257.3004476.png"
+ },
+ {
+  "t": "C. bacon",
+  "a": [
+   "Wu Jiaru"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2016,
+  "k": "Art Gallery",
+  "doi": "10.1145/3004257.3004483",
+  "abs": "C. Bacon is a set of interactive moving images based on a series of paintings on the theme of \"Crucifixion\" by Francis Bacon(1909-1992). Starting with the mysterious aesthetic language of Francis Bacon, this work attempts to build dialogues between the virtual and reality, postmodern technology and contemporary authorship, and between machine and human.",
+  "file": "3004257.3004483.jpg"
+ },
+ {
+  "t": "Convolution by wild system",
+  "a": [
+   "John McCormick",
+   "Adam Nash"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2016,
+  "k": "Art Gallery",
+  "doi": "10.1145/3004257.3004470",
+  "abs": "In Convolution by Wild System, a robot and humans communicate using neural networks to co-create an evolving responsive immersive virtual environment. A child-sized robot sits immersed in a full-room projection of an evolving audiovisual virtual environment. The robot 'talks' to the virtual environment, telling its impressions and what it would like to see and hear. People come and go, talking with the robot about the virtual environment, and showing it pictures on their phones. The robot learns these impressions and talks of them to the virtual environment, which evolves in response.",
+  "file": "3004257.3004470.jpg"
+ },
+ {
+  "t": "Criss∼crossing the divine",
+  "a": [
+   "Nina Yankowitz",
+   "Peter Koger",
+   "Barry Holden",
+   "Mauri Kaipainen"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2016,
+  "k": "Art Gallery",
+  "doi": "10.1145/3004257.3004480",
+  "abs": "Criss∼Crossing The Divine/Spiral Vortex Paint Game is an interactive game installation conceived to address the ever-expanding religious intolerance fueling global wars. Attendees use interactive wands to curate topic-words and assign more or less importance to each topic they select. The player receives color coded scripture perspectives parsed from the individual's search. No search results are the same. Directed to a website, the player learns from which 46,000 scriptures within The Old Testament, The New Testament, The Hindu Rig Vedas, The Quran, and Buddhist Texts, their color-coded text results originated.",
+  "file": "3004257.3004480.jpg"
+ },
+ {
+  "t": "Forces in equilibrium",
+  "a": [
+   "Wei-Chun Chen",
+   "Su-Chu Hsu",
+   "Yu-Hsiung Huang"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2016,
+  "k": "Art Gallery",
+  "doi": "10.1145/3004257.3004478",
+  "abs": "Forces beyond Equilibrium explores how equilibrium is formed out of chaos. The installation is comprised of two components. In the first component, a sensor is mounted under the top of a pedestal. When magnets are moved on the pedestal, images and sound on a nearby display become wild and unstable, as if the magnet has unusual powers. The second component is a seesaw controlled by a servomotor. When laser light lands on the seesaw, it tilts accordingly, as if the light has weight. The art works show both magnetic force and laser light as not merely ethereal but as entities capable of affecting images, sounds and movements.",
+  "file": "3004257.3004478.jpg"
+ },
+ {
+  "t": "Homes",
+  "a": [
+   "Tamas Waliczky",
+   "Anna Szepesi",
+   "Jane Prophet"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2016,
+  "k": "Art Gallery",
+  "doi": "10.1145/3004257.3004485",
+  "abs": "Homes presents the interior spaces where people from the fishing village of Tai O live. The installation includes the everyday objects with which they surround themselves. Two LCD monitors show virtual interiors of two village houses. Visitors to the installation can wander these virtual interior spaces by using trackballs attached to each screen. A large photo showing the street where the houses are located is on a facing wall.",
+  "file": "3004257.3004485.jpg"
+ },
+ {
+  "t": "Ink fall",
+  "a": [
+   "Haozhe Li"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2016,
+  "k": "Art Gallery",
+  "doi": "10.1145/3004257.3004484",
+  "abs": "Ink Fall is an interactive installation using digital techniques to make ancient Chinese paintings come alive. The inspiration for the work reaches back to 3000 years ago, when Chinese artists first began creating Shanshui ink paintings. The emphasis in traditional Chinese ink paintings is on atmosphere, specifically the fluid atmosphere of moving water. The ancient artists' representation was limited by traditional techniques; once painted, the ink would not move. Viewers could only imagine the movement being depicted. Ink Fall experiments with bringing the concept of fluidity to a new reality through modern digital techniques, allowing viewers to perceive atmospheric changes over time.",
+  "file": "3004257.3004484.jpg"
+ },
+ {
+  "t": "Journey through the centre_01",
+  "a": [
+   "Keith Brown"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2016,
+  "k": "Art Gallery",
+  "doi": "10.1145/3004257.3004473",
+  "abs": "My sculptures are born out of the direct, spontaneous, manipulation of geometry in a multi-dimensional cyber space where material, as we understand it, does not exist. In the cyber environment 3D entities may be encouraged to behave in ways not achievable through physical means. These virtual sculptures, made manifest through 3D printing, act as a vehicle which transports us to this strange and wonderful \"other place' --- to an environment where physics, materiality and gravity, play no part, freeing form from material constraints, and transcending our given understanding of how objects behave in the world, presenting us with truly new aesthetic experiences.",
+  "file": "3004257.3004473.jpg"
+ },
+ {
+  "t": "Light storm PLUS",
+  "a": [
+   "He-Lin Luo",
+   "I-Chun Chen",
+   "Yi-Ping Hung"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2016,
+  "k": "Art Gallery",
+  "doi": "10.1145/3004257.3004479",
+  "abs": "In the analogue world, electronic signals are based on waveforms. Transmissions of sound waves, light waves, and water waves, all use waveforms to transmit vital information directly related to energy distribution, making waveforms an integral part of our daily lives. The art work Light Storm PLUS uses power generated by waveforms to control the motor of a high-speed rotation device transmitting electroluminescent (EL) cold light. The artwork replicates the shape of wave forms in the real world, thus the light waveforms fluctuate with same rhythm as they do in the analog world. Through interacting with the artwork, people sense that their bodies are key to the transmission of data, as they become active components in the feedback loop, but also become part of the mechanism of transmission.",
+  "file": "3004257.3004479.jpg"
+ },
+ {
+  "t": "Luminescent tentacles",
+  "a": [
+   "Akira Nakayasu"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2016,
+  "k": "Art Gallery",
+  "doi": "10.1145/3004257.3004486",
+  "abs": "Luminescent Tentacles is an interactive installation inspired by waving tentacles of sea anemones in the depths of the ocean. Comprised of 256 shape-memory alloy actuators, the elongated forms move in response to hand movements. Further accentuating the movement, the tip of each actuator softly glows like a bioluminescent organism. Each actuator, or tentacle, is activated by three shape-memory alloy wires, giving the tentacle the flexibility to bend in six directions through the combination of three currents. Employing principles of fluid dynamics, the control application replicates the movement of water ripples. Luminescent Tentacles also includes sounds, prompting the viewer to create music while using hand movements to stimulate the movement of the tentacles, thereby offering an experience similar to interacting with sea anemones.",
+  "file": "3004257.3004486.jpg"
+ },
+ {
+  "t": "Medallions",
+  "a": [
+   "Joe Takayama"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2016,
+  "k": "Art Gallery",
+  "doi": "10.1145/3004257.3004481",
+  "abs": "Medallions is comprised of a series of 3D-printed wall plaques featuring algorithmic ornate medallions. Each medallion was generated procedurally with the Processing language. This project is an attempt at translation from traditional ornamentation to modern algorithmic fabrication by using a combination of the procedural approach of Computer Generated Imagery (CGI) and the rapidly expanding field of 3D printing technology.",
+  "file": "3004257.3004481.jpg"
+ },
+ {
+  "t": "MovISee",
+  "a": [
+   "Yen-Ting Cho",
+   "Yen-Ling Kuo",
+   "Yen-Ting Yeh"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2016,
+  "k": "Art Gallery",
+  "doi": "10.1145/3004257.3007171",
+  "abs": "MovISee is a digital software for people to create personal visual outputs. We use a depth camera to create mixed reality for people to explore the selected information and ultimately transform their understanding the ability of their body movement to create composite customized visual outputs. In short, it is a system to recreate information and explore personal creativity. The results reveal the sedimentary relative movements through filming; time and space are deconstructed to the extent that meaning is shifted and interpretations become multifaceted; multi-layered images are created in which the fragility and instability of our reality is questioned.",
+  "file": "3004257.3007171.jpg"
+ },
+ {
+  "t": "NARCISSUS",
+  "a": [
+   "Santiago Echeverry"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2016,
+  "k": "Art Gallery",
+  "doi": "10.1145/3004257.3004487",
+  "abs": "NARCISSUS is an experimental video and series of large format prints created using the Kinect sensor and Processing 2.0. The works explore the nature of love and tension in the line. The ambiguity of perspective in 3D imagery makes it appear as if the main character in the piece is both lover and loved at the same time, reinforcing the idea of a passionate need that cannot be fulfilled. This work is inspired by a 1976 drawing of Colombian artist Luis Caballero, who died of AIDS in 1995, whose work was a painfully ecstatic, homo-erotic portrait of a generation that was just coming out of the closet. Almost 40 years later, we find ourselves in a Lipovetskian era, where narcissism appears to counterbalance the erotic angst. The actor's performance is altered due to the usage of technologies that question the traditional role of the video camera's single point of view.",
+  "file": "3004257.3004487.jpg"
+ },
+ {
+  "t": "Notations",
+  "a": [
+   "Johnson Liew",
+   "Jie-Jun Zhu",
+   "Sheng-Chieh Wang",
+   "Jia-Ying Chou"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2016,
+  "k": "Art Gallery",
+  "doi": "10.1145/3004257.3004482",
+  "abs": "Notations is an interactive musical installation, enabling viewers to instantly compose music and produce clefs on a projection screen. To initiate the interaction, the viewer touches strings, triggering the projection of musical notations. Simultaneously, one of the screens displays an interactive animation. The idea of using music sheet design came from Gregorian Chants, referring to the musical scores used in the mid-5th century Western Europe. Today, as part of the technological generation, the Digital surrounds us in all aspects of our lives, including music. The objective in Notations is to use interactivity to explore the conversion of the digital signal back to the original source of musical notations, expressing the digital aesthetics of interactive technology art and collaborative creation, and imbuing digital kinetic instruments with enhanced cultural and musical qualities.",
+  "file": "3004257.3004482.jpg"
+ },
+ {
+  "t": "One-stroke",
+  "a": [
+   "Yuichiro Katsumoto"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2016,
+  "k": "Art Gallery",
+  "doi": "10.1145/3004257.3004475",
+  "abs": "A character or letter is a two-dimensional symbol. Also, it is a static image. But we cannot write a letter without moving our bodies and spending time. Thus, each character or letter potentially has a time axis. In order to reveal this time axis, the device called Mojigen. was created. Mojigen writes alphabets in the air by the trajectory of coil springs operated by eight robot arms. By observing Mojigen from different points of view, the viewer notices that characters and letters contain a time axis with dynamic movements.",
+  "file": "3004257.3004475.jpg"
+ },
+ {
+  "t": "Sympathist",
+  "a": [
+   "Wei-Peng Kuo",
+   "Jian-Wun Jhemg",
+   "Chia-Hsiang Lee",
+   "Pey-Chwen Lin"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2016,
+  "k": "Art Gallery",
+  "doi": "10.1145/3004257.3004488",
+  "abs": "The Sympathist is an exploration of scenery as imagined by our brains. In the digital age, we spend most of our time in cyberspace exchanging information and knowledge; we are more familiar with tools connecting us to cyberspace than to the real environment. Our five senses, originally meant to accept natural frequencies, have been altered by uncoordinated artificial frequencies, so that we are forgetting our original feelings. This work links the brain wave detector to virtual scenes and brain landscapes. The viewers embark on a journey the moment they put on the device, as detected brain data is immediately reflected on the virtual scene. With input from the audience, the device gradually delves into the deepest layer of consciousness. When consciousness loses itself in a trance, it quickly returns to a starting point of rationality. The brain wave detector enables us to let go of rationality and meander around our instincts and deepest memories.",
+  "file": "3004257.3004488.jpg"
+ },
+ {
+  "t": "The unbearable lightness and heaviness of being",
+  "a": [
+   "Yuko Oda"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2016,
+  "k": "Art Gallery",
+  "doi": "10.1145/3004257.3004472",
+  "abs": "In the sculptural installation, The Unbearable Lightness and Heaviness of Being, rapid prototyping machines were used to print the 3D forms, which were then installed in unique formations with other natural materials. This work contains conceptual and formal contradictions. Conceptually, it embodies an existence of opposing forces - depicting organisms in flight, but rooted. Structurally, the natural and synthetic are fused; fragile, intricate forms made of plastic and advanced digital technologies are juxtaposed with organic matter.",
+  "file": "3004257.3004472.jpg"
+ },
+ {
+  "t": "Time machine",
+  "a": [
+   "YouSuk Kim",
+   "HuiBeom Yu",
+   "JungHwan Sung"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2016,
+  "k": "Art Gallery",
+  "doi": "10.1145/3004257.3004471",
+  "abs": "Time Machine is a work constructed on the principles of zoetropes. Through the use of a 200 w motor to control speed and rotation, in combination with a pulsating strobe light, the artists create the optical illusion that 15 separate frames of an animation are actually connected. A small step motor added to the work references a number wheel, which spins separately from the animation, so that that the viewer understands the work as being about expanded time.",
+  "file": "3004257.3004471.jpg"
+ },
+ {
+  "t": "Articulating media arts activities in art-science contexts",
+  "a": [
+   "Angus Graeme Forbes"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2015,
+  "k": "Art Papers",
+  "doi": "10.1145/2810177.2810179",
+  "abs": "This paper discusses the conflicting expectations for media artists taking part in art-science collaborations. Despite the increasing opportunity to participate in these interdisciplinary projects, it can be unclear how media arts activities are best articulated, or even if they need to be defined at all. Additionally, this paper examines a methodological framework widely used in the visualization community for identifying different visualization tasks within research activities. Inspired by its success, this paper proposes a new methodological framework for media arts activities in art-science contexts. This framework splits media arts activities into overlapping areas: generation, augmentation, provocation and mediation, providing a useful way to articulate the broader importance of media arts in interdisciplinary collaboration."
+ },
+ {
+  "t": "Ethics, ecology, and the future",
+  "a": [
+   "Kayla Anderson"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2015,
+  "k": "Art Papers",
+  "doi": "10.1145/2810177.2810180",
+  "abs": "Art and design have become platforms for discussing the long-term implications of technology and modernity, most recently in relation to ecological crisis and the Anthropocene. While artists, designers and curators seek to raise awareness of the Anthropocene, it is important to remain critical of the narratives these practitioners develop. This paper provides a brief critique of how these issues are being addressed in the cultural sphere, suggesting that works of critical, conceptual and speculative design may be best suited to addressing the Anthropocene as they foster critical thinking about how we relate to technology and science, how we organize ourselves politically and socially, and how we define ourselves in the broader ecological assemblage. Artists and designers discussed include Marina Zurkow, Una Chaudhuri, Oliver Kellhammer, Fritz Ertl and Sarah Rothberg; Anthony Dunne and Fiona Raby; and Jae Rhim Lee."
+ },
+ {
+  "t": "Hybrid craft",
+  "a": [
+   "Amit Zoran"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2015,
+  "k": "Art Papers",
+  "doi": "10.1145/2810185.2810187",
+  "abs": "This article introduces the Hybrid Craft exhibition, positioning 15 hybrid projects in the context of today's Maker culture. Each project demonstrates a unique integration of contemporary making practice with traditional craft. The presenters in the show represent a wide range of professional backgrounds: independent makers, students and teachers, designers associated with research institutes, and commercial organizations. The background of Hybrid Craft, the makers and their works, including tool-making, jewelry, bowl-making and interactive design, are presented. The discussion focuses on integrating human skill and design to introduce a diverse portfolio of technologies used in this hybrid making process."
+ },
+ {
+  "t": "Light pattern",
+  "a": [
+   "Daniel Temkin"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2015,
+  "k": "Art Papers",
+  "doi": "10.1145/2810177.2810184",
+  "abs": "This paper explores the author's Light Pattern project, a programming language where code is written with photographs rather than text. Light Pattern explores programming languages as the most direct conduit between human thinking and machine logic. It emphasizes the nuance, tone and personal style inherent in all code. It also creates an algorithmic photography structured by the programs one writes, but not ultimately computer-generated. The paper looks at connections to both hobbyist/hacker culture (specifically esolangs) and to art-historical impulses and movements such as Fluxus and Oulipo."
+ },
+ {
+  "t": "The Bailey-Derek grammar",
+  "a": [
+   "Vernelle A. A. Noel"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2015,
+  "k": "Art Papers",
+  "doi": "10.1145/2810177.2810182",
+  "abs": "This paper presents work on the development of a shape grammar that records the dying, undocumented craft of wire-bending in the Trinidad Carnival. This craft is important for the building and continuation of cultural heritage and identity. Due to the lack of prior research in this non-Western design practice, the author conducted site visits, interviews and observations, and visually examined wire-bent artifacts in Trinidad to develop this grammar. This paper presents the materials, steps and shape rules that begin to synthesize the craft, as well as one design. This study and the resulting grammar have positive implications for design education and practice."
+ },
+ {
+  "t": "The dual skins of a media façade",
+  "a": [
+   "Claude Fortin",
+   "Kate Hennessy"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2015,
+  "k": "Art Papers",
+  "doi": "10.1145/2810177.2810181",
+  "abs": "In the fall of 2013, Mégaphone, an architectural-scale interactive \"Speakers' Corner,\" was deployed outdoors after dusk in downtown Montréal, Canada. This urban art installation included a monumental media façade designed to display a transcription of some of the words uttered into the microphone by end users. Driven by the system's two temporal modalities---a performative \"live mode\" and an archival \"sleep mode\"---the video projections revealed the dual skins of a media façade that spanned almost an entire city block. This article examines how activists appropriated Mégaphone to transform an ordinary building into an urban mausoleum."
+ },
+ {
+  "t": "Yturralde",
+  "a": [
+   "Esteban García Bravo",
+   "Jorge A. García"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2015,
+  "k": "Art Papers",
+  "doi": "10.1145/2810177.2810183",
+  "abs": "This research highlights José María Yturralde's most significant involvement and contributions to early computer art from 1968 to 1973. Yturralde collaborated with artists and scientists to expand and redefine his understanding of shapes, and explored ways that the mainframe computer could be used as a tool for complementing his art practices. He is known for developing a mathematical model with which he was able to create a highly sophisticated program where Penrose geometries could be recombined algorithmically. However, there is limited evidence and access to the code of the actual software. The authors' goal is to further understand Yturralde's contribution by developing a re-significance of his model, which they have accomplished through a modern interpretation of manuscripts."
+ },
+ {
+  "t": "(Projection) mapping the brain",
+  "a": [
+   "Jane Prophet"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2015,
+  "k": "Art Papers",
+  "doi": "10.1145/2835641.2835645",
+  "abs": "This paper discusses the author's artwork, Neuro Memento Mori, a self-portrait comprising digital animations and live action video projection-mapped onto a 3D print. The life-sized sculpture of the head and neck, dissected to reveal the artist's brain, was produced from MRI data gathered as the artist viewed memento mori paintings and meditated on death. The production of the artwork, made with neuroscientists, explores the relationship between the so-called frontier of neuroscience, data and the map. The use of computation to produce neuroimages, 3D prints and projected video is discussed from the perspective of critical cartography."
+ },
+ {
+  "t": "Conceptual superposition",
+  "a": [
+   "Fabian Offert"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2015,
+  "k": "Art Papers",
+  "doi": "10.1145/2835641.2835643",
+  "abs": "The idea of quantum simulation, first conceived by Richard Feynman in his influential 1982 lecture \"Simulating Physics with Computers\" [Feynman 1982], introduced a peculiar new way of thinking about the relationship between the material and the symbolic. In this paper1, I examine the conceptual and aesthetic implications of quantum simulation by reading Feynman's lecture with Theodor W. Adorno's aesthetic theory. I argue that quantum simulation, as it requires nothing less than the simulated to become the fabric of the simulation, actively symbolizes the material---not by referencing it but by transforming it into an actual symbolic system that exists in the real world, like the electric charges that do not represent but are our thoughts in the realm of the material. The very notion of quantum simulation can thus be understood to be in a state of conceptual superposition---which is, at its core, an aesthetic principle."
+ },
+ {
+  "t": "Dear human",
+  "a": [
+   "Lai Chun Wai",
+   "Leung Yi Hang",
+   "Lui Sze Mei",
+   "Ng Siu Tak",
+   "Yuen Kin Hang"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2015,
+  "k": "Art Papers",
+  "doi": "10.1145/2835641.2835647",
+  "abs": "Inspired by the cruelty in intensive farming of animals, the aim of this installation is to express the sorrow of livestock and poultry and remind people of the story behind their food. Even if you did not kill the animal, eating is just same as killing them. The installation includes traditional Chinese philosophy, which depict the harmonious relationship of human and animal. We would like audience to meditate about this as well. For the research, there were data showing the correlation between population increment and meat consumption. As meat demand increase, inhumane factory farming was adopted. Moreover, some slaughterhouses were still using cruel way to kill the animals. Even those adopted more humane way of killing still cannot avoid the pain and fear suffered by the animals."
+ },
+ {
+  "t": "HCI in performance arts and the case of Illimitable Space System's multimodal interaction and visualization",
+  "a": [
+   "Miao Song",
+   "Serguei A. Mokhov",
+   "Peter Grogono",
+   "Sudhir P. Mudur"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2015,
+  "k": "Art Papers",
+  "doi": "10.1145/2835641.2835649",
+  "abs": "The primary aim of this art paper is to present a case study of the use of modern 3D graphics and sensor technologies in interactive stage performances. Specifically, we present studies of interactive performances in which we have used the Illimitable Space System, a proof-of-concept tool box that offers configurable multimodal interaction via a variety of means. The animation and interaction are all done in real-time and can be of arbitrary duration while the system is up and running. Earlier ISS versions were exhibited in the end of 2012 and 2013 during Open House and Stewart Hall Expo-Science events, as well during the 2014 2-day Chinese New Year Gala performance during the Ascension dance at Concordia University, Montreal, Canada, and in the large Like Shadows theatre production in Beijing, China. We describe how ISS was configured and used in these events, and the valuable feedback obtained, confidence gained in interactive technology usage in performances, and lessons learned from them. All of which help us in making continuous improvements in ISS. As a result this paper includes the themes of these events, methods, theory, and history. Since technology has been used in stage performances from ancient times, we start with a brief historical background of technology in performance arts."
+ },
+ {
+  "t": "Meditative process in new media art",
+  "a": [
+   "Su Hyun Nam"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2015,
+  "k": "Art Papers",
+  "doi": "10.1145/2835641.2835648",
+  "abs": "In this paper, the author suggests affective possibilities in technology that can be found in a digital art making process. As going through a persistent, intimate process of digital production with contemplation, media artists gain a unique experience and build an affective relationship with digital technology. Through the process, artists realize the gap between their mind image and digital representation and discover the affective potentials that connect digital media and bodies. The author explores the ambiguous nature of affect and addresses an alternative relationship between human bodies and digital technology. The author, as a media artist, experiences the awakening through her making process and realizes that its analogy to Zen practice in arts that requires a meditative discipline and inner interaction with the tool and media itself. Media artists overcome the limit of the absolute rationality and discontinuity of digital media through a meditative computational mode of operation."
+ },
+ {
+  "t": "Numerical anamorphosis",
+  "a": [
+   "Francesco de Comite",
+   "Laurent Grisoni"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2015,
+  "k": "Art Papers",
+  "doi": "10.1145/2835641.2835642",
+  "abs": "Anamorphoses have been know for centuries, as distorted images needing to be seen in a mirror from a special point of view in order to see the non-distorted image. During Renaissance, they have been associated to mathematical techniques for drawing such pictures efficiently, on specific mirror shapes (in the case of cylindrical or conical mirrors). We can expect in the next years a strong interest in such type of images, because of the emergence of various contexts and physical supports for image visualization (soft or deformable screens, lightmapping, projection of images on dynamic objects, etc...). Solving the numerical problem of anamorphosis in the general case belongs to the same class of problems as when the trend is to control image deformation as long as image is seen projected on, or reflected by, a non-planar surface, which can be of arbitrary shape. In this work, we show how raycasting technique, well-known in the computer graphics community, can be used to provide an efficient general framework for such rendering."
+ },
+ {
+  "t": "Super-natural",
+  "a": [
+   "In Dae Hwang",
+   "Mark Guglielmetti",
+   "Vince Dziekan"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2015,
+  "k": "Art Papers",
+  "doi": "10.1145/2835641.2835644",
+  "abs": "The ways in which digital technologies find themselves integrated into society are influenced to a significant degree by cultural conventions. In Western culture there is a tendency to consider digital technology in terms of hardware and software that is introduced into various processes to enable us to work more efficiently and better negotiate our domestic and networked social lives. Such conventions render digital technologies transparent and invisible and in doing so defers our realization that technology is always with us; everywhere and in everything. This culturally reinforced attitude obscures our perceptual experience of \"technology-being-with-us.\" In response, this paper examines our relationship with technology through exploring alternative, non-Western conceptions of interdependence. In support of this study we examine a series of cultural activities practiced in Korea in order to appreciate how the hardware and software associated with digital technologies can be perceived as non-human entities. This discussion will extend onto an analysis of selected artworks by Nam June Paik, before turning attention to the Japanese media art movement Device Art. The characteristics of this genre --- noted for its particular relation to Japanese cultural influences --- will be examined to reveal how everyday technologies are used to create interactive experiences that promote a sense of \"technology-being-with-us.\""
+ },
+ {
+  "t": "SyncDon II",
+  "a": [
+   "Issey Takahashi",
+   "Akihito Ito"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2015,
+  "k": "Art Papers",
+  "doi": "10.1145/2835641.2835646",
+  "abs": "\"SyncDon II\" aims to share emotion to others non-verbally by heartbeat synchronization. When you hold the gift-box, the box vibrates, and intermittent pulse sounds with flashing lights are given to you according to heartbeats acquired from a person in the past. When you are exposed to the stimuli; your heartbeat gradually synchronizes to the rhythm of the stimuli, and your circulation through the body gets similar to the heartbeats of the person. The assimilation of the body condition makes you to have similar emotion that the person felt during the recording. This configuration is entirely unique, especially using the heartbeat synchronization for sharing emotion is which nobody ever tried. We believe that \"SyncDon II\" will bring us new sensations we have never experienced."
+ },
+ {
+  "t": "Apparition",
+  "a": [
+   "Paul L. Stout"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2014,
+  "k": "Art Gallery",
+  "doi": "10.1145/2601080.2601092",
+  "abs": "Apparition is a series of six artworks about natural processes envisioned as elaborate machines. These constructed devices were meant to build natural systems using technological metaphors, a didactic display of industry and natural history. The project focused on exploring ideas of nature as machine and machine as simulation of nature.",
+  "file": "2601080.2601092.jpg"
+ },
+ {
+  "t": "Levitate",
+  "a": [
+   "Yunsil Heo",
+   "Hyunwoo Bang"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2014,
+  "k": "Art Gallery",
+  "doi": "10.1145/2601080.2601089",
+  "abs": "Levitate is a kinetic sculpture composed of levitated ping-pong balls in acrylic tubes that interact with audiences.",
+  "file": "2601080.2601089.jpg"
+ },
+ {
+  "t": "Lineographs",
+  "a": [
+   "Joseph Farbrook"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2014,
+  "k": "Art Gallery",
+  "doi": "10.1145/2601080.2601085",
+  "abs": "Translating the essence of artistic gesture and motion, the Lineograph series is created on electronic ink displays (similar to the original Kindle screen), emitting no light, mimicking the aesthetic of ink drawing, however with movement.",
+  "file": "2601080.2601085.jpg"
+ },
+ {
+  "t": "Looking glass time",
+  "a": [
+   "Yoichi Ochiai"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2014,
+  "k": "Art Gallery",
+  "doi": "10.1145/2601080.2601083",
+  "abs": "If recording devices had not been invented, duplication of objects would have been required to produce movies. Social media is an artificial timeline that reflects the real world. This work aims to represent social media activities and their timelines with physical clock animation, without any recording media.",
+  "file": "2601080.2601083.jpg"
+ },
+ {
+  "t": "Modern video processor",
+  "a": [
+   "Yunsil Heo",
+   "Hyunwoo Bang"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2014,
+  "k": "Art Gallery",
+  "doi": "10.1145/2601080.2601090",
+  "abs": "The Modern Video Processor is a skeuomorphic metaphor to reminisce about the simple days when talking to machines just meant plugging cables, switching buttons, and rotating dials.",
+  "file": "2601080.2601090.jpg"
+ },
+ {
+  "t": "Mother",
+  "a": [
+   "Inmi Lee",
+   "Kyle McDonald"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2014,
+  "k": "Art Gallery",
+  "doi": "10.1145/2601080.2601084",
+  "abs": "Mother is a series of generative sculptures that explore synesthetic connections between language and form by analyzing hand gestures that represent the participants' interpretations of unfamiliar spoken words. The gestures of the participants were captured in 3D using a Kinect, interpreted with openFrameworks, and printed with a rapid prototyping machine.",
+  "file": "2601080.2601084.jpg"
+ },
+ {
+  "t": "Points of view",
+  "a": [
+   "Zohar Kfir"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2014,
+  "k": "Art Gallery",
+  "doi": "10.1145/2601080.2677718",
+  "abs": "Points of View is an interactive web documentary based on video footage shot by Palestinians working with B'Tselem's Camera Distribution Project. It offers an intimate and situated look at life under the Israeli occupation. This project brings these materials to the international public in a manner that is respectful of their content yet innovative enough to provoke a more nuanced form of engagement than conventional documentary; it is an artistic exploration of a complex political issue that raises questions of community engagement, social awareness, and the social and phenomenological shaping of narrative.",
+  "file": "2601080.2677718.jpg"
+ },
+ {
+  "t": "SeeMore",
+  "a": [
+   "Sam Blanchard",
+   "Kirk Cameron"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2014,
+  "k": "Art Gallery",
+  "doi": "10.1145/2601080.2601091",
+  "abs": "SeeMore is a kinetic sculpture that showcases the inherent beauty of parallel algorithms through the correlating movements of an animatronic 256-node Raspberry Pi computer cluster.",
+  "file": "2601080.2601091.jpg"
+ },
+ {
+  "t": "Speculatorum oculi",
+  "a": [
+   "Erik Brunvand"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2014,
+  "k": "Art Gallery",
+  "doi": "10.1145/2601080.2601088",
+  "abs": "Speculatorum Oculi (The Eyes of Spies) comments on current surveillance activities of governments and corporations through an installation that includes an architectural model surveilled with looming video cameras providing live feeds to a set of video monitors. These monitors show views of the model and of other video cameras placed around the installed site.",
+  "file": "2601080.2601088.jpg"
+ },
+ {
+  "t": "Subway stories",
+  "a": [
+   "Alon Chitayat",
+   "Jeff Ong"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2014,
+  "k": "Art Gallery",
+  "doi": "10.1145/2601080.2601086",
+  "abs": "Subway Stories is an interactive storytelling installation first presented at New York University. The experience begins with a projection of an animated subway car. The train is filled with passengers---illustrations of real-life commuters drawn on subway rides across New York City. A physical \"conductor's box\" gives users control of where the projection is focused. One handle controls the train's speed, and the other handle controls the camera zoom. The audience hears the thoughts and sounds of the passenger in focus. Zooming into specific characters triggers their \"stories\"---audio narrations recorded to capture the inner lives of each passenger.",
+  "file": "2601080.2601086.jpg"
+ },
+ {
+  "t": "The evolution of silence",
+  "a": [
+   "Rachele Riley"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2014,
+  "k": "Art Gallery",
+  "doi": "10.1145/2601080.2601093",
+  "abs": "The Evolution of Silence addresses the scale of damage brought about by 41 years of nuclear testing at the Nevada Test Site. The web-based archive presents a non-linear map and interpretation of the area's destruction and an opportunity to explore this restricted desert landscape.",
+  "file": "2601080.2601093.jpg"
+ },
+ {
+  "t": "TRANSICONMORPHOSIS",
+  "a": [
+   "Emilio Vavarella",
+   "Fito Segrera"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2014,
+  "k": "Art Gallery",
+  "doi": "10.1145/2601080.2601087",
+  "abs": "TRANSICONMORPHOSIS, the result of a theoretical reflection on the development of new forms of technological communication and their effects on human beings as well as their political impact, comprises a conventional chat service hosted in a computer interfaced with a series of electrodes connected to the face of the artist. The emoticon received through the chat translates into electrical impulses that force the artist's facial features to mimic the expression of each emoticon."
+ },
+ {
+  "t": "A piece of the pie chart",
+  "a": [
+   "Annina Rüst"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2014,
+  "k": "Art Papers",
+  "doi": "10.1145/2601080.2677713",
+  "abs": "This paper analyzes the robotic gallery installation A Piece of the Pie Chart. The project addresses gender inequity in the tech world. It consists of a computer workstation and a food robot. The food robot puts pie charts onto edible, pre-baked pies. They depict the gender gap in technical environments. Visitors use the robot to create pies. Pictures of the pies are disseminated via Twitter, and the physical pies are mailed to the places where the data originated. In the following text, the author disassembles the machine in the context of feminist theory, feminist technology research, visualization, and political robotics."
+ },
+ {
+  "t": "Aesthetics of biocybernetic designs",
+  "a": [
+   "Reynaldo Thompson",
+   "Tirtha Prasad Mukhopadhyay"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2014,
+  "k": "Art Papers",
+  "doi": "10.1145/2601080.2677708",
+  "abs": "The authors identify some of the theoretical premises of biocybernetic art objects, with reference to the works of Nam June Paik, Edward Ihnawitz, Ulrike Gabriel, and most notably, Gilberto Esparza, the Mexican biocybernetic artist. Systems theory anticipates stochastic convergences in nature, defying the classic certitude of the teleological notion of form. Evidence for this paradigmatic shift is found in the biocybernetic creatures conceived by these roboticists. In much biocybernetic art, beauty emerges in the form of adaptive mechanisms, such as in robotic tetrapods or self-organizing artificial plants. Such structures provide a template for survival mechanisms in an increasingly entropic environment."
+ },
+ {
+  "t": "Malleable environments and the pursuit of spatial justice in the Bronx",
+  "a": [
+   "Melanie Crean"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2014,
+  "k": "Art Papers",
+  "doi": "10.1145/2601080.2677710",
+  "abs": "A design team in the Hunts Point neighborhood of the South Bronx used methodologies of performance and collaborative, location-based storytelling to contend with the effects of urban spatial injustice in the community. Ideation via a series of participatory performances led to creation of a mobile cinema application as the starting point for public, location-based cinema walks. The application accepts user-generated content, acting as a new form of generative monument to the neighborhood as it evolves. The project exemplifies how installing situated technologies for an embodied form of participation can help translate local concerns to outside audiences, in this case using a metaphorical, locative media platform to discuss the evolving nature of environmental discrimination, over-incarceration, and urban spatial justice in New York City."
+ },
+ {
+  "t": "Nervous ether",
+  "a": [
+   "Kathy Velikov",
+   "Geoffrey Thün",
+   "Mary O'Malley",
+   "Wiltrud Simbuerger"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2014,
+  "k": "Art Papers",
+  "doi": "10.1145/2601080.2677711",
+  "abs": "This paper describes the authors' exploration and experimentation with cellular pneumatic aggregates for kinetic, environmentally responsive envelope systems. The work is situated within the history and technology of pneumatic structures, biological paradigms, the agency and aesthetics of material, information translation, and the tension between performance and affect within responsive environments. The paper elaborates on the physical and computational development of novel pneumatic systems, experimentation with their interactive capabilities, and a recently completed installation, Nervous Ether, a pneumatic spatial envelope that operates as an instrument to register and communicate remote environmental information while also developing affective interaction with inhabitants."
+ },
+ {
+  "t": "Object intermediaries",
+  "a": [
+   "Kayla Anderson"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2014,
+  "k": "Art Papers",
+  "doi": "10.1145/2601080.2677712",
+  "abs": "This paper uses Walter Benjamin's concept of translation between people and things as a focal point for analysis of the work of contemporary new-media artists Paula Gaetano Adi and Lindsey French, who utilize robotics and interactive technology to explore interspecies communication. Framed by materialist, poststructuralist, and posthumanist theory, along with recent discourse in object-oriented ontology, this paper poses the work of Gaetano Adi and French as potential models for visualizing object-oriented and vital materialist interactions. In the age of the Anthropocene, thinking beyond the human has become increasingly vital in both ethical and ecological terms, making the ability to envision less anthropocentric, more object-oriented worldviews both novel and timely."
+ },
+ {
+  "t": "Posture platform and the drawing room",
+  "a": [
+   "Luc Courchesne",
+   "Emmanuel Durand",
+   "Bruno Roy"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2014,
+  "k": "Art Papers",
+  "doi": "10.1145/2601080.2677714",
+  "abs": "Three-hundred-sixty-degree audio/visual immersion and the restoration of non-verbal communication cues are essential features for interfaces inviting the human body in cyberspace. The Posture Platform is a network of bases that offers access to a shared virtual environment. Each base is composed of an immersive 360-degree visual display, a surround-sound system, an array of image capture devices, a microphone, an omnidirectional controller/pointer, and a computer with wifi and an internet connection. The Drawing Room is the most recent virtual space developed for the platform. It invites participants to a blank shared space where they draw their own environment collaboratively. The platform, and the project it hosts, is an example of the art, design, and engineering challenges and opportunities associated with development of inhabitable cyberspace."
+ },
+ {
+  "t": "The aesthetics of liminality",
+  "a": [
+   "Patrick Lichty"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2014,
+  "k": "Art Papers",
+  "doi": "10.1145/2601080.2677709",
+  "abs": "From ARToolkit's emergence in the 1990s to the emergence of augmented reality (AR) as an art medium in the 2010s, AR has developed as a number of evidential sites. As an extension of virtual media, it merges real-time pattern recognition with goggles (finally realizing William Gibson's sci-fi fantasy) or handheld devices. This creates a welding of real-time media and virtual reality, or an optically registered simulation overlaid upon an actual spatial environment. Commercial applications are numerous, including entertainment, sales, and navigation. Even though AR-based works can be traced back to the late 1990s, AR work requires some understanding of coding and tethered imaging equipment. It was not until marker-based AR, affording lower entries to usage, as well as geo-locational AR-based media, using handheld devices and tablets, that augmented reality as an art medium would propagate. While one can argue that AR-based art is a convergence of handheld device art and virtual reality, there are intrinsic gestures specific to augmented reality that make it unique. The author looks at some historical examples of AR as well as critical issues of AR-based gestures such as compounding the gaze, problematizing the retinal, and the representational issues of informatic overlays. This generates four gestural vectors, analogous to those defined in \"The Translation of Art in Virtual Worlds,\" which is examined through case studies. From this, a visual theory of augmentation will be proposed."
+ },
+ {
+  "t": "Transmission",
+  "a": [
+   "Oliver Gingrich",
+   "Alain Renaud",
+   "Eugenia Emets",
+   "Zhidong Xiao"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2014,
+  "k": "Art Papers",
+  "doi": "10.1145/2601080.2677715",
+  "abs": "Transmission is both a telepresence performance and a research project. As a real-time visualization tool, Transmission creates alternate representations of neural activity through sound and vision, investigating the effect of interaction on human consciousness. As a sonification project, it creates an immersive experience for two users: a soundscape created by the human mind and the influence of kinetic interaction. An electroencephalographic (EEG) headset interprets a user's neural activity. An Open Sound Control (OSC) script then translates this data into a real-time particle stream and sound environment at one end. A second user in a remote location modifies this stream in real time through body movement. Together they become a telematic musical interface--communicating through visual and sonic representation of their interactions."
+ },
+ {
+  "t": "XEPA - autonomous intelligent light and sound sculptures that improvise group performances",
+  "a": [
+   "Philip Galanter"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2014,
+  "k": "Art Papers",
+  "doi": "10.1145/2601080.2677716",
+  "abs": "XEPA anticipates a future where machines form their own societies. Going beyond mere generative art, machines will exhibit artistic creativity with the addition of artistic judgment via computational aesthetic evaluation. In such a future our notions of aesthetics will undergo a radical translation. The XEPA intelligent sculptures create animated light and sound sequences. Each sculpture \"watches\" the others and modifies its own aesthetic behavior to create a collaborative, improvisational performance. No coordination information or commands are used. Each XEPA independently evaluates the aesthetics of the other sculptures, infers a theme or mood being attempted, and then modifies its own aesthetics to better reinforce that theme. Each performance is unique and widely varied. XEPA is an ever-evolving artwork, intended as a platform for ongoing experiments in computational aesthetic evaluation."
+ },
+ {
+  "t": "Cloud Pink",
+  "a": [
+   "Yunsil Heo",
+   "Hyunwoo Bang"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2013,
+  "k": "Art Gallery",
+  "doi": "10.1145/2503649.2503659",
+  "abs": "Cloud Pink is an immersive media installation with a giant stretchable fabric that covers the entire gallery ceiling. Viewers can poke this sky with their fingers, stirring the simulated pink cloud that floats on it.",
+  "file": "2503649.2503659.jpg"
+ },
+ {
+  "t": "Digiti sonus",
+  "a": [
+   "Yoon Chung Han",
+   "Byeong-jun Han"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2013,
+  "k": "Art Gallery",
+  "doi": "10.1145/2503649.2503660",
+  "abs": "Fingerprints are unique biometric patterns on human and primate bodies. They are clearly recognizable patterns that can be manipulated and saved into large databases. Due to their distinct and unique visual patterns, they have been useful for personal identification and security. In this digital era, many computing machines and digital interfaces use fingerprints as secure keys to identify and access personal information.",
+  "file": "2503649.2503660.jpg"
+ },
+ {
+  "t": "Drawing Machine",
+  "a": [
+   "Robert Twomey"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2013,
+  "k": "Art Gallery",
+  "doi": "10.1145/2503649.2503661",
+  "abs": "Drawing Machine is the latest in a series of conceptual subtractions from the parameters of drawing as an art act. A precision-controlled CNC device labors in place of the artist, working with unfaltering patience and inhuman precision to fill a sketchbook with images over the course of the exhibition.",
+  "file": "2503649.2503661.jpg"
+ },
+ {
+  "t": "Expressive Maps",
+  "a": [
+   "Santiago V. Lombeyda"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2013,
+  "k": "Art Gallery",
+  "doi": "10.1145/2503649.2503662",
+  "abs": "Expressive Maps is an artistic visualization of a complete mouse DNA sequence, taken from embryonic mouse muscle tissue, stretched out in a line. Each individual spiral represents a single chromosome (mice have 20, versus 23 in humans), and active sections perform calls across the corresponding chromosome addresses. It displays three stages of development: before specialization, 60 hours after specialization, and 60 hours post-specialization with an inhibitor present. Each stage has been printed on vellum, so one \"map\" can be placed on top of another to reveal differences.",
+  "file": "2503649.2503662.jpg"
+ },
+ {
+  "t": "Four Mountains",
+  "a": [
+   "Mark J. Stock"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2013,
+  "k": "Art Gallery",
+  "doi": "10.1145/2503649.2503663",
+  "abs": "Four Mountains consists of tiny, rapid-prototyped models of four tall stratovolcanoes in the US Pacific Northwest, each isolated, framed, and arranged on the gallery wall to scale, viewed from above, from the point of view of a god (or an astronaut). It draws attention to not only the mountains' detailed, crisp forms, but also to the empty spaces in between.",
+  "file": "2503649.2503663.jpg"
+ },
+ {
+  "t": "Long View",
+  "a": [
+   "Patrick Fitzgerald",
+   "Daniel Lunk",
+   "Lee Cherry",
+   "Jim Martin",
+   "Dwayne Martin"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2013,
+  "k": "Art Gallery",
+  "doi": "10.1145/2503649.2503664",
+  "abs": "Long View is a gesture-based interactive installation that offers the viewer the ability to affect animated elements in a projected space in ways that the artists hope will increase awareness of our fragile and temporary relationship to our planet.",
+  "file": "2503649.2503664.jpg"
+ },
+ {
+  "t": "Rhumb Lines",
+  "a": [
+   "Barbara Mary Keating"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2013,
+  "k": "Art Gallery",
+  "doi": "10.1145/2503649.2503665",
+  "abs": "Rhumb Lines is a playful, immersive, cinematic, interactive video installation that explores how we think we know where we are in time, space, and history. It invites viewers to navigate a mesmerizing series of interlinked videos using location data and scanning the horizon to seek out hidden co-ordinates and signs of the River Tyne's magnetic attraction for artists over the centuries, translated into beautiful Red One super-wide-screen images. Viewers scroll a map generated from sonar-scan data, with the GPS tracks overlaid to trigger corresponding videos. They scrub through the cinematic widescreen videos seeking journey intersections, and the frames of video are graded to look like archive paintings. Device control creates an apparent suspension of \"real\" time that could be staged on any waterway in the world with sonar-scan survey data.",
+  "file": "2503649.2503665.jpg"
+ },
+ {
+  "t": "Shared Skies (13 global skies)",
+  "a": [
+   "Kim Abeles"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2013,
+  "k": "Art Gallery",
+  "doi": "10.1145/2503649.2503666",
+  "abs": "Shared Skies is a series of digital prints and sculpture using photographs of skies collected from four sources: my own journeys, artists who participate as they travel worldwide, international friends through social media, and some purchased from photographers through stock photo sites.",
+  "file": "2503649.2503666.jpg"
+ },
+ {
+  "t": "Spatial Hyperlink",
+  "a": [
+   "Wan-Ying Lai",
+   "Ming-Chang Wu",
+   "Shen-Guan Shih"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2013,
+  "k": "Art Gallery",
+  "doi": "10.1145/2503649.2503667",
+  "abs": "Spatial Hyperlink, a telecommunications art installation, explores an ideal social interaction. The work encourages viewers' awareness of others' psychological states via speaking boxes through which images and sounds can be transmitted over unknown distances. Devices installed in different places become a giant communication network. Users are able to influence remote doors by opening their own. With each opening, the people and the scenes behind the doors become visible to people in other locations around the world.",
+  "file": "2503649.2503667.jpg"
+ },
+ {
+  "t": "Swarm Vision",
+  "a": [
+   "George Legrady",
+   "Marco Pinter",
+   "Danny Bazo"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2013,
+  "k": "Art Gallery",
+  "doi": "10.1145/2503649.2503668",
+  "abs": "Swarm Vision is an installation consisting of multiple pan-tilt-zoom cameras on rails positioned above spectators in an exhibition space. Each camera behaves autonomously based on programmed rules of computer vision.",
+  "file": "2503649.2503668.jpg"
+ },
+ {
+  "t": "This exquisite forest",
+  "a": [
+   "Aaron Koblin",
+   "Chris Milk"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2013,
+  "k": "Art Gallery",
+  "doi": "10.1145/2503649.2503669",
+  "abs": "Conceived by Chris Milk and Aaron Koblin and produced by Tate Modern and Google, This Exquisite Forest was inspired by the surrealist game \"exquisite corpse\" and its idea of collaborative creation. The project lets users create short animations that build of one another as they explore specific themes. The result is a collection of branching narratives resembling trees to which anyone may contribute. The project lives online and as a physical installation at the Tate Modern (through June 2013). At the museum, visitors can explore the project as a life-sized projection and contribute animations using high-end digital drawing tablets.",
+  "file": "2503649.2503669.jpg"
+ },
+ {
+  "t": "Traces",
+  "a": [
+   "Cynthia Beth Rubin",
+   "Susanne Menden-Deuer",
+   "Elizabeth Harvey",
+   "Jerry Fishenden"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2013,
+  "k": "Art Gallery",
+  "doi": "10.1145/2503649.2503670",
+  "abs": "Traces is a collaboration between the artist Cynthia Beth Rubin and the Menden-Deuer Lab at the Graduate School of Oceanography, University of Rhode Island, which studies plankton, the microscopic marine creatures that comprise the most basic piece of our food chain. The original micro-captures are of specimens in small batches of water, devoid of any association with their native environment, and filmed in flat grays. In Rubin's transformation of the raw video, she imagines the plankton moving in water that is infinitely deep, making these mystical creatures leap beyond the confines of the microscopic world into an enticing world of color and movement that begs us to relate to them as part of nature. She does not just reveal the generally unseen life in our ocean waters; she makes it accessible.",
+  "file": "2503649.2503670.jpg"
+ },
+ {
+  "t": "Visualizing federal spending",
+  "a": [
+   "Rebecca Ruige Xu",
+   "Sean Hongsheng Zhai"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2013,
+  "k": "Art Gallery",
+  "doi": "10.1145/2503649.2503671",
+  "abs": "In this project we explore an aesthetics-oriented approach to visualizing federal spending in the United States as 3D compositions in a photorealistic style. Using procedural modeling with Python programming and Maya API, an organic flow of intermingled geometrical units is formed to represent the profile of federal spending for each state, loosely resembling the idea of money flow. The total amount of spending is scaled to a per capita basis to make different states comparable, while the overall surface area or volume occupied by each type of geometrical pattern represents its associated spending data.",
+  "file": "2503649.2503671.jpg"
+ },
+ {
+  "t": "Water Columns",
+  "a": [
+   "Mark Weston"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2013,
+  "k": "Art Gallery",
+  "doi": "10.1145/2503649.2503672",
+  "abs": "Water Columns consists of three extremely lightweight, passively actuated kinetic sculptures that take advantage of the relative tendency of wood to absorb moisture from the atmosphere to create passive engines for actuation of a long array of bi-laminate filaments. The sculptures change shape over the course of the day as relative humidity rises and falls with the ambient temperature.",
+  "file": "2503649.2503672.jpg"
+ },
+ {
+  "t": "Early history of french CG",
+  "a": [
+   "Cécile Welker"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2013,
+  "k": "Art Papers",
+  "doi": "10.1145/2503649.2503657",
+  "abs": "This paper provides an historical summary of the emergence of computer graphics research and creation in France between 1970 and 1990, a period of innovation that transformed artistic practice and French visual media. The paper shows the role of these developments in the history of art, the evolution of digital technology, and the expansion of animation and visual effects in the film industry."
+ },
+ {
+  "t": "Hybrid basketry",
+  "a": [
+   "Amit Zoran"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2013,
+  "k": "Art Papers",
+  "doi": "10.1145/2503649.2503651",
+  "abs": "Contemporary 3D printing and traditional craft rarely meet in the same creation. They tend to live in different worlds. In this paper, the author argues for merging these two distinct traditions. To that end, he developed hybrid basketry, a medium where 3D-printed structures are shaped to allow the growth and development of hand-woven patterns. While the 3D-printed plastic elements contribute the aesthetics of the digital curvatures and manifolds, the hand-woven reed, jute, and canvas fibers infuse the baskets with a unique organic appeal. The author discusses his motivation, describes the making process, and presents four hybrid baskets, integrating a deeper discussion on the place of craft and tradition within our contemporary approach to design and fabrication."
+ },
+ {
+  "t": "KIMA",
+  "a": [
+   "Oliver Gingrich",
+   "Alain Renaud",
+   "Eugenia Emets"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2013,
+  "k": "Art Papers",
+  "doi": "10.1145/2503649.2503652",
+  "abs": "KIMA is a holographic surround-sound installation that visualizes telepresence as both a phonetic and a synaesthetic phenomenon. The performance piece is based on the physical conditions of cymatics--the study of physically visible sound wave patterns. Two environments, a quad surround and a holographic interface, build the framework of a telematic experience that illustrates communication as wave forms while focusing on the relationship between sound and matter."
+ },
+ {
+  "t": "Null by Morse",
+  "a": [
+   "Tom Schofield"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2013,
+  "k": "Art Papers",
+  "doi": "10.1145/2503649.2503653",
+  "abs": "Null By Morse is an installation artwork that incorporates a military signaling lamp and smartphones. A series of Morse messages is transmitted automatically by the signal lamp. The messages are drawn from the history of Morse and telegraphy. A custom app for iPhone and Android uses the phone's camera to identify the changing light levels of the lamp and the associated timings. The app then decodes the Morse and displays the message on the screen on top of the camera image. This paper discusses the artwork in relation to the following theoretical aspects: It contextualizes the position of smartphones in the history of optical communication. It proposes an approach to smartphones in media art that moves away from futurist perspectives whose fundamental approach is to seek to creatively exploit the latest features. Lastly, it discusses the interaction with the phone in the exhibition context in terms of slow technology."
+ },
+ {
+  "t": "The electric \"now indigo blue\"",
+  "a": [
+   "Carolyn Kane"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2013,
+  "k": "Art Papers",
+  "doi": "10.1145/2503649.2503655",
+  "abs": "Circa 1969, a few talented electrical engineers and pioneering video artists built video synthesizers capable of generating luminous and abstract psychedelic colors that many believed to be cosmic and revolutionary, and in many ways they were. Drawing on archival materials from Boston's WGBH archives and New York's Electronics Arts Intermix, this paper analyzes this early history in the work of electronics engineer Eric Siegel and Nam June Paik's and Shuya Abe's Paik/Abe Video Synthesizer, built at WGBH in 1969. The images produced from these devices were, as Siegel puts it, akin to a \"psychic healing medium\" used to create \"mass cosmic consciousness, awakening higher levels of the mind, [and] bringing awareness of the soul.\" While such radical and cosmic unions have ultimately failed, these unique color technologies nonetheless laid the foundation for colorism in the history of electronic computer art."
+ },
+ {
+  "t": "The emergence and growth of evolutionary art",
+  "a": [
+   "Nicholas Lambert",
+   "William Latham",
+   "Frederic Fol Leymarie"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2013,
+  "k": "Art Papers",
+  "doi": "10.1145/2503649.2503656",
+  "abs": "One of the most interesting--if frustrating--aspects of charting the history of computer art is trying to understand the intersections of specific technologies and artistic experimentation. It is rarely as clear-cut as a simple linear influence of one to the other, partly because artists are able to envision all kinds of possibilities that technology might enable them to realize in some kind of form, but as they do so, the technology is itself shaped, especially in terms of how it is perceived by others. Do artists find a way to give technologies an aesthetic outlet, or do some technologies possess--or facilitate--a characteristic aesthetic that finds its expression through specific artists? Certainly, in the history of computer art it would seem that particular aesthetics, technologies, and artists are closely intertwined in certain periods. This intertwining of art, technology, and ideas stolen from the natural world has never been so arguably merged as the period in the history of computer art from 1980 to 1993. We take as the defining start of this period the initial work of Mandelbrot on fractals that became known as the Mandelbrot set and led to his famous illustrated art-science book The Fractal Geometry of Nature. In 1993, this first highly creative period in evolutionary computer art came to an end with major publications by pioneers Karl Sims, Stephen Todd, and William Latham."
+ },
+ {
+  "t": "Ut pictura poesis",
+  "a": [
+   "David Griffin"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2013,
+  "k": "Art Papers",
+  "doi": "10.1145/2503649.2503654",
+  "abs": "In 1735, Leonard Euler presented a solution to the practical problem of whether a route could be plotted to cross each of seven bridges in Königsberg once. His negative solution used the simplest of mark-making strategies to resolve a conceptual problem. Euler did not actually cross the town's bridges, but used them to resolve questions of connectivity, after which diagrammatic representations can be seen as the restructuring of logical problems to allow for inductive reasoning, for fruitful application beyond theory. But what if such a working graphic has as its target something that is simply incomprehensible? What are the upper limits of the denotational logic of such diagrams? This paper presents a drawing-research project that tests the cognitive advantages of technical graphics by directly engaging with things that cannot be made easier to understand through their use."
+ },
+ {
+  "t": "A-me",
+  "a": [
+   "Jordi Puig",
+   "Andrew Perkis",
+   "Aud Sissel Hoel",
+   "Alvaro Cassinelli"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2013,
+  "k": "Art Gallery",
+  "doi": "10.1145/2542256.2542264",
+  "abs": "A-me is a fictitious memory-evoking apparatus at the intersection of science, art and technology. The system enables users to experience other people's memories as well as store their own by interacting with a volumetric representation (MR) of a human brain. The user retrieves or stores memories (audio traces) by pointing and clicking at precise voxels locations. Triggered by their exploratory action, a story is slowly revealed and recomposed in the form of whispering voices revealing intimate stories. A-me it's a public receptacle for private memories, thus exploring the possibility of a collective physical brain.",
+  "file": "2542256.2542264.jpg"
+ },
+ {
+  "t": "5 story building",
+  "a": [
+   "Ricardo Muñoz"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2013,
+  "k": "Art Papers",
+  "doi": "10.1145/2542256.2542265",
+  "abs": "A mischievous Monster, a naive Sidekick, ten shallow Girls, a retired Villain, an apathetic Robot, and a Megalomaniac from outer space live under one roof in the \"5 Story Building\". Five simultaneous stories tell the lives of the singular occupants of this confining building. These neighbors carry on with their own ambitions and inherited craziness without realizing that their stories are intertwined in this episodic interactive fiction."
+ },
+ {
+  "t": "Cerebral interaction and painting",
+  "a": [
+   "Yiyuan Huang",
+   "Alain Lioret"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2013,
+  "k": "Art Papers",
+  "doi": "10.1145/2542256.2542260",
+  "abs": "The research focuses on combination of novel technology and traditional art. In this paper, a novel interactive art installation (IAI) using user's thought to interact with a digital Chinese ink painting is introduced. Meanwhile, the final purpose of this research is to establish a link between novel technology and traditional arts and further to bring out traditional art philosophy by taking the advantages of novel technology. Finally, this research aims to help people understand not only the visual expression of an art, but also its philosophy and spirit through different kinds of interaction. Based on this, the theory research focuses on four parts: traditional art philosophy, artistic and cognitive psychology, traditional art, novel technology. Meanwhile, for practice, a Chinese style IAI experiment including brain waves control technology is introduced to help people better understand the purpose of this research."
+ },
+ {
+  "t": "Generating abstract paintings in Kandinsky style",
+  "a": [
+   "Kang Zhang",
+   "Jinhui Yu"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2013,
+  "k": "Art Papers",
+  "doi": "10.1145/2542256.2542257",
+  "abs": "This paper presents a recent project on automatic generation of Kandinsky style of abstract paintings using the programming language Processing. It first offers an analysis of Kandinsky's paintings based on his art theories and the author's own understanding and observation. The generation process is described in details and sample generated images styled on four of Kandinsky's paintings are also demonstrated and discussed. Our approach is highly scalable, limited only by the memory space set in Processing. Using random generation, every styled image generated can be unique. A selection of the images generated in the required resolution is also submitted and 70 images are made into a video companion."
+ },
+ {
+  "t": "Participating interface",
+  "a": [
+   "Seonah Mok",
+   "Jaehwan Jeon",
+   "Monson H. Hayes",
+   "Joonki Paik"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2013,
+  "k": "Art Papers",
+  "doi": "10.1145/2542256.2542263",
+  "abs": "This paper is presents an artwork that is concerned with the interactions among people rather than the interaction between an audience and the artwork. We visualize the physical motion variations from the interactions among different participants using Kinect-based depth estimation and video tracking algorithms. The proposed work can visualize the affective experiences based on the physical distance between participants. We also provide experiences in which a participant becomes a part of the artwork in the form of both shape and interface. The body of a participant plays an important role in communicating and interacting with other participant and the artwork itself."
+ },
+ {
+  "t": "SwarmVision",
+  "a": [
+   "George Legrady",
+   "Danny Bazo",
+   "Marco Pinter"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2013,
+  "k": "Art Papers",
+  "doi": "10.1145/2542256.2542262",
+  "abs": "A platform of exploratory networked robotic cameras was created, informing new directions in computer vision engineering and utilizing an aesthetic approach to experimentation. Initiated by research in autonomous swarm robotic camera behavior, SwarmVision is an installation consisting of multiple Pan-Tilt-Zoom cameras on rails positioned above spectators in an exhibition space, where each camera behaves autonomously based on its own rules of computer vision and control. Each of the cameras is programmed to detect visual information of interest based on a different algorithm, and each negotiates with the other two, influencing what subject matter to study in a collective way. The emergent behaviors of the system suggest potential new approaches in scene reconstruction, video-based behavior analysis and other areas of vision and imaging research."
+ },
+ {
+  "t": "The next generation poetic experience",
+  "a": [
+   "Diana Arellano",
+   "Volker Helzle"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2013,
+  "k": "Art Papers",
+  "doi": "10.1145/2542256.2542258",
+  "abs": "This paper presents the motivation, background and implementation of The Muses of Poetry, an interactive installation that combines dynamically generated character animation, semantic analysis, natural voice interaction and affect in poetry. Inspired by the subjectivity and ethereal quality of this literary art, we wanted to enhance the act of reciting poetry by providing a set of characters the possibility to \"understand\" and manifest the emotional content of the poems through facial expressions and affective speech. We believe that this original installation will bring poetry closer to a wider audience, while creating a playful, interactive and surprising experience for the user."
+ },
+ {
+  "t": "Topics on aesthetic data visualization",
+  "a": [
+   "Hyoyoung Kim",
+   "Jin Wan Park"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2013,
+  "k": "Art Papers",
+  "doi": "10.1145/2542256.2542259",
+  "abs": "Aesthetic data visualization, which looks at complex data sets from an ingenious perspective, is difficult to empirically organize due to its insufficient records. Fortunately, insightful artists and curators have recently provided some notable interdisciplinary exhibitions and publications. This author was a recent participant at such an event; however, it is not easy to summarize the various projects into a single vision because each artist's value, method, philosophy, and aesthetic preference are unique. This paper categorizes data visualization based on various topics. Aesthetic data visualization is similar to conventional data visualization in that it organizes ambiguous data into a database. Artists then tend to integrate the information into their art. In this regard, it might be possible to identify tendencies and examine data as contemporary iconology, as well as discover hidden possibilities of recent aesthetic data visualizations."
+ },
+ {
+  "t": "Topics on bible visualization",
+  "a": [
+   "Hyoyoung Kim",
+   "Jin Wan Park"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2013,
+  "k": "Art Papers",
+  "doi": "10.1145/2542256.2542261",
+  "abs": "Text visualization begins with understanding text itself which is material of visual expression. To visualize any text data, sufficient understanding about characteristics of the text first and the expressive approaches can be decided depending on the derived unique characteristics of the text. In this research we aimed to establish theoretical foundation about the approaches for text visualization by diverse examples of text visualization which are derived through the various characteristics of the text. To do this, we chose the 'Bible' text which is well known globally and digital data of it can be accessed easily and thus diverse text visualization examples exist and analyzed the examples of the bible text visualization. We derived the unique characteristics of text-content, structure, quotation- as criteria for analyzing and supported validity of analysis by adopting at least 2--3 examples for each criterion. In the result, we can comprehend that the goals and expressive approaches are decided depending on the unique characteristics of the Bible text. We expect to build theoretical method for choosing the materials and approaches by analyzing more diverse examples with various point of views on the basis of this research."
+ },
+ {
+  "t": "90° South",
+  "a": [
+   "Alejandro Borsani"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2341931.2341942",
+  "file": "2341931.2341942.jpg"
+ },
+ {
+  "t": "A planetary order (terrestrial cloud globe)",
+  "a": [
+   "Martin John Callanan"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2341931.2341944",
+  "file": "2341931.2341944.jpg"
+ },
+ {
+  "t": "Biopoiesis",
+  "a": [
+   "Carlos Castellanos",
+   "Steven J. Barnes"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2341931.2341945",
+  "file": "2341931.2341945.jpg"
+ },
+ {
+  "t": "Coronado",
+  "a": [
+   "Kian-Peng Ong"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2341931.2341949",
+  "file": "2341931.2341949.jpg"
+ },
+ {
+  "t": "Kapitän Biopunk",
+  "a": [
+   "Julian Abraham"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2341931.2341939",
+  "file": "2341931.2341939.jpg"
+ },
+ {
+  "t": "Saturation",
+  "a": [
+   "Daniel Barry",
+   "Adam Laskowitz"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2341931.2341941",
+  "file": "2341931.2341941.jpg"
+ },
+ {
+  "t": "Snail trail",
+  "a": [
+   "Philipp Artus"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2341931.2341940",
+  "file": "2341931.2341940.jpg"
+ },
+ {
+  "t": "Sustainable cinema no. 4",
+  "a": [
+   "Scott Hessels"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2341931.2341946",
+  "file": "2341931.2341946.jpg"
+ },
+ {
+  "t": "SymbiosisS",
+  "a": [
+   "Kärt Ojavee",
+   "Eszter Ozsvald"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2341931.2341948",
+  "file": "2341931.2341948.jpg"
+ },
+ {
+  "t": "Tardigotchi",
+  "a": [
+   "Swamp"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2341931.2341950",
+  "file": "2341931.2341950.jpg"
+ },
+ {
+  "t": "The galloping horse",
+  "a": [
+   "Rémi Brun"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2341931.2341943",
+  "file": "2341931.2341943.jpg"
+ },
+ {
+  "t": "The HeartBeats watch",
+  "a": [
+   "Julie Legault"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2341931.2341947",
+  "file": "2341931.2341947.jpg"
+ },
+ {
+  "t": "Entr'acte",
+  "a": [
+   "Jordan Geiger"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2012,
+  "k": "Art Papers",
+  "doi": "10.1145/2341931.2341935",
+  "abs": "Looking at new public-space formations today, the roles of new technologies grow not only prominent but also noticeably time-sensitive. Due in part to the rapidly changing nature of communications media and the diverse stakeholders, the theatrical \"entr'acte\" appears to be an apt model for forms and durations of public space with diverse performers (both human and material elements) of different sorts: entr'acteurs. How is public space as physical construct changing with new embedded forms of computing? How is a public formed? What new material sensibilities emerge? And what role does their essentially fleeting or transitional character play?"
+ },
+ {
+  "t": "From Wunderkammern to Kinect",
+  "a": [
+   "Chara Lewis",
+   "Kristin Mojsiewicz",
+   "Anneké Pettican",
+   "Brass Art"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2012,
+  "k": "Art Papers",
+  "doi": "10.1145/2341931.2341934",
+  "abs": "This paper focuses on two projects, Still Life No. 1 and Shadow Worlds | Writers' Rooms [Brontë Parsonage], to reveal the creative approaches the authors take to site, technology, and the self in their production of shadow worlds as sites of wonder. Informed by the uncanny (re-animation and the double) and an interest in the limen (thresholds in the real and virtual realms), the projects explore white light and infrared digital 3D scanning technologies as tools for capture and transformation. The authors will discuss how they suture the past with the present and ways that light slips secretly between us, revealing other realms."
+ },
+ {
+  "t": "Soundspheres",
+  "a": [
+   "Geoffrey Thün",
+   "Kathy Velikov",
+   "Colin Ripley",
+   "Lisa Sauvé",
+   "Wes McGee"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2012,
+  "k": "Art Papers",
+  "doi": "10.1145/2341931.2341936",
+  "abs": "This paper develops a brief historical account of the architectural development of auditory space and identifies the \"soundsphere\" as an acoustic project that connects the interrelationships between material, spatial form and sound. The instrumental design of the soundsphere has focused on three types of shells: hard, static, and inflexible; physically manipulable; and immaterial (or electroacoustic). This frames a disciplinary and historical context for Resonant Chamber, a prototype-based design research project that develops a kinetic and interactive interior envelope system aimed at transforming the acoustic environment through dynamic spatial, material, and electroacoustic technologies."
+ },
+ {
+  "t": "Translation + pendaphonics = movement modulated media",
+  "a": [
+   "Byron Lahey",
+   "Winslow Burleson",
+   "Elizabeth Streb"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2012,
+  "k": "Art Papers",
+  "doi": "10.1145/2341931.2341933",
+  "abs": "Translation is a multimedia dance performed on a vertical wall filed with the projected image of a lunar surface. Pendaphonics is a low-cost, versatile, and robust motion-sensing hardware-software system integrated with the rigging of Translation to detect the dancers' motion and provide real-time control of the virtual moonscape. Replacing remotely triggered manual cues with high-resolution, real-time control by the performers expands the expressive range and ensures synchronization of feedback with the performers' movements. This project is the first application of an ongoing collaboration between the Motivational Environments Research Group at Arizona State University (ASU) and STREB Extreme Action Company."
+ },
+ {
+  "t": "Within an ocean of light",
+  "a": [
+   "Anthony Rowe"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2012,
+  "k": "Art Papers",
+  "doi": "10.1145/2341931.2341937",
+  "abs": "This paper documents explorations into an alternative platform for immersive and affective expression within spatial mixed reality installation experiences. It discusses and analyzes experiments that use an advanced LED cube to create immersive, interactive installations and environments where visitors and visuals share a common physical space. As a visual medium, the LED cube has very specific properties and affordances, and optimizing the potential for such systems to create meaningful experiences presents many interlinked challenges. Two artworks exploring these possibilities are discussed. Both have been exhibited internationally in a variety of settings. Together with this paper, the works shed some light on the design considerations and experiential possibilities afforded by LED cubes and arrays. They also suggest that LED grids have potential as an emerging medium for immersive volumetric visualizations that occupy physical space."
+ },
+ {
+  "t": "Coronado",
+  "a": [
+   "Ong Kian-Peng"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2413076.2413087",
+  "abs": "Coronado is a Sound/Sculpture art work characterized by the interplay of the analog and digital sound sources which layers over one another, exploring the idea of a loop that creates a unique interpretation of a sea scape. The center of the installation is an ocean drum controlled with mechanical arms that creates and simulates the sound of sea waves. Finally, the sound from this sculpture is fed into the computer and reprocessed, and bounced across different speakers surrounding the installation.",
+  "file": "2413076.2413087.jpg"
+ },
+ {
+  "t": "Diligent typist",
+  "a": [
+   "Ha Byeongwon"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2413076.2413078",
+  "abs": "\"Diligent Typist\" has a simple but powerful narrative by masking a MacBook backlit keyboard image. In a small office where there is a MacBook, a laptop desk, a chair, 4-channel speakers and a projected screen, the screen loops a simple keys' march on a MacBook keyboard from left to right. The computer commands viewers to press a letter on the keyboard in alphabetical order. When they press the same key that the computer commands, viewers contribute to making the big letter image with busy typing sounds. Each key sacrifices its own entity to show a big letter like Mass Performance.",
+  "file": "2413076.2413078.jpg"
+ },
+ {
+  "t": "Gestus : judex",
+  "a": [
+   "Hector Rodriguez"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2413076.2413090",
+  "abs": "The Gestus project consists of a custom software that generates a vector analysis of the videos in a data set, and uses this analysis to search for sequences containing similar movements. It then renders similar sequences side-by-side as a split-screen display, enabling users to compare the movements that occur in them. The software thus brings together scenes from different locations in the story, finding echoes between very diverse moments in the film.",
+  "file": "2413076.2413090.jpg"
+ },
+ {
+  "t": "Graffiti@Google",
+  "a": [
+   "Mori Yukari"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2413076.2413092",
+  "abs": "When you search for images on Google the search results from the World Wide Web are displayed in a grid. Google's own algorithm determines these search results. By \"using\" the algorithm the author have attempted to deliberately arrange the images, to use the search engine results as a canvas to draw an art work. Then we can bomb on Google as graffiti artists bomb on city because Google has become a huge infrastructure of the modern era.",
+  "file": "2413076.2413092.jpg"
+ },
+ {
+  "t": "Interactive 3-D grid",
+  "a": [
+   "Byers Ken"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2413076.2413096",
+  "abs": "This interactive digital installation, in which human-machine interaction is aligned to 'Agency', 'Situation' and 'Embodiment'. The control of the virtual world via body-joint movement, and tracked position, velocity, gestures are directly linked to archi-tectonic forms, distortion of space and perspective. It challenges unconscious associations with familiar, embodied habitual experiences of Cartesian-space. The expected reading and interpretation of body-movement, is translated into a reflexive aesthetic language that causes the particpant to reanalyze there position, gesture in space.",
+  "file": "2413076.2413096.jpg"
+ },
+ {
+  "t": "LBSkeleton (listening bio-skeletion)",
+  "a": [
+   "Huang Scottie Chih-Chieh"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2413076.2413081",
+  "abs": "LBSkeleton is a interactive installation, creating an alternative ambient display from a blend of pneumatic sound and magnificent shadows, and showing an emotional communication between audience and the kinetic sculpture in a soothing way. It is made of dense replicated foldable space truss studying the configuration of origami tessellation and mechanical techniques, to design a transformable body. LBSkeleton detects the presence of one or more persons by the proximity sensing in the space and reacts through a change of shape, sound, light, and gracefully enables the audience to immerse and control a harmonious and augmented musical environment through the body movement.",
+  "file": "2413076.2413081.jpg"
+ },
+ {
+  "t": "Light strings",
+  "a": [
+   "Seo Jinsil",
+   "Corness Greg"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2413076.2413091",
+  "abs": "Light Strings is an interactive immersive installation that consists of thousands of fiber optics and a computer mediated virtual agents system that responds to the participant's movement (Ambient, Exploration, Play, Meditation modes). The fiber optic environment creates a floating 3D light surface that emits interactive lights. Participants and multimedia agents co-exist and meet in Light Strings through touching and using their whole bodies. Full freedom of physical body movement, creating relations to the physical installation and a virtual world is a critical condition of Light Strings.",
+  "file": "2413076.2413091.jpg"
+ },
+ {
+  "t": "Re: Dakar arts festival",
+  "a": [
+   "Kronman Linda",
+   "Zingerle Andreas"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2413076.2413095",
+  "abs": "The \"Re: Dakar Arts Festival\" project brings out into open the practice of Internet scammers and questions the trust we put in online representations. The fictional story worlds created by scammers and scambaiters reveals the dystopia of Internet. This is a world of false representations, abuse of trust, humiliation and desperation for opportunities. The interaction between scammer and victims or scambaiters reveals that Internet is not equal and is not to be trusted.",
+  "file": "2413076.2413095.jpg"
+ },
+ {
+  "t": "Rehearsal #1",
+  "a": [
+   "Yoo Jihoon"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2413076.2413086",
+  "abs": "The works are about the sense of isolation and alienation experienced by the individual in modern society. In the author's eyes, we human are within a technological and bureaucratic landscape, and he express this kind of alienation by using metaphoric virtual media, such as text, voice, image and music made from digital information, typically used to make data visualization or works that are systematic, impersonal and informational.",
+  "file": "2413076.2413086.jpg"
+ },
+ {
+  "t": "Samalu",
+  "a": [
+   "Zingerle Andreas"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2413076.2413085",
+  "abs": "\"Samalu\" finds inspiration in old folk believes and shaman rituals, but brings the meaning of mountain myths and worship into todays contemporary Austria and Korea. A non-linear story around this theme explores how we in our highly modern societies are attached to the nature through the mountains. The natural interface constructed of a number of stones refers to stone piles found on hiking trails around the world, each stone concealing an unique story. By lifting one or several of the real fist-size stones the visitor can experience various myths from both countries and explore different mountain landscapes.",
+  "file": "2413076.2413085.jpg"
+ },
+ {
+  "t": "Sensing the sound web",
+  "a": [
+   "Ikegami Takashi",
+   "Oka Mizuki",
+   "Maruyama Norihiro",
+   "Watanabe Yu",
+   "Matsumoto Akihiko"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2413076.2413084",
+  "abs": "The sound installation aims to bring artificial life into the real world. Environmental patterns, including human behaviors and wifi signals, are captured by a distributed autonomous sensor network (as an application of artificial life) to form a soundscape.",
+  "file": "2413076.2413084.jpg"
+ },
+ {
+  "t": "Sensitive as water",
+  "a": [
+   "Niu Miao"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2413076.2413079",
+  "abs": "The \"Water Project\" is a video installation in which a physical drip of water triggers a glitch in a digital image file of the sea. Digital representations and spectacular images from screens are highly suspect and unreliable to some degree. However, people are growing ever more attached to screens, and they experience intimacy in a virtual world rather than the real world. It is interesting to explore the fragile connection between those two worlds.",
+  "file": "2413076.2413079.jpg"
+ },
+ {
+  "t": "Shin'm 2.0",
+  "a": [
+   "Kang Eunsu",
+   "Craig Donald",
+   "Garcia-Snyder Diana"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2413076.2413093",
+  "abs": "Shin'm 2.0 is the second version of Shin'm project that was created in 2009. Using the Kinect sensor, spatialized sound and two video projections aligned together, it creates an interactive space of nebula bubbles in one corner of the exhibition space. This fluid space is filled with nebula bubbles constantly circulating through a \"black hole\" in the center. As the participant moves in deeper, first the bubbles' gravity center moves to the participant, and forms the shape of the participant's body. If the participant jumps or raises his or her hand up high, bubbles explode as their bubble-filled-body dissipates. Sound texture is designed to enhance the illusion of attachment and dissipation through this experience.",
+  "file": "2413076.2413093.jpg"
+ },
+ {
+  "t": "Species series",
+  "a": [
+   "Wonbin Yang"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2413076.2413089",
+  "abs": "In the 'Species series', basic physics, electronics, and mechanics are combined with various digital technologies to create robotic species. The different levels of technological complexities reflect the evolutionary histories of robotic species. The ancient robotic species have simpler body structures and behaviors. Simple ideas and the principal technologies lead those creatures' life and relatively advanced technologies are gradually merged into their next generations as a result of struggles for existence and survival.",
+  "file": "2413076.2413089.jpg"
+ },
+ {
+  "t": "The river",
+  "a": [
+   "Rui Yi Mui",
+   "Adam Aw",
+   "Zac Ong",
+   "Mithru Vigneshwara",
+   "Jacky Boen",
+   "Benjamin Low",
+   "Andreas Schlegel"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2413076.2413082",
+  "abs": "In The River, sound samples recorded along the Singapore River are interpreted and visualized into the form of light by a custom made program. With the use of light representing life along the Singapore River, this artwork provides a new perspective of form and space. Digital and synthetic elements of light and acrylic echoes the organic elements of sounds and human activities within the environment of the river.",
+  "file": "2413076.2413082.jpg"
+ },
+ {
+  "t": "The trees, our blood vessels",
+  "a": [
+   "Hasebe Yuto"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2413076.2413077",
+  "abs": "We can watch the shape of the trees grow. But we can't see the Blood vessels stretching throughout the body to carry blood. They have common branching structure. These natural morphogenesis structure is worthy of the form which is ruled by them.",
+  "file": "2413076.2413077.jpg"
+ },
+ {
+  "t": "The unemployed",
+  "a": [
+   "Zellen Jody"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2413076.2413083",
+  "abs": "\"The Unemployed\" is an interactive installation that visualizes world wide unemployment. Using data culled from online sources that list unemployment rates by country, \"The Unemployed\" represents the jobless as animated figures who inhabit a generic cityscape. The number of monthly unemployed varies from country to country ranging from a few thousand in sparsely populated places to many millions in places like the United States, India, and China. The software randomly cycles through approximately 200 countries, drawing the number of unemployed as aimless wanderers. If the country has a large number of unemployed, there are enough figures to fill and move with numerous silhouettes. If the country has minimal unemployment the silhouette is only partially filled.",
+  "file": "2413076.2413083.jpg"
+ },
+ {
+  "t": "Weburette",
+  "a": [
+   "Akatsuka Daisuke"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2413076.2413094",
+  "abs": "Viewers are not usually aware that the web browser undergoes various processes when they open a single web page. The weburette unveils the process through brewing a cocktail by mixing drops of different liquors where each liquor represents a specific process of the browser. Because the processes of each web page differently, each cocktail will be brewed differently as well, and have its own original taste and aroma. Therefore people can sense not only the visual representations of the web page, but also the taste and aroma.",
+  "file": "2413076.2413094.jpg"
+ },
+ {
+  "t": "World eco-tope",
+  "a": [
+   "Kato Ayumi",
+   "Watanabe Masahiko",
+   "Fukazawa Yusuke",
+   "Sato Tomomasa",
+   "Mori Taketoshi"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2413076.2413080",
+  "abs": "World Eco-tope is an intuitive tele-presence art work that enables audience to feel distant country's real time weather closely. There is no need to utilize expressions of letters, weather symbols, or voice of weather forecaster. They emphasis on \"intuitiveness\" to design it. Any audience from children to elderly can enjoy the weather of distant countries, including the ones they do not even know of.",
+  "file": "2413076.2413080.jpg"
+ },
+ {
+  "t": "Woven milieu",
+  "a": [
+   "Nam Su Hyun"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2012,
+  "k": "Art Gallery",
+  "doi": "10.1145/2413076.2413088",
+  "abs": "The author spent a year filming trees and took about 500 videos of trees standing in the middle of city Chicago, then cropped and recreated the videos. Finally, those become one video (1080 X 1920 px) of all different trees in different spaces. The role of trees are redefined from trivial objects to meditative mediations in the city. This video may arouse people's attention for trees.",
+  "file": "2413076.2413088.jpg"
+ },
+ {
+  "t": "Art and code",
+  "a": [
+   "Esteban García",
+   "David Whittinghill"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2019342.2019345",
+  "abs": "In 1975 Aldo Giorgini developed a software program in FORTRAN called FIELDS, a numerical visual laboratory devoted entirely to art production. Working extensively as both artist and scientist, Giorgini was one of the first computer artists to combine software writing with early printing technologies, leaving an aesthetic legacy in the field of the digital arts. His individual process was innovative in that it consisted of producing pen-plotted drawings embellished by the artist's hand with painting, drawing, and screen-printing. This paper is the product of a multi-year study of Giorgini's primary source materials provided by his estate. The authors examine the methods used by Giorgini during the 1970s that allowed him to create computer-aided art, in the hope that publishing this work will ensure that future generations of digital artists, technologists and scientists can be educated in Giorgini's contribution to the history of the digital arts.",
+  "file": "2019342.2019345.jpg"
+ },
+ {
+  "t": "Collaboration with the future",
+  "a": [
+   "Matt Gorbet",
+   "Susan Lk Gorbet",
+   "Banny Banerjee"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2019342.2019348",
+  "abs": "This paper summarizes the development and implementation of a three-part infrastructure for the ongoing program of technology-based public artwork at Silicon Valley's newly expanded airport. The physical, technological, and human infrastructure provides flexibility and opportunities for future artists and future technologies while providing a robust framework for the ongoing maintenance and evolution of the program and mediating between the needs of artists and the constraints of an airport.",
+  "file": "2019342.2019348.jpg"
+ },
+ {
+  "t": "Hildapromenade 4",
+  "a": [
+   "Philipp Engelhardt"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2019342.2019357",
+  "abs": "Philipp Engelhardt's Hildapromenade 4 installation visualizes the magical \"in-between\" of a set of photographs from a photo album he found on the street. The piece combines 3D technology and animations with the eight original Polaroid images to allow the spectator to enter the world of the woman shown in the pictures, narrating her story in a new context. Engelhardt uses his own graphical material in combination with the existing images to create his effects. In this way, the images are combined, reconstructed, and repeated so they can be seen in a new context on their own. To the observer, the visible alterations in the pictures are not immediately apparent; the manipulation is seen as the reality which the interface superposes. Engelhardt describes the piece's impact: \"Hildapromenade 4 reflects upon the value of the memories brought together in a photo album. At a time when photographs are increasingly stored on hard drives, and thus seem ever more elusive and intangible, it raises the question of which stories are able to be discovered in such often-unstructured visual material.\"",
+  "file": "2019342.2019357.jpg"
+ },
+ {
+  "t": "ItSpace",
+  "a": [
+   "Peter Michael Traub"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2019342.2019363",
+  "abs": "In the first version of ItSpace (2007), artist Peter Traub subverted the convention of the online social network by creating nine profile pages on the web site MySpace that featured everyday objects from his house. Each page had a photo of an object, a description, and, most importantly, a one-minute piece of music composed of recordings of the object being struck and resonated in various ways. The objects were \"friends\" with each other, and visitors to the site were invited to create new ItSpace pages to friend the existing ones. In the physical version of ItSpace, the original nine objects are brought partly back into the physical world through photographs affixed to backing boards. Each photo board has a push-button embedded in the featured object. When a visitor presses the button, it triggers a one- to two-minute remix of the object's sounds in real time. No two remixes are the same, and visitors may press multiple buttons and combine objects to create a collage. From an interface perspective, the interactive possibilities are limited by the push-button switches -- similar to how interaction and control on a site like Facebook or MySpace is limited within the tightly controlled confines of the commercial social network. In both the online and physical versions of ItSpace, Traub says, \"I want visitors to learn something about me that could not fit into the limiting format of a personal profile. Instead, they encounter a collection of objects from where I live and listen to how I treat those objects musically and aesthetically. ItSpace traces connections, imagined and real, between me and these objects in my home, telling the viewer/listener about the space in which I live in a way that language cannot convey.\"",
+  "file": "2019342.2019363.jpg"
+ },
+ {
+  "t": "Memoirs",
+  "a": [
+   "Yunsil Heo",
+   "Hyunwoo Bang"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2019342.2019358",
+  "abs": "Memoirs is an interactive installation piece. It is a memoir of humanity's struggle to invent home appliances in pursuit of happiness. The piece is composed of a brown TV tube panel with a Polaroid camera on top. Its antique look stimulates a sense of nostalgia for old-fashioned home appliances. As you come close to the piece, a custom-made Polaroid camera automatically recognizes your face and takes a picture of you, and a physically simulated photo paper falls down and hits the pile of photos inside the virtual interior of the piece. Its digital data travels halfway around the earth to a web server in a distant country. Even though film-based photo-graphy is perishing and digital cameras are penetrating everyday objects, nothing can substitute for the feeling of anticipation while waiting for a photo to develop. Like bringing film to the photo printing office, taking a card with a printed web address from a stack creates a space in which to reminisce about the good old days. As you stand in front of the piece, the line between the virtual self and the physical self blurs. With photos stacking up on the web server, participants collectively build and share a single memory through the piece. Because of its intense and antique visual imprint, even when our experience with this piece dims, our shared childhood memories of electronic home appliances will remain.",
+  "file": "2019342.2019358.jpg"
+ },
+ {
+  "t": "MOSTON",
+  "a": [
+   "Anya Belkina"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2019342.2019352",
+  "abs": "Ideas and observations stemming from bicultural experience and the larger issues of identity, immigration, and globalization are central to Anya Belkina's work. She fuses art with inquiry in the areas of biology, physics, and computer science. MOSTON, a 12-foot-tall suspended inflat-able sculpture, embodies an internal conception of home and the cyberfusion of two geographically distant locales: Moscow and Boston. Its surface design of printed artwork and documentary footage projection explores visual and historical commonalities of the two cities, commonalities that are more easily researched, documented, and shared in the era of instant global networking. While MOSTON's three-dimensional form references ethnically specific artifacts, the visual appeal and conceptual ingenuity of matryoshkas reach audiences beyond Russia and the Russian diaspora. A universally understood symbol of sequential creation, these toys offer a fitting framework for evoking the concentric evolution of Moscow's and Boston's city armatures. The implied nestedness of MOSTON is also congruent with the layered mental construct of \"home,\" especially as perceived by individuals with multicultural backgrounds. Belkina describes the scale of the project as essential, not only because her motherland is the largest country in the world, with an impressive record of pursuing hopeless megalomaniac ventures, but also because \"there is no place like home.\"",
+  "file": "2019342.2019352.jpg"
+ },
+ {
+  "t": "Oh!m1gas",
+  "a": [
+   "Kuai Shen Auson"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2019342.2019351",
+  "abs": "Oh!m1gas: biomimetic stridulation environment is an installation-based exploration of a socially responsible art form, drawing on sustainable organic materials (in this case, a live ant colony) and stimulating interspecific interactions. As artist Kuai Shen Auson first observed at home in Ecuador, ants represent a natural superorganism which stands out due to its emergent social structure and self-organization. They generate bottom-up structures in order to solve problems by means of a complex network of local interactions. Kuai Shen explores the social similarities and differences between humans and ants through four key areas: cybernetics, autopoiesis, self-organization, and emergence. In this piece, the activity of an ant colony is observed, archiving the ants' movements and sounds inside a digital matrix. A pair of turntables constantly reacts to the changes that emerge from the colony (e.g., recruiting units for defense, task allocation when rebuilding the nest, organizing the harvesting of vegetation), thus spinning vinyl records that produce scratching sounds similar to the original stridulations of some ants. Leafcutter ants use the stridulatory organ, human DJ's use the turntable: a reactive soundscape, which reveals the connection between scratching as an aesthetic expression created by human culture, and the stridulation phenomena of leafcutter ants as a modulation mechanism for communication. Kuai Shen believes we can learn from the way the ants construct their miniature ecosystems. Like them, we can apply an experi-mental design approach based on organic architecture, where sounds and physical interaction, instead of divided living spaces, promote and consolidate the interaction of life.",
+  "file": "2019342.2019351.jpg"
+ },
+ {
+  "t": "Open House",
+  "a": [
+   "Jack Stenner",
+   "Patrick LeMieux"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2019342.2019362",
+  "abs": "When the US housing market collapsed in 2008, so did the dreams of many middle- and lower-class Americans. Florida, California, Nevada, and Arizona were hit particularly hard, and not by a force of nature, but by the abstract and invisible hand of the market. Prior to the collapse, the movement of global capital seemed like a distant reality to most homeowners, but in the end it was the imaginary systems of value, and not bricks and mortar, that asserted the ultimate authority over our homes. Open House is an installation by Jack Stenner and Patrick LeMieux that allows visitors to telematically inhabit a \"distressed\" home in Gainesville, Florida. The house at 1617 NW 12th Road is currently in financial limbo, while undergoing the process of foreclosure due to the housing collapse. Virtual markets have transformed this otherwise livable property into a ghost house. Open House allows individuals to repopulate this disenfranchised space and assume the role of virtual squatters -- opening the door, flicking the lights, rattling the shutters, and remotely occupying the abandoned property. Live video feedback integrates real-time physical effects with one's virtual actions. Through Open House, virtual squatters can temporarily resist eviction by mirroring the market and becoming hybrid subjects occupying both virtual and physical space. Like the foolish man who builds his house on sand, we watch the architecture crumble around us. Download Open House at www.no-place.org/open_house.",
+  "file": "2019342.2019362.jpg"
+ },
+ {
+  "t": "Reveries and Line Drawings",
+  "a": [
+   "Georgia Wall",
+   "Nick Bastis"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2019342.2019364",
+  "abs": "In Reveries and Line Drawings, a projected video piece first shown at the School of the Art Institute of Chicago's New Blood exhibition, artists Georgia Wall and Nick Bastis offer methods in which stored spatial reveries can be recalled and represented using both analog and digital technologies. The piece posits forms in which spaces can be visualized without being physically present through the use of technology and memory. This process was explored with two participants, who visualized places they had never visited: Rebecca Zorach, an art historian at the University of Chicago, visualized Art & Soul, an experimental art center founded by a street gang and the MCA in the Lawndale neighborhood of Chicago that existed from 1968 to 1972; and Andrew Norman Wilson, an MFA candidate at SAIC, visualized the home of his collaborator in Bangalore, India -- he has come to know both the person and the place through the internet.",
+  "file": "2019342.2019364.jpg"
+ },
+ {
+  "t": "RolyPoly",
+  "a": [
+   "Design Incubation Centre"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2019342.2019356",
+  "abs": "RolyPoly is a networked installation designed to enable two individuals to \"sense\" the presence of each other, even though they may be physically apart. The mirrored movements in a pair of RolyPolys is such that a soft tap to rock one will simultaneously rock its partner to the same degree, instantly creating a corresponding reaction in the other. While the Internet provides a vast array of text messaging and video interaction options, RolyPoly offers a unique, spontaneous, and subtle mode of instant communication, exclusively between two individuals. RolyPoly addresses the phenomenon of people living apart and examines gesture as a different mode of communi-cation from speech and text. Through gestures, one is able to bring intimate familiarity to the other party, even when miles apart.",
+  "file": "2019342.2019356.jpg"
+ },
+ {
+  "t": "Shadow awareness",
+  "a": [
+   "Yoshiyuki Miwa",
+   "Shiroh Itai",
+   "Takabumi Watanabe",
+   "Hiroko Nishi"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2019342.2019347",
+  "abs": "This study discusses media technology that enables the continuous creation of performers' physical improvisation as inspired by the refection of imagery evoked from the audience. To realize this, the authors have focused on \"shadow media,\" which promote the continuous creation of imagery through \"bodily awareness.\" The authors have developed a system that can project shadows of the performers in various ways, which are then transformed into various shapes and colors. The shadows are connected to the performers' feet and projected on a \"passable\" slit screen set up between the stage and the audience. As a result, the interactive and mutual creation of imagery by performers and audience can form an \"empathetic\" stage. To demonstrate its validity, the authors applied the system to a dance performance at Festival della Scienza in Genoa, Italy.",
+  "file": "2019342.2019347.jpg"
+ },
+ {
+  "t": "tele-present wind",
+  "a": [
+   "David Bowen"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2019342.2019354",
+  "abs": "David Bowen's work is concerned with aesthetics that result from interactive, reactive, and generative processes as they relate to intersections between natural and mechanical systems. tele-present wind consists of a field of x/y tilting devices connected to thin, dried plant stalks installed in the gallery, and a dried plant stalk connected to an accelerometer installed outdoors. When the wind blows, it causes the stalk outside to sway. The accelerometer detects this movement, transmitting it in real time to the grouping of devices in the gallery. The stalks in the gallery space move in unison, based on the movement of the wind outside. Bowen says of his work, \"I produce devices and situations that are set in motion to create drawings, movements, compositions, sounds, and objects based on their perception of and interaction with the space and time they occupy. The devices I construct often play the roles of both observer and creator, providing limited and mechanical perspectives of dynamic situations and living objects. The work is a result of the combination of a particular event and the residue left after the event.\" His work thus offers an imperfect and revealing transposition of data. \"In some ways, the devices are attempting, often futilely, to simulate or mimic a natural form, system, or function. When the mechanisms fail to replicate the natural system, the result is a completely unique outcome. It is these unpredictable occurrences that I find most fascinating. These outcomes are a collaboration between the natural form or function, the mechanism, and myself. This combination can be seen as an elaborate and even absurd method of capturing qualified data. I see the data collected in this manner as aesthetic data.\"",
+  "file": "2019342.2019354.jpg"
+ },
+ {
+  "t": "The Garden of Error and Decay",
+  "a": [
+   "Michael Bielicky",
+   "Kamila B. Richter"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2019342.2019353",
+  "abs": "The Garden of Error and Decay is a poetic visualization of real-time world catastrophes. It reflects on the network media reality of the 21st century through a continuous story of current world disasters, expressed by animated pictograms. Every time a disaster-related topic is discussed on Twitter, a new animation appears. Stock exchange information also influences the storytelling. Users interacting with the Garden have the opportunity to either eliminate or multiply the disaster scenes with a shooting device. However, it is not the user who actually has the power to decide in which direction the story develops once an event is triggered. As in real life, everything is driven by stock exchange dynamics; these dictate whether disasters proliferate or die down. This innovative moving image format is not a film, not a game, and not a nonlinear interactive story, but instead a real-time, data-driven narrative.",
+  "file": "2019342.2019353.jpg"
+ },
+ {
+  "t": "The Insatiable",
+  "a": [
+   "Jawshing Arthur Liou"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2019342.2019360",
+  "abs": "The Insatiable is a video installation composited from a dozen sets of footage filmed at an open night market in Taiwan. It is part of the Things that are edible series, created by artist Jawshing Arthur Liou during an artistic residency in his hometown of Taipei after 16 years of living abroad. Working with both lens-based representation and digital post-production, Liou aims to transform recognizable imagery into realms only the mind can reach. His photographically realistic digital videos are filled with details with which he responds to the experience of illness, spiritual sanctuary, and the spectacles of life. The street scenes here are only half a mile away from his home. The visual strategy is a fusion of macro and micro views. The streetlights and mingling walkers are transformed into bodies of massive creatures, bearing resemblance to snakes, dragons, or even huge intestines. Liou says, \"Our intimacy with food and food-related culture makes this my first choice of subject matter. With digital post-production tools, I transformed the night market into massive bodies in the sky, a wedding banquet into jewelry-banded plates, and my mother's rice dish into landscapes.\" In this way he creates \"a rewarding treat in and of itself.\"",
+  "file": "2019342.2019360.jpg"
+ },
+ {
+  "t": "The Readers Project",
+  "a": [
+   "Daniel C. Howe",
+   "John Cayley"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2019342.2019346",
+  "abs": "The Readers Project is an aesthetically oriented system of software entities designed to explore the culture of human reading. These entities, or \"readers,\" navigate texts according to specific reading strategies based upon linguistic feature analysis and real-time probability models harvested from search engines. As such, they function as autonomous text generators, writing machines that become visible within and beyond the typographic dimension of the texts on which they operate. Thus far the authors have deployed the system in a number of interactive art installations at which audience members can view the aggregate behavior of the readers on a large screen display and also subscribe, via mobile device, to individual reader outputs. As the structures on which these readers operate are culturally and aesthetically implicated, they shed critical light on a range of institutional practices -- particularly those of reading and writing -- and explore what it means to engage with the literary in digital media.",
+  "file": "2019342.2019346.jpg"
+ },
+ {
+  "t": "Third Skin",
+  "a": [
+   "Andrea Zapp"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2019342.2019365",
+  "abs": "Analogue becomes new Digital in Andrea Zapp's experiments in textile media narratives. Her work explores digital media and mapping of collective space through fabric print, image patterns, embroidery techniques, and other formats of physical object and embellishment. Third Skin captures imagery of our social, digital, and urban neighborhoods and interiors and transfers them to fabric and dress design. Zapp plays with Marshall McLuhan's idea of clothing being an extension of skin, way that media are an extension of body. In these pieces, photography, surveillance, and online footage become sources for hand-manufactured dresses as media narratives. They map collective and shared (images, digital and physical scenarios, and objects) onto domestic: a one-off garment as individual statement and choice. Skin is explored as a media surface and as a metaphor for mapping and merging physical and digital realities. Zapp's goal here is to establish a stronger emotional link between audience and media artwork. The virtual space is framed as other place of memory and home by capturing it in analogue paraphernalia, modeled on and manufactured from digital. Craft and media design objects and artifacts render digital space domestic and decorative, but with intention of provoking a surreal and paradoxical sense of longing and belonging to a parallel world. As Zapp suggests, the idea of a digital habitat, a shared environment, is main driving narrative in my installations, down to actual physical architecture in many of my earlier works resembling physical living spaces, hotels, houses, and private webcam scenarios to create related metaphors.",
+  "file": "2019342.2019365.jpg"
+ },
+ {
+  "t": "Tomorrow will get better",
+  "a": [
+   "Matthew Cox"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2019342.2019355",
+  "abs": "Tomorrow will get better is a graphite drawing and laser-cut paper series of homes destroyed by various natural and man-made disasters. The images become ephemeral portraits of the houses that artist Matthew Cox has been \"collecting\" and using as drawing subjects. He describes them as characters in a narrative, similar to a gothic noir film. This series exhibits the final moments of a home before it is sent to a landfill, a premature burial that no one ever expects. Cox suggests that a relationship between the house and its inhabitants develops and evolves through daily events that take place within the confines of a home. A tragic event will jeopardize the physical stability of the home, resulting in the emotional instability of its inhabitants. The home has the potential to live and die just like its inhabitants, instead of remaining a solid structure built to survive through generations. A home develops character from its exterior surroundings as well as from its interior dialogue with the characters, who create a bond through memories and interactions. What are our attachments to our physical surroundings? How do they strengthen or weaken us? Houses, taken for granted as private property with equity and security, have the potential to reveal our vulnerability when their stability is subtracted from our lives.",
+  "file": "2019342.2019355.jpg"
+ },
+ {
+  "t": "Transplant",
+  "a": [
+   "Heidi Kumao"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2019342.2019359",
+  "abs": "Emerging from the intersection of sculpture, theater, and engineering, Heidi Kumao's video and machine art generates artistic spectacles in order to visualize the unseen: thought patterns, men-tal states, emotions, compulsions, and dreams. Through the creation of hybrid art forms (kinetic sculptures, animations, and interactive works), she explores the psychological underpinnings of everyday situations and institutional contexts, such as the nuclear family, mainstream media, and traditional gender roles. Transplant explores the lives of Japanese nationals and citizens who were interned in War Relocation Centers in the dusty desert of California during World War II, and how they cultivated gardens as a creative outlet to survive their confinement. Despite the horrendous conditions, residents of these \"camps\" constructed beautifully landscaped parks, ponds, and rock gardens. Transplant pays homage to their ingenuity and personal drive to transform gravel into gardens, altering their built environment as an act of defiance. This piece is part of the project Timed Release, a continuing series of intimate theater pieces about surviving confinement, supported by a 2009 Guggenheim Fellowship.",
+  "file": "2019342.2019359.jpg"
+ },
+ {
+  "t": "Travel Stones",
+  "a": [
+   "Jacquelyn Martino"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2019342.2019361",
+  "abs": "For the last decade, Jacquelyn Martino has focused her artistic practice on the design of a rule-based computational language to generate works in the visual design language of her evolving style. Travel Stones is an installation that applies this computational language to the creation of a collection of cultural artifacts from a fictitious ancient culture. Martino makes use of her rule system to generate a series of realistic cultural artifacts made plausible by the combination of their consistent design language and their grounding in a number of historical references. In the installation, the viewer reads a museum-style exhibition text detailing the origins of the artifacts. The imagined culture derives from an ancient people who carry their travel stones -- much as house keys -- as a way to access their home center, which is ultimately more spiritual than physical. The text leads the viewer to believe that the four accompanying paintings document a first-hand exposure to the stones by someone external to the culture. Passed from generation to generation, the stones further serve as resonant objects in the tracing of the people's history. Prompted by the drawings on the stones, the ancients recount tales of their origins to the next generations as well as to those they meet in travel. Through their stories, they maintain their sense of identity and place while simultaneously transferring fragments of their culture to others. In this piece, the enabling algorithmic production system is integral to Martino's process, but not particularly apparent to the viewer. The visual separation of high-tech process from pseudo-historic product calls into question any easy distinction between technology and culture in our own place and time.",
+  "file": "2019342.2019361.jpg"
+ },
+ {
+  "t": "Wait",
+  "a": [
+   "Julie Andreyev",
+   "Simon Overstall"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2019342.2019350",
+  "abs": "The human-companion species relationship is the starting point for the critique explored in Wait. Wait is part of the larger Animal Lover body of work, which is situated within a developing area of artistic practice referred to as \"interspecies collaboration.\" Contemporary cultures for the most part consider animals in terms of consumption: as food source, experimental subject, eco-logical resource, entertainment, etc. Critical to Animal Lover are questions and critiques addressing human relations with non-humans, particularly companion species. These works reconsider the animal as conscious, expressive, and creative, with complex states of being different from, but potentially as rich as, those of humans. In Wait, human and canine communication methodsare brought to bear within an interactive video installation. The piece uses interactive technologies that track the physical presence and movement of visitors to the work, allowing for direct contribution to the creation of meaning. Taking cues from the movements of the visitor, the dog (as imaged in the video) points to the relationship of control. The dog appears to be waiting for direction -- looking directly at the visitor, implying a state of suspended urgency. Visitors are compelled to ask questions about their relationship to the dog. In this way, the piece depicts the complex relationship between humans and companion species who share the domestic space. For the most part, companions such as dogs, cats, and birds are subject to conditions of human dwelling (home) and the systems and codes of power, space, and communication associated with it. Wait was produced in partnership with Banff New Media Institute, The Banff Centre, Banff, Canada.",
+  "file": "2019342.2019350.jpg"
+ },
+ {
+  "t": "Conserving digital art for deep time",
+  "a": [
+   "Francis T. Marchese"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2011,
+  "k": "Art Papers",
+  "doi": "10.1145/2019342.2019344",
+  "abs": "Displaying digital art in the late twentieth and early twenty-first centuries is already proving to be a challenge. Exhibiting this same art in the distant future will depend upon new thinking and practices developed today by artists, conservators, and curators. Established software engineering methods for dealing with aging systems can provide a new model for the conservation of digital art, and a foundation for the enhancement of art-historical scholarship. Artists with an interest in a more refined approach to the programming that underpins their work will also be interested in software engineering concepts."
+ },
+ {
+  "t": "Absurd Happiness",
+  "a": [
+   "Chen Zhang"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2077355.2425791",
+  "abs": "I once came across an interesting store selling animal models. It felt like I was in a zoo. As if in a trance, I experienced my most simple and happiest days again. But people who pass this store never notice this interesting zoo. At that moment, I knew there were too many people in this world crazy about business, never savoring time, and making worthless dreams. Maybe my creation can create an unusual world for you.",
+  "file": "2077355.2425791.jpg"
+ },
+ {
+  "t": "Alternity - The Projected Perception of Spatial Harmonics",
+  "a": [
+   "F. Myles Sciotto"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2077355.2425813",
+  "abs": "Alternity is a real-time immersive and interactive architectural installation driven by brain-waves. Data from a wireless Electroencephalography (EEG) headset is collected and analyzed looking for coherent and harmonic patterns. These patterns are mapped to parameters of generative geometry and sound and spatially visualized by projecting on and through an array of silver hyperbolic screens while being sonified spatially using Ambisonics on a multiple channel sound system. The user now exists in virtual and physical tandem, his/her current perspective and awareness creates an immersive experience whereby they are experiencing the dynamic geometric landscape which they are generating in real time.",
+  "file": "2077355.2425813.jpg"
+ },
+ {
+  "t": "Burj Babil",
+  "a": [
+   "Guy Schofield",
+   "Tom Schofield"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2077355.2425814",
+  "abs": "The direct indexical relationship between text and material is not only structurally embedded in the computer systems which manage, facilitate and entertain us, but rests in a history of science, belief, law and magic. While text is compiled in machine code, enacting the processes which turn on our street lights, render our videos and send data packets to the server, older societies performed other enactments of text, containing their own syntax and lexis. Religion, sorcerers, alchemists, writers of constitutions brought forth, with hubristic self-certainty, the world as we know it; spells, gold and human rights in that order. Burj Babil (Tower of Babel) is a video installation work. To create the tower, the source code file has been subjected to a number of transformation processes which corrupt and destroy the tower in different phases. The processes transform the vertex and face coordinates from the source code file into ASCII (American Standard Code for Information Interchange 2) characters. The results are then fed into language translation services (babelfish.yahoo.com). Most of the file is ignored since the sequence of characters do not correspond to real words. However when chance causes the ASCII sequence to form a recognizable word this will cause a corresponding physical translation of that vertex point. The resultant corrupted code is then used to re-make the model causing its eventual collapse. The final result of this process is a number of video sequences showing the destruction of the tower as its source code file is translated into different languages.",
+  "file": "2077355.2425814.jpg"
+ },
+ {
+  "t": "Dancing",
+  "a": [
+   "Yayoi Yokoyama"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2077355.2425794",
+  "abs": "Dance is an artform using the human body. These works were made to reflect various dances. I think dance is the most beautiful when the movement of clothes and dancers match. My aim in presenting this work was to achieve rhythmical movement and varied beauty. The works submitted are images of ballet, flamenco, and a tango. Ballet is expressed as an exquisite movement in a solemn atmosphere, flamenco is expressed as passion, and tango as a bending and twisting of the body. The visual narrative is important to me - I try to create works which tell a story that delight and intrigue. There are a lot of mathematical forms in my works. The mathematical form is natural and integral to computational art. There are many strategies in computational work: some involve repeating simple designs or mathematical concepts, or a set number of iterations. I always feel that image making is all about a balance in proportion. I have found that the more I inform myself of these proportions the more they enter my intuitive creative process.",
+  "file": "2077355.2425794.jpg"
+ },
+ {
+  "t": "FRAMEWORKS",
+  "a": [
+   "Roychoudhury Promila",
+   "Sures Kumar Thoddu Srinivasan"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2077355.2425808",
+  "abs": "\"Frameworks\" is an interactive installation trying to enhance the experience of an architectural space. This installation is about generating warmth to medium like walls of an architectural space that would otherwise be considered a cold and insignificant space. Through this installation, we witness an opportunity to interact with the walls to add a new meaning to that space. This installation showcases how interactivity can be explored for opening up new possibilities to create more immersive experiences. The artists have tried to achieve this immersive experience by developing a game, where a virtual character plays with walls and their depth, in an actual physical space. A game is considered as one of the most engaging mediums. The artist tries to take a simple game and transform it into a more engaging and immersive experience primarily because of the scale and the seamless integration of the architectural spaces and structures into the game play. The installation will be designed in response to specific spaces or public sites selected by the artist.",
+  "file": "2077355.2425808.jpg"
+ },
+ {
+  "t": "Future Creatures",
+  "a": [
+   "Eunjung Hwang"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2077355.2425800",
+  "abs": "The main aspect of my art making is to explore unexorcised images from the world of dreams and infancy, follow them to their farthest points and then represent them in unique combinations of digital and physical forms. My intended result is to fully restore the dynamic and beauty of the intense image world. My projects start from creating a variety of characters which are rooted in dreams and subconscious images. In the belief of animism, everything in my artistic observation has been represented as a form of visual characters. The characters unfold narratives by their fantastic reality following a structure of interwoven dream logic. Different narratives are connected to each other through this dream logic. The narratives loop through a series of imaginary cycles of infancy, dream, death and the beyond.",
+  "file": "2077355.2425800.jpg"
+ },
+ {
+  "t": "Granular Graph",
+  "a": [
+   "Fong Wah Hui"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2077355.2425806",
+  "abs": "Granular Graph II: The tank and the pendulum is an audio-visual interactive instrument about musical gesture and its notation. The idea is inspired by a pendulum-based scientific instrument called Harmonograph. In its simplest version, two pendulums are suspended through holes in a table. The swinging pendulums cause an attached pen to move, thus creating a curvaceous geometric image that represents harmonies and intervals in musical scales. Granular Graph II: The tank and the pendulum not only re-appropriates the idea of a mechanism by inviting audiences to form a living pendulum, but uses water to graph the amount of energy, effort and tension involved in causing the sounds. According to its original design, two pendulums are arranged in a perpendicular relationship. While one pendulum keeps the distance between the pivot and the center of mass (in this case, weight) constant, the other pendulum changes the position of the weight to create different lengths, resulting in different frequencies. In the current version, any visitor can play the instrument by sitting or standing on one of two swings. The sitting swing functions as the constant length pendulum, while the standing swing changes the length of the pendulum by changing the center of mass, depending on the actions of the visitors. The resulting pendular movements alter the waterflow in a tank located above the beam, generating not only a vibrating pattern but also sounds. These sounds result from the combination of the two vibrations, just like two notes playing in unison. The image of the water vibrations is shown via video projection. The sounds and images can be regarded as forms of dynamic notation that graphically and kinetically represent the audience's gesture and energy expenditure.",
+  "file": "2077355.2425806.jpg"
+ },
+ {
+  "t": "I am looking at you looking at me looking ∞ Ver.2011",
+  "a": [
+   "Remu Iwai"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2077355.2425797",
+  "abs": "I am looking at you You are looking at me I am looking at you looking at me I am looking at you looking at me looking ∞ Experiment! Fantasy! Documentary! CCTV cameras as video cameras, lift as a performing stage: A \"Closed Circuit\" Live Performance x Video Arts I always feel that we are being monitored by someone, by plenty of \"Eyes in the Sky\", by Paparazzi, by Youtubers, by The Authorities, by self-censorship. In the future, can we keep on searching for and questioning the \"Truth\"? Using the CCTV system as a metaphor, to present an attitude - Who is afraid of...? Magnifying our daily life fantasies, reversing our passive situation of being monitored, being initiative to create arts, opening up space for the \"Closed Circuit\". It's time to step out of the box, \"Throw Away Your Books, Rally in the Streets\"! Getting to know our city, to speak out, hoping to make a real change.",
+  "file": "2077355.2425797.jpg"
+ },
+ {
+  "t": "i made this. you play this. we are enemies",
+  "a": [
+   "Jason Nelson"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2077355.2425804",
+  "abs": "The work is playable here. i made this. you play this. we are enemies. is an art game and interactive digital poem which uses game levels built on screen shots from influential community based websites/portals. Using messy hand drawn elements, strange texts, sounds and multimedia layering, the artwork lets users play in the worlds hovering over and beneath what we browse, to exist outside/over their controlling constraints. Your arrow keys and space bar will guide you, with the occasional mouse click begging for attention. Each day the internet is humming with a million small interventions. From the humorous mocking of community content sites like Fark, to the net gate keepers Yahoo and Google, partisan political portals like Huffington Post or the open source/file sharing pirates of Mininova, the web is an easy tool/weapon for meddling/influencing and sharing/forcing/alluring your opinion on whomever clicks. And yet this digiscape is a deceiving and uneasy place, with continual streams of generic expression/content, cute dogs and accident clips, knocking against an incredible range of political/social beliefs hidden beneath the screen. Even short sequences of words, titled links or blinking ads can reveal the strange, wondrous and treacherous.",
+  "file": "2077355.2425804.jpg"
+ },
+ {
+  "t": "Immersive Music Painter",
+  "a": [
+   "Kevin Carpentier"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2077355.2425793",
+  "abs": "The body has a four dimensional structure in space and in time. That is why it can act as an instrument. We imagine an installation in which movements and postures of the hand are translated into sound. However, we thought that it wouldn't be enough for the performer to merely hear the sound of his body: we wanted to provide him a visual trace of his hand in space. The performer can move freely inside the body-made composition but he can also interact with past traces of himself to induce new effects on current sounds. There are three main virtual instruments a performer can create: a light trail that loops automatically; strings the performer will draw and pluck; drums constituted by pairs of balls that collide.",
+  "file": "2077355.2425793.jpg"
+ },
+ {
+  "t": "Interactive Fashion \"Intimacy\"",
+  "a": [
+   "Daan Roosegaarde"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2077355.2425796",
+  "abs": "\"Intimacy\" by artist Daan Roosegaarde is a fashion project exploring the relation between intimacy and technology. Its high-tech garments entitled 'Intimacy White' and 'Intimacy Black' are made out of opaque smart electronic paper that become increasingly transparent upon close and personal encounters with people. Here social interactions determine the garments' level of transparency, creating a sensual play of disclosure.",
+  "file": "2077355.2425796.jpg"
+ },
+ {
+  "t": "Land of Pink & Orange",
+  "a": [
+   "Dmitry Resnyansky"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2077355.2425803",
+  "abs": "Objects are not always what they appear to be. Through this piece, I wanted to express this notion of objects in disguise and provide commentary on the nature of design design in today's contemporary aesthetic. The scenario is indeed familiar to many of us: the user coming into contact with an artifact of industrial, graphic, urban or any form of digitally interactive design from today's sphere of post-modernism, feeling a slight sense of miscommunication, and only upon some reflection discovering the true intent or function of the artifact in question. The user does not immediately realise what it is that they are observing, yet it is the realisation itself which cements the double meaning of such artifacts. An inconvenience to some, and a pleasure to others, I wanted to consciously communicate such a quality through this piece. Through the process of abstract imagery and visual double meaning, an alternate reality should emerge, bringing to light the surrealism of the situation inside both the 2D image, and hopefully, in our own 3D world.",
+  "file": "2077355.2425803.jpg"
+ },
+ {
+  "t": "Life Twitter Live",
+  "a": [
+   "Tai-Wei Kan"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2077355.2425809",
+  "abs": "As the Internet becomes more and more popular and advanced, people want to keep online and share his/her status with friends at any time and any place. Because of this trend, all kinds of websites that provide social networking services, such as Twitter, become very popular rapidly. However, as more and more social networking users demanding higher immediateness and interaction, using mobile device to send message or to tweet their status is still insufficient. Consequently, we start to integrate everyday commodities (such as coffee mug) with electronic sensors. These reformed commodities or furniture in the living space can communicate with computer through wireless channel, so that the system could know the current status of the user. With this configuration, the system would tweet what we are doing to Twitter website. For example, when we turn off the light at the living room and get ready to go to bed late at night, the system would send message such as \"I am going to bed, good night\" automatically because the light is obviously dimmed; or when the user holds his/her mug, the system would send message such as \"so thirsty, let's have a cup of mocha\". During the exhibition, participants can share own private status with worldwide friends by just a simply behavior of using these reformed commodities or furniture. On the other hand, participants also can follow \"Life Twitter\" (account name is \"\"_test_dk\"\", http://twitter.com/_test_dk), and monitor everything in the exhibition space anytime anywhere. In summary, we propose a system that reshapes everyday commodities with sensors. When users use these reformed commodities, the system would tweet what they are doing.",
+  "file": "2077355.2425809.jpg"
+ },
+ {
+  "t": "Light Space The Stone",
+  "a": [
+   "Jae Min Lee"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2077355.2425811",
+  "abs": "Light Space The Stone proposes a new form of Digital Media Installation Work which has a strong basis in modern Digital Technology, but is inspired by Korean traditional views of nature. It considers nature not merely by its environmental importance but also questions how to create a harmony between human-made Digital Media and ecological needs. The work has bumpy shapes just like rock surfaces and electronic circuits on its surface that change lighting when the surrounding brightness changes. Each electronic circuit has CdS Cell censoring the brightness, transistor and LEDs (Light Emitting Diodes). Each pixel is 2cm by 2cm; a square shaped pixel of two thousand is placed along the surface of the art work. This three-dimensional form of work is an attempt to pull away from a typical form of LED display used before, and to create visual enjoyment and explore the potential of digital sculptures. This work reveals its form by the element of light. Generally light is used to gleam through the texts or images to convey a message or to light the space as a lighting device. In contrast, the lighting of each pixel changes according to the change in lighting surrounding them. The light becomes an element of the sculpture.",
+  "file": "2077355.2425811.jpg"
+ },
+ {
+  "t": "Lilliput",
+  "a": [
+   "Reetta Neittaanmäki",
+   "Jari Suominen"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2077355.2425805",
+  "abs": "Lilliput is a digital peep show installation inspired by Edison's Kinetoscope and other early motion picture devices. Lilliput is a little man who lives in a room built into a wooden box. When he wakes up in his bed he is surprised to find out he is under surveillance. The spectator can watch animated 3D characters through the peepholes on top of the box. The animation loop is 2.5 minutes long and it shows Lilliput's room from above. Big staring eyes are peeping at the character from the window and doors and he gets annoyed when he can't get rid of them. In the end the spectator becomes one of the peeping eyes that disturbs Lilliput's life. The unlucky little man continues his life under surveillance endlessly. The form of the installation and the design of animation gives an impression of a magic box. Lilliput's voice, footsteps and other sounds can be heard when one approaches the installation. A vibrating speaker also gives spectator also a haptic experience. The box has a lock indicating that there's a secret inside. The installation goes back to the early roots of moving images by offering a small scale spectacle for one viewer at a time. The theme of the work is peeping and its different forms in our society, such as reality television and surveillance cameras. It doesn't give any straight answers about the theme but rather gives the viewer freedom in his or her own interpretations."
+ },
+ {
+  "t": "Lit Tree",
+  "a": [
+   "Elliot Woods",
+   "Mimi Son"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2077355.2425815",
+  "abs": "Lit Tree invites viewers with a choreographed cloud of light that can respond to visitors' motions. By applying a superficial layer of immediate interaction to the tree, people can better appreciate the long term invisible interaction that they share with it. Kimchi and Chips proposes an alternative to media facades, where designers and advertisers use LED and projection technology to display graphics through the built environment. They suggest the use of media facades can lead to an asymptote of confusion and visual pollution. Instead, they ask if an unscripted entity within our environment can also be visually celebrated. If the use of trees can be promoted as outdoor visual media, then cities can be planned to balance between nature and our continuing desire for large scale outdoor visual media. Since the color temperature of light produced by a video projector's bulb is similar to the surface of the sun (5800K), the tree naturally reacts to the light that is projected onto it. In this way we can speak to the tree in the medium it can react to most immediately, light. We listen to the tree's reaction by the means of the detailed 3D scans of its shape that are produced by the projection system. This type of photosynthesis allows for the tree to self-optimize for projection. Leaves which are in shadow move out to find the projector's light. Light wasted inside the tree is absorbed by photosynthesis, converting local carbon dioxide to oxygen.",
+  "file": "2077355.2425815.jpg"
+ },
+ {
+  "t": "Miroir/Mirror",
+  "a": [
+   "Karleen Groupierre",
+   "Adrien Mazaud",
+   "Sophie Daste"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2077355.2425816",
+  "abs": "Miroir is an artistic installation using augmented reality technology. The visual decor and sound has been designed to immerse the viewer in a strange universe. The mirror is an object often linked to illusion. In Lewis Carroll's Through the Looking-Glass, the mirror symbolizes the portal between the real world and a world that is strange. As a star attraction at carnivals, the hall of mirrors allows viewers to see images of themselves as multiplied and distorted. A curved mirror is also necessary to achieve the visual trompe l'oeil as anamorphosis. So it's no coincidence that the mirror is at the heart of the installation - it is the open window to another world. The extraordinary feature here is the transformation of the face of the viewer into an animal face. The aesthetics are a blend of naturalistic paintings and Japanese print. The literary references associated with the anthropomorphic are many, ancient myths, Ovid's Metamorphoses, Les Fables of La Fontaine, and Japanese Mythology. Anthropomorphism is a method used by cartoonists to denounce the atrocities of people by giving them the head of the animal to which it grants negative qualities. In addition to being caricaturist, Grandville is also known to have illustrated the first edition of Les Fables of La Fontaine. Once he has looked in the mirror, the viewer can interact with its double anthropomorphic, an augmented reality that allows the viewer to merge with the supernatural.",
+  "file": "2077355.2425816.jpg"
+ },
+ {
+  "t": "Mont",
+  "a": [
+   "Hyunwoo Bang",
+   "Yunsil Heo"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2077355.2425790",
+  "abs": "Imagine yourself walking along a calm beach at night. It's dark and all you hear and feel are breaking waves and sand between your toes. You sit on the beach and start digging up the sand, creating ditches and hummocks. Right at that moment, light swells up from the bottom of your terrain and it gradually becomes a sea of clouds. Suddenly your ditch becomes a giant valley and small hills rise up through the clouds forming a cordillera. This is what you experience with the piece Mont. Mont is an interactive installation composed of a projector, a depth-sensing camera and a computer. Its camera senses the volumetric topology of the ground below the piece and projects a hallucination of clouds, giving spectators illusions of mountains and canyons. Mont offers a playground of creation giving people a god-like ability to create worlds of their own. In a sense, Mont is a meta-creation, a magnificent sculpture delineating wonders of the nature but still existing as a creative medium. Utilizing raw materials, Mont seamlessly fuses itself with nature. With its noninvasive nature, Mont will bridge the gaps between the real world and the digital new media by enabling collaborations between technology, human and nature.",
+  "file": "2077355.2425790.jpg"
+ },
+ {
+  "t": "MOSTON",
+  "a": [
+   "Anya Belkina"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2077355.2425801",
+  "abs": "MOSTON is a 12-foot tall suspended inflatable sculpture that embodies the cyberfusion of two geographically distant locales: Moscow and Boston. While MOSTON's three-dimensional form references ethnically specific artifacts, the visual appeal and conceptual ingenuity of \"matryoshkas\" reach audiences beyond Russia and Russian diasporas. A universally understood symbol of sequential creation, these toys offer a fitting framework for evoking the concentric evolution of Moscow's and Boston's city armatures.",
+  "file": "2077355.2425801.jpg"
+ },
+ {
+  "t": "Mount Qaf: A Multimedia Performance Installation Infusing Electronic Art and The Sonic and Visual A",
+  "a": [
+   "Amir Ghahary",
+   "Mark Nazemi",
+   "Diane Gromala"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2077355.2425795",
+  "abs": "Mount Qaf is an audiovisual performance installation and a spatial/temporal structure which expresses the aesthetic dimensions of Sufism and electronic music culture. The experience combines generative digital art based on animating Persian patterns with eastern architectural motifs including Muqarnas, in syncopation with an ethnic electronic soundscape encountered through multi-channel acoustics. By re-imagining the traditional aesthetics of Sufism through the lens of electronic art and digital culture, the visual music journey of Mount Qaf sacralizes a nostalgia for the ancient past as well as reverence for an expectant technological future.",
+  "file": "2077355.2425795.jpg"
+ },
+ {
+  "t": "Pendulum",
+  "a": [
+   "Semi Kim",
+   "Hwanik Jo",
+   "Junghwan Sung",
+   "Byongsue Kang",
+   "Jaeyoung Kim",
+   "Hyohoun No",
+   "Minjoo Lee"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2077355.2425812",
+  "abs": "\"The pendulum series\" explores the meaning of space through the process of pendulum movement. These pieces have virtual pendulums and real ones. We can see the flow of invisible energy in virtual pendulums. Hybrid Form (Digital and Analogue, Space and Emptiness) The movement of a pendulum generates special energy in the impact between first and second pendulum, and this energy is delivered to the last pendulum in the law of momentum conservation. This energy is invisible, but we experience it by viewing a pendulum movement. This piece has virtual pendulums with real ones. Real pendulums are located on both sides, and they are made from electromagnets. Virtual pendulums, located in the middle of this piece, are three-dimensional images, and show the flow of energy as an expressive medium. Impacting objects (magnetic pendulums) and elements in the video animation (energy) create hybrid visuals. With Pendulum#1, we can extend the meaning of emptiness inherent in media art. Emotions and Words Pendulum#2 expresses very emotional feelings. Energy generated from an impact between real pendulums makes virtual pendulums, and virtual ones explore or communicate lots of information with network connections. This energy is communicative, hybrid and emotional. This energy crosses the border between real and virtual - like internet articles that have been exchanged or generated continuously in networks, and the symbolism of words in articles. We might feel emotional 'temperatures' through the meaning of words. 'Happiness' and 'peace' is warmer than 'war' or 'suicide'. Cool words are decomposed gradually by communication and resonate of the repetitive movement of pendulums. In short, this piece mixes and reassigns words.",
+  "file": "2077355.2425812.jpg"
+ },
+ {
+  "t": "Scent of Lollipop",
+  "a": [
+   "Jaejoong Lee",
+   "Jinwan Park"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2077355.2425798",
+  "abs": "This work represents memories of childhood. A lollipop is one of the world's most be loved snacks. Although it is common to normal people, a lollipop is not an affordable snack to poor children. This work expresses an imaginary lollipop by a user's drawing. The candy drawing is printed on a paper having a message on its backside. The message represents memories of childhood. The printer uses fragrance inks to print out an origami with a lollipop shape. The audience carries on art works which have a fragrance and lollipop shape. This is a fake lollipop, however it may represent a hope for everyone.",
+  "file": "2077355.2425798.jpg"
+ },
+ {
+  "t": "Silly Faces",
+  "a": [
+   "Amanda Long"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2077355.2425789",
+  "abs": "Silly Faces is an interactive video installation in which the viewers create their own 5 second movie. The video uploads immediately to a grid on the wall, an animated mosaic of faces. Everyone is a star. The video mural shows the 65 most recent videos, moving portraits of the audience looping back and forth. Silly Faces was commissioned for the show Yinz Play by the Children's Museum of Pittsburgh. The interaction of pressing a button on an arcade to record the video makes a fun, social and potentially intimate relationship between the audience playing and the video technology. When a new video is recorded it \"bumps\" the previous video to the left. The movies are saved into a database in the computer. Custom software enables a collaboration between myself and the audience, creating an evolving animated mural, blurring the line between artist, performer, and spectator. Silly Faces will act as a visualization of the temporary community that comes together at SIGGRAPH. The mural is composed from the audience's faces and bodies, creating a family or class portrait of the visitors. The playfulness of making a silly face is a unifying gesture that people of all ages and cultures can enjoy.",
+  "file": "2077355.2425789.jpg"
+ },
+ {
+  "t": "Sweet Home",
+  "a": [
+   "Mayuko Kanazawa",
+   "Masataka Imura",
+   "Ichiroh Kanaya"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2077355.2425807",
+  "abs": "Art is not what you see, but is what you interact with. Good paintings make their viewers imaginative. As every artist has been expressing love in many ways, the authors introduce a novel way to express the shape of love in an interactive way using state-of-the-art computing technology. The viewers of the art will not see the picture, but will interact with the picture literally. The concept of the interactive art that the authors propose in this paper is that the viewer of the art feel as if he/she is inside the painting. You first find yourself moving in the acrylic painting as if it reflects you like a mirror. In the picture you interact with a family of Alpaca, who will present you with a gift. If you stare at yourself in the picture carefully you will see your face is slightly morphed to that of your child age. You are to bring a candle with you to lighten the picture. As you move the candle, the lighting in the picture changes. You can even blow out the candle, and every animated character disappear from the picture, though the gift from Alpaca family remains inside you.",
+  "file": "2077355.2425807.jpg"
+ },
+ {
+  "t": "The Door",
+  "a": [
+   "Byongsue Kang",
+   "Hyohoun No",
+   "Junghwan Sung",
+   "Jaeyoung Kim",
+   "Hwanik Jo",
+   "Semi Kim",
+   "Minju Lee"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2077355.2425810",
+  "abs": "We want to express digital communication with a human touch. So we pay attention to the properties of a door because it links one place to another. We think the linking of different places and sharing of places is one of the substantial qualities of network technology. Another reason that we focus on a door is because it bears great meanings. For example, a door is the first spot for a meeting with someone or for kissing someone goodbye. It could be your children, spouse, or your friends. These days, we talk and say hello to friends by Messenger or mobiles. Accustomed to digital devices which neglect time or space, we expect that the devices can carry our emotions to others. However, these have limits in expression. We want to show through the our work \"The Door\" that network technology should have a little more humanity and love in the near future.",
+  "file": "2077355.2425810.jpg"
+ },
+ {
+  "t": "The Galloping Horse",
+  "a": [
+   "Remi Brun"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2077355.2425788",
+  "abs": "The Galloping Horse sculpture is a homage to the works of Marey and Muybridge, both pioneers at the frontiers of art, science, the cinema and biomechanics. This animated sculpture pushes us to understand the extent to which we are movement ourselves: in our actions as we can ride this animal, or even as we imitate a galloping horse through child's play. With no more than 18 light diodes, we sense the presence of the horse. We are movement before anything else.",
+  "file": "2077355.2425788.jpg"
+ },
+ {
+  "t": "Time of Doubles",
+  "a": [
+   "Hyunkyung (Haru) Ji",
+   "Graham Wakefield"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2077355.2425799",
+  "abs": "\"Time of Doubles\" is an immersive interactive art installation. It invites visitors to experience mirror existences of themselves taking upon new roles as sources of energy and kinetic disturbance within a virtual ecosystem, a uniquely created computational world. Visitors encounter their doubles in a deep hyper space with 3D stereoscopic projection and 3D depth cameras. The immersive projection dissolves the illusion of a window to form an entryway into a shared, co-present world, and the volumetric sensors take the visitors beyond avatar-based representation to become embodied within a world of physical simulation. This world displays some familiar characteristics as our own, but is populated by unfamiliar life-forms swimming through the sensitive motions of dark fluids and singing continuously. The visitor doubles are energy fields which emanate myriad bright fluid particles, food sources which are eaten by the virtual organisms. Visitors hear, see and feel how they are fed to unknown species in the virtual ecosystem aesthetically. Without visitors, the world-fluid is filled with life seeds that cannot grow, but with a human presence the populations explode into alien orchestras. Larger organisms leave physical residues and films behind as they pass, which constrain the fluid flows and which can be sculpted by visitor doubles.",
+  "file": "2077355.2425799.jpg"
+ },
+ {
+  "t": "Urban Spirits",
+  "a": [
+   "Judith Darmont"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2077355.2425792",
+  "abs": "With Urban Spirits, Judith Darmont creates both digital street art and an interactive tool for citizens and urbanists. Digital street art is taking spontaneous art expression like graffiti into a new dimension. Using pico-LED or Laser projectors, screenings can happen anytime, any place. With HD Cam, Internet and social networks, you can easily find tracks from Urban Spirits. In many cities, Urban Spirits can be viewed with augmented reality by video artworks.",
+  "file": "2077355.2425792.jpg"
+ },
+ {
+  "t": "Wonder",
+  "a": [
+   "Alicia Eggert"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2011,
+  "k": "Art Gallery",
+  "doi": "10.1145/2077355.2425802",
+  "abs": "Wonder (2011) is an interactive, kinetic sculpture. The work is essentially a living drawing, a residuum of movement that is brought to life by the movement of others. From a distance, the white dots appear to be a constellation, and the work remains static. As a person approaches, the motors suddenly come to life and the dots slowly coalesce to spell the word 'wonder'. However, much like a pointillist painting, the word is illegible when viewed up close. Because of that, it ideally requires two or more people to participate. The person approaching or 'wondering' becomes the artist/performer, physically bringing the work to fruition with their movements. Onlookers are given the ability to see the 'wonder' in the making, both literally and metaphorically. The typically passive act of looking becomes a physically active performance, and people in the vicinity are able to watch and be entertained by the spectacle of it. It is the sculpture's playful nature that really interests me. Whether or not viewers ever discover the word 'wonder' within the work is not important. Meaning is constructed and elaborated collectively, through a shared and hopefully memorable experience.",
+  "file": "2077355.2425802.jpg"
+ },
+ {
+  "t": "ADB",
+  "a": [
+   "Nicholas Stedman"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2010,
+  "k": "Art Gallery",
+  "doi": "10.1145/1836786.1836808",
+  "abs": "ADB is a snake-like, modular robot designed for haptic interactions with people, writhing, wriggling, twisting, and squeezing in response to how it is held and touched. It can be used to explore intimate and emotional relationships with technology through direct physical contact. ADB adapts to and reciprocates the energy one puts into it through one's body. When touched, it comes to life. When stroked, it seeks more of you. When harmed, it defends.",
+  "file": "1836786.1836808.jpg"
+ },
+ {
+  "t": "Cursor Caressor Eraser",
+  "a": [
+   "Michael Filimowicz"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2010,
+  "k": "Art Gallery",
+  "doi": "10.1145/1836786.1836797",
+  "abs": "Cursor Caressor Eraser is an installation and online artwork exploring the erotic image and the seductive potential of tangible interfaces.",
+  "file": "1836786.1836797.jpg"
+ },
+ {
+  "t": "Dinner Party",
+  "a": [
+   "Hye Yeon Nam"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2010,
+  "k": "Art Gallery",
+  "doi": "10.1145/1836786.1836802",
+  "abs": "Dinner Party is an interactive installation, where a single chair and a place set for one person seem to provide a solitary dining experience. However, the installation offers an interaction between oneself and imaginary creatures. As if she or he is about to enjoy a meal, a participant sits down at an interactive table on which are placed several objects that he or she can move. The objects cast virtual shadows on the tabletop, with animated creatures hiding in these shadows.",
+  "file": "1836786.1836802.jpg"
+ },
+ {
+  "t": "Echidna",
+  "a": [
+   "Tine Bech"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2010,
+  "k": "Art Gallery",
+  "doi": "10.1145/1836786.1836795",
+  "abs": "Echidna is an interactive sound sculpture, made partly in collaboration with PhD researcher Tom Frame from the Surrey Space Centre. Echidna is like a fussy tumbled creature that has its own (electronic) voice. When it is touched, and the electromagnetic field around it is disturbed, sound emerges. The sculpture is made of tangled wire and sits on a plinth with electronics inside. It hums happily until touched, at which point it will squeak and react to one's presence. The work combines a circuit which directly measures electrostatic changes in the environment and a custom-designed phase-locked loop system, used to drive an audio speaker.",
+  "file": "1836786.1836795.jpg"
+ },
+ {
+  "t": "Empire of Sleep",
+  "a": [
+   "Alan Price"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2010,
+  "k": "Art Gallery",
+  "doi": "10.1145/1836786.1836804",
+  "abs": "Empire of Sleep is an interactive virtual environment installation viewed in stereoscopic 3D on a large rear projection screen. Participants interact using a hand-held camera to take photographs of the scene, triggering the virtual camera to move to new points of interest. A group of surreal-looking figures, clothed in early 20th century bathing suits, are scattered about on several isolated sand bars somewhere on an open and calm body of water. They first appear as if there for recreation, but there is a pensive mood, as if some unusual event is taking place unknown to the viewer.",
+  "file": "1836786.1836804.jpg"
+ },
+ {
+  "t": "Final Wisdom I",
+  "a": [
+   "John Fillwalk"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2010,
+  "k": "Art Gallery",
+  "doi": "10.1145/1836786.1836798",
+  "abs": "Final Wisdom I is an interactive installation where participants shape their experience with a work of visual and sonic poetry by means of gesture, touch, and proximity. The work is engaged through an interactive software framework that provides an interface to the physical world through objects reacting to touch, sound, and pressure, presenting viewers with a shifting environment of media as they navigate and shape their experience with a work of spatialized poetry. Final Wisdom I is the work of artists Hans Breder and John Fillwalk, with poetry by Donald Kuspit, music by Carlos Cuellar Brown, and programmer Jesse Allison.",
+  "file": "1836786.1836798.jpg"
+ },
+ {
+  "t": "Glowing Pathfinder Bugs",
+  "a": [
+   "Anthony Rowe",
+   "Liam Birtles"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2010,
+  "k": "Art Gallery",
+  "doi": "10.1145/1836786.1836790",
+  "abs": "Glowing Pathfinder Bugs is an interactive art project primarily aimed at children and created by the digital arts group Squidsoup. It uses projection to visualize virtual bugs on a real sandpit. The bugs are aware of their surroundings and respond to its form in their vicinity. By altering the topography of the sand, participants affect the bugs' environment in real time, facilitating direct communication between them and computer-generated creatures.This highly malleable and tactile physical environment lets us define and carve out the landscape in which the creatures exist in real time. Thus, virtual creatures and real people coexist and communicate through a shared tactile environment. Participants can use natural modes of play, kinesthetic intelligence, and their sense of tactility to collaboratively interact with creatures inhabiting a hybrid parallel world.This paper describes the project and analyzes how children in particular respond to the experience; it looks at the types of physical formations that tend to be built and notes how children instinctively anthropomorphize the bugs, treating projected imagery as living creatures - though with a ludic twist.",
+  "file": "1836786.1836790.jpg"
+ },
+ {
+  "t": "Glowing Pathfinder Bugs",
+  "a": [
+   "Anthony Rowe"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2010,
+  "k": "Art Gallery",
+  "doi": "10.1145/1836786.1836807",
+  "abs": "Using the shared environment of a sandpit, Glowing Pathfinder Bugs allows virtual creatures and real people to coexist and communicate. The sand operates as a tactile interface, allowing participants to define physical landscapes to which the digital creatures respond in real time. The result is a form of animal husbandry---a sense of controlling and caring for the bugs.",
+  "file": "1836786.1836807.jpg"
+ },
+ {
+  "t": "hanahanahana",
+  "a": [
+   "Yasuaki Kakehi",
+   "Motoshi Chikamori",
+   "Kyoko Kunoh"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2010,
+  "k": "Art Gallery",
+  "doi": "10.1145/1836786.1836799",
+  "abs": "To experience hanahanahana, the participant applies perfume to a leaf-shaped piece of paper and holds or shakes it in front of the wall. A flower image then appears in each bud-like device. The degree of transparency of the flower changes gradually according to the strength of the floating scent, while color and shape also vary according to the sort of fragrance applied to the paper. Participants can enjoy temporal and spatial variations of floating air with olfactory sensations from the scent, visual sensations from the projection screen, and tactile sensations from the wind.",
+  "file": "1836786.1836799.jpg"
+ },
+ {
+  "t": "In the Line of Sight",
+  "a": [
+   "Daniel Sauter",
+   "Fabian Winkler"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2010,
+  "k": "Art Gallery",
+  "doi": "10.1145/1836786.1836806",
+  "abs": "In the Line of Sight is a light installation that uses 100 computer-controlled tactical flashlights to project low-resolution video footage of suspicious human motion into the exhibition space. Each flashlight projects a light spot on the wall. All flashlights combined create a ten-by-ten matrix representation of the source footage, featured on a video monitor in an adjacent part of the gallery. In the Line of Sight is an artistic exploration of low-resolution video projections exploring electronic images not as simulations of reality but as objects anchored in the physical space.",
+  "file": "1836786.1836806.jpg"
+ },
+ {
+  "t": "Lotus 7.0",
+  "a": [
+   "Daan Roosegaarde"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2010,
+  "k": "Art Gallery",
+  "doi": "10.1145/1836786.1836805",
+  "abs": "What happens when technology makes the leap out of the computer screen and becomes embedded in our walls, bodies, and urban landscapes? This was the inspiration for Studio Roosegaarde's most recent interactive artwork, Lotus 7.0. Lotus 7.0 is a \"living\" wall made of smart foils, electronics, and lamps that interacts with human behavior.",
+  "file": "1836786.1836805.jpg"
+ },
+ {
+  "t": "Strata-Caster",
+  "a": [
+   "Joseph Farbrook"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2010,
+  "k": "Art Gallery",
+  "doi": "10.1145/1836786.1836796",
+  "abs": "Strata-Caster is an online virtual art installation, created on a private island in Second Life (secondlife.com). Viewers travel by way of a wheelchair, while being made acutely aware of their physical and virtual status, and are invited to re-examine this position in life in relation to all others (both physical and virtual).",
+  "file": "1836786.1836796.jpg"
+ },
+ {
+  "t": "The lightness of your touch",
+  "a": [
+   "Henry Kaufman"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2010,
+  "k": "Art Gallery",
+  "doi": "10.1145/1836786.1836800",
+  "abs": "In this piece one touches a larger-than-life torso that reacts. The skin of the body moves subtly as one's hand moves over the surface. If the hand is held down for a moment and then taken away, an impression of the hand is left behind. This imprint soon lifts off the surface and begins to blow around as if it were a leaf or tissue caught in a breeze. Many people can touch the surface at the same time, sharing in the interaction.",
+  "file": "1836786.1836800.jpg"
+ },
+ {
+  "t": "Data portraits",
+  "a": [
+   "Judith Donath",
+   "Alex Dragulescu",
+   "Aaron Zinman",
+   "Fernanda Viégas",
+   "Rebecca Xiong"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2010,
+  "k": "Art Papers",
+  "doi": "10.1145/1836786.1836793",
+  "abs": "Data portraits depict their subjects' accumulated data rather than their faces. They can be visualizations of discussion contributions, browsing histories, social networks, travel patterns, etc. They are subjective renderings that mediate between the artist's vision, the subject's self-presentation, and the audience's interest. Designed to evocatively depict an individual, a data portrait can be a decorative object or be used as an avatar, one's information body for an online space."
+ },
+ {
+  "t": "Learning from weaving for digital fabrication in architecture",
+  "a": [
+   "Rizal Muslimin"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2010,
+  "k": "Art Papers",
+  "doi": "10.1145/1836786.1836789",
+  "abs": "This project restructures weaving performance in architecture by analyzing the tacit knowledge of traditional weavers through perceptual study and converting it into an explicit rule in computational design. Three implementations with different materials show the advantages of using computational weaving that combines traditional principles with today's digital (CAD/CAM) tools to develop affordable fabrication techniques."
+ },
+ {
+  "t": "samplingplong",
+  "a": [
+   "Joerg Niehage"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2010,
+  "k": "Art Papers",
+  "doi": "10.1145/1836786.1836803",
+  "abs": "samplingplong features a projected mouse cursor interacting in physical space, generating miniature sound compositions with pleasurable arrangements from the everyday soundtrack of the digital age."
+ },
+ {
+  "t": "Session details: Touchpoint: haptic exchange between digits",
+  "a": [],
+  "c": "SIGGRAPH",
+  "y": 2010,
+  "k": "Art Papers",
+  "doi": "10.1145/3252013"
+ },
+ {
+  "t": "The immediacy of the artist's mark in shape computation",
+  "a": [
+   "Jacquelyn A. Martino"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2010,
+  "k": "Art Papers",
+  "doi": "10.1145/1836786.1836788",
+  "abs": "This paper contributes to the area of computation in the production of artistic form. The author-artist describes a computational system in the form of a curvilinear, parametric shape grammar. Based on an analysis of over 3,000 entries in her traditionally hand-drawn sketchbooks, she describes the grammar that synthesizes drawings in the design language of her evolving style and serves as a tool for self-understanding of her artistic process."
+ },
+ {
+  "t": "Tools for Improved Social Interacting",
+  "a": [
+   "Lauren McCarthy"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2010,
+  "k": "Art Papers",
+  "doi": "10.1145/1836786.1836801",
+  "abs": "Tools for Improved Social Interacting is a series of wearable devices---including the Anti-Day-dreaming Device, Happiness Hat, and Body Contact Training Suit---that use sensors to condition the behavior of the wearer to better adapt to expected social behaviors. The work explores the potential for technology to shape how we think, feel, and act. It also questions our social expectations, attempting to better understand their function and worth."
+ },
+ {
+  "t": "Touching space",
+  "a": [
+   "Kim Vincs",
+   "John McCormick"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2010,
+  "k": "Art Papers",
+  "doi": "10.1145/1836786.1836791",
+  "abs": "This paper describes the work of a group of artists in Australia who used real-time motion capture and 3D stereo projection to create a large-scale performance environment in which dancers seemed to \"touch\" the volume. This project re-versions Suzanne Langer's 1950s philosophy of dance as \"virtual force\" to realize the idea of a \"virtual haptics\" of dance that extends the dancer's physical agency literally across and through the surrounding spatial volume. The project presents a vision of interactive dance performance that \"touches\" space by visualizing kinematics as intentionality and agency. In doing so, we suggest the possibility of new kinds of human-computer interfaces that emphasize touch as embodied, nuanced agency that is mediated by the subtle qualities of whole-body movement, in addition to more goal-oriented, task-based gestures such as pointing or clicking."
+ },
+ {
+  "t": "Visual anecdote",
+  "a": [
+   "Dietmar Offenhuber"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2010,
+  "k": "Art Papers",
+  "doi": "10.1145/1836786.1836792",
+  "abs": "The discourse on information visualization often remains limited to the exploratory function - its potential for discovering patterns in the data. However, representations also have a rhetorical function: they demonstrate, persuade, and facilitate communication.In observing how visualization is used in presentations and discussions, I often notice the use of what could be called visual anecdotes. Small narratives are tied to individual data points in the visualization, giving human context to the data and rooting the abstract representation in personal experience. This paper argues that these narratives are more than just illustrations of the dataset; they constitute a central epistemological element of the visualization. By considering these narrative elements as parts of the visualization, its design and knowledge organization appear in a different light.This paper investigates how the story of data representation is delivered. By means of ethnographic interviews and observations, the author highlights the different aspects of the anecdote, a specific point where the exploratory and the rhetorical functions of visualization meet."
+ },
+ {
+  "t": "Show Case",
+  "a": [],
+  "c": "SIGGRAPH Asia",
+  "y": 2010,
+  "k": "Art Papers",
+  "doi": "10.1145/1900351.1900353",
+  "abs": "research-article Share on Show CaseSA '10: ACM SIGGRAPH ASIA 2010 Art + Tech ShowcaseDecember 2010 Article No.: 2Pages 1–58https://doi.org/10.1145/1900351.1900353Online:15 December 2010Publication History 0citation159DownloadsMetricsTotal Citations0Total Downloads159Last 12 Months5Last 6 weeks0 Get Citation AlertsNew Citation Alert added!This alert has been successfully added and will be sent to:You will be notified whenever a record that you have chosen has been cited.To manage your alert preferences, click on the button below.Manage my AlertsNew Citation Alert!Please log in to your account Save to BinderSave to BinderCreate a New BinderNameCancelCreateExport CitationPublisher SiteGet Access"
+ },
+ {
+  "t": "The Invitation",
+  "a": [],
+  "c": "SIGGRAPH Asia",
+  "y": 2010,
+  "k": "Art Papers",
+  "doi": "10.1145/1900351.1900352",
+  "abs": "research-article Share on The InvitationSA '10: ACM SIGGRAPH ASIA 2010 Art + Tech ShowcaseDecember 2010 Article No.: 1Pages 1–40https://doi.org/10.1145/1900351.1900352Published:15 December 2010Publication History 0citation160DownloadsMetricsTotal Citations0Total Downloads160Last 12 Months1Last 6 weeks0 Get Citation AlertsNew Citation Alert added!This alert has been successfully added and will be sent to:You will be notified whenever a record that you have chosen has been cited.To manage your alert preferences, click on the button below.Manage my AlertsNew Citation Alert!Please log in to your account Save to BinderSave to BinderCreate a New BinderNameCancelCreateExport CitationPublisher SiteGet Access"
  }
 ]
