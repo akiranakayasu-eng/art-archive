@@ -1078,5 +1078,424 @@
   "k": "Art Papers",
   "doi": "10.1145/3282805.3282818",
   "abs": "On February 28, 2016, Donald Trump gave his first address to Congress. He sent a clear message that enlightens his Presidential philosophy: \"Each American generation passes the torch of truth, liberty and justice --- in an unbroken chain all the way down to the present. That torch is now in our hands. And we will use it to light up the world.\" \"That Torch is Now in Our Hands\" is an interactive installation made of 2 parts: - A model of the Statue of Liberty holding the torch. This torch is the main light of the space, up to 5 public address speakers surround the statue (the number commensurate to the exhibition space size). The loudspeakers diffuse the excerpts of the U.S. President talk. The statue light reacts to the sound: the light intensity is stronger when nobody is speaking, and it becomes lower when Trump's voice is heard. The higher the voice, the lower the light. The statue is like a bird, covered with feathers. We understand quickly that the feathers are just glued with tar. In an extended version, we can imagine 5 fans making feathers flying like a tornado around the statue, full Trump's address: https://youtu.be/3ZxsuGEL6yE (after 7')"
+ },
+ {
+  "t": "Anti-horário",
+  "a": [
+   "Gisela Motta",
+   "Leandro Lima"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2017,
+  "k": "Art Gallery",
+  "doi": "10.1145/3072940.3080507",
+  "abs": "Anti-Horário (Counterclockwise) (2011) is a video installation, and a \"wall-clock,\" that addresses the cyclical movement of human existence and the poetics of duration and perception. Anti-Horário combines several layered elements (the earth, a child, an adult couple, and the sky) moving at distinct cadences, registered from the same point of view that results in a disorienting analogic clock. While the child covers a circular movement like the clock's second hand, the adults represent the minute hand. With each revolution, the child causes the couple to move foward, representing the passage of time as well as the cycle of life.",
+  "file": "3072940.3080507.jpg"
+ },
+ {
+  "t": "BioSoNot 1.2",
+  "a": [
+   "Gilberto Esparza"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2017,
+  "k": "Art Gallery",
+  "doi": "10.1145/3072940.3080500",
+  "abs": "BioSoNot 1.2 (2014--2016) is a musical synthesizer that translates biological activity into sound while cleaning contaminated water samples. A hybrid bio-sound instrument, this sonic device generates music and noise from the biological activity of different living microorganisms.",
+  "file": "3072940.3080500.jpg"
+ },
+ {
+  "t": "Dispersiones",
+  "a": [
+   "Leo Nuñez"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2017,
+  "k": "Art Gallery",
+  "doi": "10.1145/3072940.3080509",
+  "abs": "Dispersiones (Dispersions) (2012/2017) is a site-specific physical network comprised of a series of interconnected relays that produce an artificial and interactive soundscape. The work appears to be a messy web of hundreds of tangled wires through which sounds travel, following an algorithm of artificial life. Using only the metallic clicking sound of the relays, the network behaves as a complex system of electromagnetic actuators that interact with the viewer.",
+  "file": "3072940.3080509.jpg"
+ },
+ {
+  "t": "drumCircle[]",
+  "a": [
+   "Christian Oyarzún"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2017,
+  "k": "Art Gallery",
+  "doi": "10.1145/3072940.3080508",
+  "abs": "drumCircle[] (2015) is an autonomous percussion and light instrument composed of an ensemble of eight connected den-den drums mounted to LED spotlights that create a temporal and spatial network of interactions between these machines and the viewer. Arranged in a circle pointing inward toward the center of the installation, these modules project light and sound patterns bidirectionally, creating an immersive and ritualistic technological experience that brings to light connections between technology, corporeality, and time.",
+  "file": "3072940.3080508.jpg"
+ },
+ {
+  "t": "Echolocalizator",
+  "a": [
+   "Hamilton Mestizo"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2017,
+  "k": "Art Gallery",
+  "doi": "10.1145/3072940.3080502",
+  "abs": "Echolocalizator (2015) is a wearable device that aims to change or augment our human way of interacting with the environment. Using \"sound spatialization,\" this technological helmet simulates the echolocation sonar used by animals like bats and dolphins, highlighting the essential role of technology in the coevolution of humans and animals.",
+  "file": "3072940.3080502.jpg"
+ },
+ {
+  "t": "Imaginario inverso",
+  "a": [
+   "Astrovandalistas"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2017,
+  "k": "Art Gallery",
+  "doi": "10.1145/3072940.3080504",
+  "abs": "Imaginario Inverso (Reverse Imaginary) (2015/2017) is part of Astrovandalistas's ongoing investigation into the industrialization of our social imaginary through the commercialization of scientifc knowledge. Through a series of workshops, talks, and exhibitions using conceptual prototyping, futurecasting, reappropriations, and micronarratives, Imaginario Inverso proposes different frameworks for reflecting on the geopolitics of technology development and the reinterpretation of technologies for more personal uses.",
+  "file": "3072940.3080504.jpg"
+ },
+ {
+  "t": "JailHead.com",
+  "a": [
+   "Rodolfo Peraza"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2017,
+  "k": "Art Gallery",
+  "doi": "10.1145/3072940.3080506",
+  "abs": "That Which Contains Emptiness is a series of multimedia works by Rodolfo Peraza exploring the interiors of abandoned historical spaces designed for social engineering and control. From this series, JailHead.com (2009/2017) is an ongoing web-based project that recreates in virtual reality the Cuban Presidio Modelo, an abandoned prison built after Bentham's Panopticon penitentiary model. The jail is located on the former Isla los Pinos---an island southwest of Cuba, now named Isla de la Juventud---and was considered a definitive example of efficient prisoner control. It became emblematic for housing historical figures both pre- and post-Cuban Revolution, including Fidel and Raúl Castro.",
+  "file": "3072940.3080506.jpg"
+ },
+ {
+  "t": "Milpa Polímera",
+  "a": [
+   "Marcela Armas",
+   "Arcángelo Constantini"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2017,
+  "k": "Art Gallery",
+  "doi": "10.1145/3072940.3080501",
+  "abs": "Milpa Polímera (Polymer Cornfield) (2013) is a 3D open-source printer modified to function as a tractor that plows seeds made out of polylactic acid (PLA), a thermoplastic biopolymer made from corn. The printer-tractor is fixed by an axis to a closed cycle in which the machine is only able to perform a single repetitive and absurd task: print artificial corn seeds and sow them into the soil.",
+  "file": "3072940.3080501.jpg"
+ },
+ {
+  "t": "Octópodos sisíficos",
+  "a": [
+   "Mariela Yeregui",
+   "Miguel Grassi"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2017,
+  "k": "Art Gallery",
+  "doi": "10.1145/3072940.3080505",
+  "abs": "Developed by the Artes Electrónicas group at the Universidad Nacional de Tres de Febrero in Argentina, directed by Mariela Yeregui, Octópodos Sisífcos (Sisyphean Octopods) (2010) is an installation comprised of six mobile robots that carry LCD screens displaying endoscopic videos with images that resemble internal body organs.",
+  "file": "3072940.3080505.jpg"
+ },
+ {
+  "t": "The andean pavilion",
+  "a": [
+   "Paul Rosero Contreras"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2017,
+  "k": "Art Gallery",
+  "doi": "10.1145/3072940.3080503",
+  "abs": "The Andean Pavilion (2015/2017) is a video installation composed of a series of fictional videos and 3D-printed sculptures, which are the material outcome of the seismic activity in four active volcanoes in the highlands of Ecuador and the Galápagos Islands. This project is part of an experimental inquiry speculating on the possibility of emergent relations between the environment, humans, and technology in settings that are heavily defined by natural phenomena.",
+  "file": "3072940.3080503.jpg"
+ },
+ {
+  "t": "Antecedents",
+  "a": [
+   "María Fernández"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2017,
+  "k": "Art Papers",
+  "doi": "10.1145/3072940.3105451",
+  "abs": "For the first time in its history, SIGGRAPH focuses on Latin American artists working with digital technologies. This is momentous, as this subject has seldom been explored---neither in the history of new media art nor in the entire history of art---despite the tremendous growth of these fields in the last 20 years. The insufficiency of study in this area has to do in part with the historical tension between digital art and the art world, and with totalizing stereotypes of Latin American underdevelopment that perpetuate the marginalization of the region from modernity [1]. While the SIGGRAPH 2017 Art Gallery critically advances these histories, a multiplicity of inventive engagements of Latin American artists with a variety of modern technologies precedes it. Hence the exhibition is both unique and in conversation with a long tradition."
+ },
+ {
+  "t": "Autoencoding Blade Runner",
+  "a": [
+   "Terence Broad",
+   "Mick Grierson"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2017,
+  "k": "Art Papers",
+  "doi": "10.1145/3072940.3072964",
+  "abs": "In this paper, the authors explain how they created Blade Runner---Autoencoded, a film made by training an autoencoder---a type of generative neural network---to recreate frames from the film Blade Runner. The autoencoder is made to reinterpret every individual frame, reconstructing it based on its memory of the film. The result is a hazy, dreamlike version of the original film. The authors discuss how the project explores the aesthetic qualities of the disembodied gaze of the neural network and describe how the autoencoder is also capable of reinterpreting films it has not been trained on, transferring the visual style it has learned from watching Blade Runner (1982)."
+ },
+ {
+  "t": "Avoid setup",
+  "a": [
+   "Dejan Grba"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2017,
+  "k": "Art Papers",
+  "doi": "10.1145/3072940.3072968",
+  "abs": "Generative artists engage the poetic and expressive potentials of film playfully and efficiently, with explicit or implicit critique of cinema in a broader cultural context. This paper looks at the incentives, insights, and implications of generative cinema, which significantly expands the creative realm for artists working with film, but also incites critical assessment of the business-oriented algorithmic strategies in the film industry. The poetic divergence, technical fluency, and conceptual cogency of generative cinema successfully demonstrate that authorship evolves toward ever more abstract reflection and cognition which equally treat existing creative achievements as inspirations, sources of knowledge, and tools."
+ },
+ {
+  "t": "Creature:interactions",
+  "a": [
+   "Andrew Bluff",
+   "Andrew Johnston"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2017,
+  "k": "Art Papers",
+  "doi": "10.1145/3072940.3072965",
+  "abs": "This paper discusses Creature:Interactions (2015), a large-scale mixed-reality artwork created by the authors that incorporates immersive 360° stereoscopic visuals, interactive technology, and live actor facilitation. The work uses physical simulations to promote an expressive full-bodied interaction as children explore the landscapes and creatures of Ethel C. Pedley's ecologically focused children's novel, Dot and the Kangaroo. The immersive visuals provide a social playspace for up to 90 people and have produced \"phantom\" sensations of temperature and touch in certain participants."
+ },
+ {
+  "t": "Lenticular waterwheels",
+  "a": [
+   "Scott Hessels"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2017,
+  "k": "Art Papers",
+  "doi": "10.1145/3072940.3072966",
+  "abs": "After decades as a novelty, lenticular technology has resurfaced in compelling large-scale projects. Without any required energy, the medium offers stereography without glasses and frame animation without electronics. A kinetic artwork installed in a remote river in the French mountains broke from the technology's previous restrictions of static and flat display, recalculated the print mathematics for a curved surface, and explored narrative structures for a moving image on a moving display. This paper documents how the sculpture used custom steel fabrication, site-specific energy, and revised lens calculation to present a previously unexplored hybrid of animation."
+ },
+ {
+  "t": "The interactive image",
+  "a": [
+   "Esteban García Bravo",
+   "Andrés Burbano",
+   "Vetria L. Byrd",
+   "Angus G. Forbes"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2017,
+  "k": "Art Papers",
+  "doi": "10.1145/3072940.3072969",
+  "abs": "This paper examines the history of the influential Interactive Image computer graphics showcase, which took place at museum and conference venues from 1987 to 1988. The authors present a preliminary exploration of the historical contexts that led to the creation of this exhibition by the Electronic Visualization Lab (EVL), which included the integrated efforts of both artists and computer scientists. In addition to providing historical details about this event, the authors introduce a media archaeology approach for examining the cultural and technological contexts in which this event is situated."
+ },
+ {
+  "t": "Transforming the commonplace through machine perception",
+  "a": [
+   "Robert Twomey",
+   "Michael McCrea"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2017,
+  "k": "Art Papers",
+  "doi": "10.1145/3072940.3072967",
+  "abs": "Rover is a mechatronic imaging device inserted into quotidian space, transforming the sights and sounds of the everyday through its peculiar modes of machine perception. Using computational light field photography and machine listening, it creates a kind of cinema following the logic of dreams: suspended but mobile, familiar yet infinitely variable in detail. Rover draws on diverse traditions of robotic exploration, landscape and still-life depiction, and audio field recording to create a hybrid form between photography and cinema. This paper describes the mechatronic, machine perception, and audio-visual synthesis techniques developed for the piece."
+ },
+ {
+  "t": "(A)I FEEL",
+  "a": [
+   "Kiattiyot Panichprecha",
+   "Witaya Junma",
+   "Isarun Chamveha"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2017,
+  "k": "Art Gallery",
+  "doi": "10.1145/3143748.3143754",
+  "abs": "(A)I FEEL is a project to demonstrate how machines learn human emotions by creating a teaching & learning process between humans and machine to analyze human drawing and visualize the drawing in an intuitive and exciting way.",
+  "file": "3143748.3143754.jpg"
+ },
+ {
+  "t": "7x7",
+  "a": [
+   "Yuichiro Katsumoto"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2017,
+  "k": "Art Gallery",
+  "doi": "10.1145/3143748.3143751",
+  "abs": "We live surrounded by displays such as TV, smartphone, computer. These bitmap displays consist of pixels arranged in a two-dimensional plane. 7x7 was created by re-arranging these pixels multidimensionally. This display consists of 49 pixels, and these pixels do not overlap in the front, at the back, up, down, left or right. Therefore, each pixel is able to represent all six directions. By using these 49 pixels, 7x7 expresses \"Iroha,\" which is an old Japanese pangram that expresses one of the aesthetics called \"Mujo (impermanence and ever changing).\"",
+  "file": "3143748.3143751.jpg"
+ },
+ {
+  "t": "Abstract reality",
+  "a": [
+   "Jieliang Luo"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2017,
+  "k": "Art Gallery",
+  "doi": "10.1145/3143748.3143755",
+  "abs": "Abstract Reality is an interactive installation to create 3D geometric structures as an abstract expression of physical human bodies that the viewers' physical features and their relations to each other and the physical space are transformed into geometric forms and placed in a virtual 3D space, which aims to project the real world into a denoised and human-centered virtual world to connect body and mind through indirect coordinations.",
+  "file": "3143748.3143755.jpg"
+ },
+ {
+  "t": "Embodisuit",
+  "a": [
+   "Sophia Brueckner"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2017,
+  "k": "Art Gallery",
+  "doi": "10.1145/3143748.3143759",
+  "abs": "The Embodisuit empowers its wearer to map signals from an IoT platform to modular haptic actuators on the body simultaneously critiquing and offering an alternative to current trends in wearable technology.",
+  "file": "3143748.3143759.jpg"
+ },
+ {
+  "t": "etheroid",
+  "a": [
+   "Jun Fujiki"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2017,
+  "k": "Art Gallery",
+  "doi": "10.1145/3143748.3143749",
+  "abs": "An etheroid is a device that mediates an invisible \"something\" to exist in space. Each etheroid propagates this behavior to one of the surrounding etheroids repeatedly. From the movements of a whole etheroids, an invisible and movable \"something\" appears.",
+  "file": "3143748.3143749.jpg"
+ },
+ {
+  "t": "Face of city",
+  "a": [
+   "Jae Hyung Lee",
+   "Jung Min Park"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2017,
+  "k": "Art Gallery",
+  "doi": "10.1145/3143748.3143761",
+  "abs": "Face of City is a data visualization project portraying emotions in cities. The representative emotions of a city are selected through the thorough analysis of social media posts within a particular area. Then these emotions are visualized through constantly changing ambiguous facial expressions. This exhibition features the facial expressions of Seoul and Bangkok, based on respective analysis results on the same social media keywords.",
+  "file": "3143748.3143761.jpg"
+ },
+ {
+  "t": "from this side of space to the other side of the signal",
+  "a": [
+   "Benjamin Rosenthal"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2017,
+  "k": "Art Gallery",
+  "doi": "10.1145/3143748.3143756",
+  "abs": "\"from this side of space to the other side of the signal\" is a two-channel piece that engages both the history of early video tools and contemporary forms of 2D and 3D animation. Using these analog tools as a way of addressing the historicity of the body, and as a way of defining the space of bodies (via their moving textures) in novel as a way of engaging our contemporary hybrid experience. Queering the distinctions between subject, object, transmission, physicality and the ephemeral larger questions about the nature of our technocultural existence rise to the surface.",
+  "file": "3143748.3143756.jpg"
+ },
+ {
+  "t": "HIVE",
+  "a": [
+   "Sölen Kiratli",
+   "Akshay Cadambi"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2017,
+  "k": "Art Gallery",
+  "doi": "10.1145/3143748.3143765",
+  "abs": "Created via fusing aspects of sculptural form, spatial sound, and interactive methods, HIVE is an art installation that explores the relationship between sound, space, body, and communication. HIVE was produced in 2016 by Sölen Kiratli and Akshay Cadambi and debuted in Santa Barbara Center for Art, Science, and Technology (SBCAST) in December of 2016. More info on http://solenk.net/HIVE.php",
+  "file": "3143748.3143765.jpg"
+ },
+ {
+  "t": "I touch you and you touch me",
+  "a": [
+   "Jeff Thompson"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2017,
+  "k": "Art Gallery",
+  "doi": "10.1145/3143748.3143753",
+  "abs": "A robotic arm plays back hallucinated gestures from a machine learning system trained on my interactions with my phone, exploring issues of human/machine empathy and agency.",
+  "file": "3143748.3143753.jpg"
+ },
+ {
+  "t": "Langjiao",
+  "a": [
+   "Shin-Yu Wu"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2017,
+  "k": "Art Gallery",
+  "doi": "10.1145/3143748.3143758",
+  "abs": "Langjiao - Beinan Road discusses the human perspective, where we use our eyes to see the world in front of us, whereas the sounds we hear with our ears come from the two sides of us. In this work, viewers can switch from the human perspective to see the world from two sides through the eyes of the hundred-pace viper, and experience the wonder of the merging of your auditory and visual perception. This psychological landscape created using the VR device not only takes us back along the path once taken by the ancestral spirit of the indigenous people."
+ },
+ {
+  "t": "Mantra",
+  "a": [
+   "Hwayong Jung"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2017,
+  "k": "Art Gallery",
+  "doi": "10.1145/3143748.3143764",
+  "abs": "Mantra is a digital panorama that represents hyper-realistic landscape with the collapse of body language and sound generated from digital object and human are permitted into the digital scenario, and gives birth to the new cycle of synthetic beauty. Inside of endless communication between them, a new experiential form of vision.",
+  "file": "3143748.3143764.jpg"
+ },
+ {
+  "t": "Record one message to the person you love!",
+  "a": [
+   "Sheng-Chieh Wang",
+   "Chia-Hsiang Lee",
+   "Pey-Chwen Lin"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2017,
+  "k": "Art Gallery",
+  "doi": "10.1145/3143748.3143763",
+  "abs": "We invite the audience to stand in front of the voice reception installation and say a few words to their loved ones.he messages can also be immediately converted into 3D printing model files, which can then be printed into unique white vinyl disc-shaped objects engraved with each person's own identity markings. Audience will be able to use the AR interface on the mobile device to replay the messages and videos corresponding to each of the 3D prints.",
+  "file": "3143748.3143763.jpg"
+ },
+ {
+  "t": "Remnance of form",
+  "a": [
+   "Sang-won Leigh",
+   "Asta Roseway",
+   "Ann Paradiso"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2017,
+  "k": "Art Gallery",
+  "doi": "10.1145/3143748.3143762",
+  "abs": "Through several vignettes - Disappearing, Showing Fear, Many Faces, and Dream of Flying, a transforming shadow deconstructs the notion of materialistic view of the physical world as well as offers to become a surrogate for channelling the images and imaginations about one's own self.",
+  "file": "3143748.3143762.jpg"
+ },
+ {
+  "t": "Robosophy philosophy",
+  "a": [
+   "Predrag K. Nikolic",
+   "Sasa Arsovski",
+   "Adrian David Cheok"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2017,
+  "k": "Art Gallery",
+  "doi": "10.1145/3143748.3143752",
+  "abs": "Project Robosophy Philosophy is conceptualize as set of philosophical discussions between two robots. The Robots are imitating philosophers and leading their discussion to complete meaningless or meaningful based on knowledge build by artificial intelligence. In the Robosophy Philosophy: Übermensch and Magnanimous conceptual pillars for the discussions are philosophical stand points of Aristotle and Nietzsche. We are combining chatbot technologies and Recurrent Neural Network (RNN) models that will enable reinforcement learning in order to create artificial conversational agents who will achieve human level performance.",
+  "file": "3143748.3143752.jpg"
+ },
+ {
+  "t": "The ghost in the dandelion",
+  "a": [
+   "Scottie Chih-Chieh Huang"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2017,
+  "k": "Art Gallery",
+  "doi": "10.1145/3143748.3143760",
+  "abs": "\"the Ghost in the Dandelion\" is an interactive installation features a physiological measuring device with facial recognition technology. The biosensor is able to analyze the facial expressions and heartbeat signals and convert them to the form of dandelion.",
+  "file": "3143748.3143760.jpg"
+ },
+ {
+  "t": "Wandering world",
+  "a": [
+   "Peter Williams",
+   "Sala Wong"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2017,
+  "k": "Art Gallery",
+  "doi": "10.1145/3143748.3143750",
+  "abs": "Wandering World is an interactive installation that utilizes responsive sound, stereoscopic and multichannel projection mapping, three-dimensional, 360-degree animation and helium balloons with whirling images of flowers in suspended states of bloom, representing a desperate and self-defeating attempt at obliterating our perpetual states of distraction.",
+  "file": "3143748.3143750.jpg"
+ },
+ {
+  "t": "Mind dome",
+  "a": [
+   "Chawanan Inkumnoi"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2017,
+  "k": "Art Papers",
+  "doi": "10.1145/3143748.3143766",
+  "abs": "Mind dome is a lighting installation art in a form of LED globe. Computer generates movement, color and shape into digital signal, from analog to digital. Participant feel connect to the dome, as their mind and body is part of the mind dome."
  }
 ]
