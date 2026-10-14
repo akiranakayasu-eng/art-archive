@@ -9,6 +9,7 @@ python3 build.py
 if [ -d ../ars-expanded-archive/docs ]; then
   mkdir -p docs/ars
   rsync -a --delete ../ars-expanded-archive/docs/ docs/ars/
+  cat tabs.css >> docs/ars/style.css  # same top tabs on both pages
 fi
 cat > docs/index.html <<'HTML'
 <!doctype html>
