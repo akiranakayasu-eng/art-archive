@@ -1,0 +1,549 @@
+[
+ {
+  "t": "Aeolian traces",
+  "a": [
+   "Joel Yuzhi Ong"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2019,
+  "k": "Art Gallery",
+  "doi": "10.1145/3306211.3320145",
+  "abs": "Aeolian Traces is a multimedia artwork installed most recently at the CURRENTS NEW MEDIA festival in Santa Fe, New Mexico. The project collects human migration data to generate gusts of wind around the gallery space and trigger sounds in a database of recordings in the migrants' native languages. A work of data sonification and visualization, this project is a part of the author's long-standing interest in the aesthetics and cultural appropriations of environmental data. In Aeolian Traces, wind data is harvested as a metaphor for geographical and cultural nomadism.",
+  "file": "3306211.3320145.png"
+ },
+ {
+  "t": "Air hugs",
+  "a": [
+   "Rachel Dickey"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2019,
+  "k": "Art Gallery",
+  "doi": "10.1145/3306211.3320141",
+  "abs": "This paper outlines the description for the Air Hugs project, which is a large-scale interactive installation that transforms the space around the passerby using actuated inflatables and computer vision. The author provides a historical overview of inflatables and specifically examines their use as a driver for innovative shifts in the discipline of architecture. The hug, throughout the paper, is appropriated as a discursive tool for framing the theoretical context and for describing novel ways of generating contemporary forms of experience through architectural performance.",
+  "file": "3306211.3320141.png"
+ },
+ {
+  "t": "alt'ai",
+  "a": [
+   "Paul Heinicker",
+   "Lukáš Likavčan",
+   "Qiao Lin"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2019,
+  "k": "Art Gallery",
+  "doi": "10.1145/3306211.3320146",
+  "abs": "alt'ai is an agent-based simulation inspired by aesthetics, culture and environmental conditions of the Altai mountain region on the borders between Russia, Kazakhstan, China and Mongolia. It is set into a scenario of a remote automated landscape populated by sentient machines, where biological species, machines and environments autonomously interact to produce unforeseeable visual outputs. It poses a question of designing future machine-to-machine authentication protocols that are based on the use of images encoding agent behavior. Also, the simulation provides rich visual perspective on this challenge. The project pleads for a heavily aestheticized approach to design practice and highlights the importance of productively inefficient and information redundant systems.",
+  "file": "3306211.3320146.png"
+ },
+ {
+  "t": "Awakened silence",
+  "a": [
+   "Rachel Dickey"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2019,
+  "k": "Art Gallery",
+  "doi": "10.1145/3306211.3320142",
+  "abs": "Awakened Silence appropriates techniques of performance, installation and film to memorialize lives lost in recent mass shootings, reveal humanity's fixed relationship to technology and subvert the effects of media overload. It draws from the experience of first responders hearing the incessant sounds of phones after appearing on the scene. The project involves the video and audio recording of hundreds of cell phones turning on after a 24-hour period of silence. The resulting film captures a compilation of messages and notifications, which are composed into a projected performance of darkness and silence gradually awakened by a crescendo of light and sound.",
+  "file": "3306211.3320142.png"
+ },
+ {
+  "t": "Cave",
+  "a": [
+   "Kris Layng",
+   "Ken Perlin",
+   "Sebastian Herscher",
+   "Corinne Brenner",
+   "Thomas Meduri"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2019,
+  "k": "Art Gallery",
+  "doi": "10.1145/3306211.3320138",
+  "abs": "CAVE is a shared narrative six degrees of freedom (6DoF) virtual reality experience. In 3.5 days, 1,927 people attended its premiere at SIGGRAPH 2018. Thirty participants at a time each saw and heard the same narrative from their own individual location in the room, as they would when attending live theater. CAVE set out to disruptively change how audiences collectively experience immersive art and entertainment. Inspired by the social gatherings of theater and cinema, CAVE resonated with viewers in powerful and meaningful ways. Its specific pairing of colocated audiences and physically shared immersive narrative suggests a possible future path for shared cinematic experiences.",
+  "file": "3306211.3320138.png"
+ },
+ {
+  "t": "Eyes",
+  "a": [
+   "Yoon Chung Han",
+   "Praful Surve"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2019,
+  "k": "Art Gallery",
+  "doi": "10.1145/3306211.3324028",
+  "abs": "Distinct biometric patterns such as fingerprints, irises, palm prints and faces represent a person's individual signature and identity in digital society. They are intuitive and powerful resources that represent the individual's genetic identity through microscopic patterns and complicated networks. Thus, these body patterns, known as biometric data, can provide a means not only for discovering our genetic code but also for exploring hidden narratives in relation to others.",
+  "file": "3306211.3324028.png"
+ },
+ {
+  "t": "Fiber-optic ocean",
+  "a": [
+   "Özge Samanci",
+   "Adam Snyder",
+   "Gabriel Caniglia"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2019,
+  "k": "Art Gallery",
+  "doi": "10.1145/3306211.3324022",
+  "abs": "Fiber-Optic Ocean is a virtual reality experience that generates procedural music and light from live data. Fiber-Optic Ocean portrays the struggle of human beings to survive in the age of corporations via the metaphor of sharks in an ocean invaded by technology and interprets what happens when technology invades the world's oceans.",
+  "file": "3306211.3324022.png"
+ },
+ {
+  "t": "Knowing together",
+  "a": [
+   "Rosalie Yu",
+   "Charles Berret"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2019,
+  "k": "Art Gallery",
+  "doi": "10.1145/3306211.3320139",
+  "abs": "Knowing Together is a collection of sculptures designed to explore collaborative techniques for capturing three-dimensional images. Thirty-five participants collectively created these images by forming circles and passing a camera around. These images were stitched together to form 3D models whose distortions are preserved as artifacts attesting to their creation process, suggesting novel approaches to photogrammetry that do not treat photorealism as its ideal quality.",
+  "file": "3306211.3320139.png"
+ },
+ {
+  "t": "Knowing together",
+  "a": [
+   "Rosalie Yu",
+   "Charles Berret"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2019,
+  "k": "Art Gallery",
+  "doi": "10.1145/3306211.3324025",
+  "abs": "Knowing Together is an experiment in collaborative photography and the expression of embodied experience in three-dimensional art. This experiment is intended to probe beyond the typical limits of photogrammetry, a technique for creating 3D models by combining multiple photographs taken of an object from different angles.",
+  "file": "3306211.3324025.png"
+ },
+ {
+  "t": "LAVIN",
+  "a": [
+   "Jieliang Luo",
+   "Weidi Zhang"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2019,
+  "k": "Art Gallery",
+  "doi": "10.1145/3306211.3352410",
+  "abs": "The current artificial intelligence (AI) technique allows a deep neural network to recognize over 20,000 different categories of objects. Meanwhile, countless deep neural networks are trained for different applications as the output from each neural network is a singular projection of the neural network's own understanding of the real world. Given the same visual input, for example, neural networks trained for facial recognitions can only interpret the input as a collection of faces, while neural networks used for autonomous driving can decompose the input into cars, pedestrians, trees, etc. Regardless of the complexity of the projection, it shapes the \"world value\" of the neutral network it belongs to. Therefore, an intriguing question arises as to what ground truth is in the modern AI age, given the fact that the most complex neural network model cannot inclusively represent the real world.",
+  "file": "3306211.3352410.png"
+ },
+ {
+  "t": "Learning to see",
+  "a": [
+   "Memo Akten",
+   "Rebecca Fiebrink",
+   "Mick Grierson"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2019,
+  "k": "Art Gallery",
+  "doi": "10.1145/3306211.3320143",
+  "abs": "The authors present a visual instrument developed as part of the creation of the artwork Learning to See. The artwork explores bias in artificial neural networks and provides mechanisms for the manipulation of specifically trained-for real-world representations. The exploration of these representations acts as a metaphor for the process of developing a visual understanding and/or visual vocabulary of the world. These representations can be explored and manipulated in real time, and have been produced in such a way so as to reflect specific creative perspectives that call into question the relationship between how both artificial neural networks and humans may construct meaning.",
+  "file": "3306211.3320143.png"
+ },
+ {
+  "t": "Making visible the invisible",
+  "a": [
+   "George Legrady",
+   "Rama Hoetzlein"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2019,
+  "k": "Art Gallery",
+  "doi": "10.1145/3306211.3320147",
+  "abs": "Making Visible the Invisible is a six-screen, dynamic data visualization artwork at the Seattle Public Library. It visualizes patrons' library checkouts received by the hour through four different animations to give a sense of community interests. The artwork was activated in September 2005 for a 10-year operation and was extended until 2019. As one of the longest-running media arts projects based on live, continuous data, the work has presented significant challenges regarding robustness and durability over time. We review the motivation, design of the system, backup plan, maintenance and novel strategies for a decades-long media artwork.",
+  "file": "3306211.3320147.png"
+ },
+ {
+  "t": "No in disguise",
+  "a": [
+   "Simon Boas"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2019,
+  "k": "Art Gallery",
+  "doi": "10.1145/3306211.3320144",
+  "abs": "As the distinction between our online and offline selves collapses, how we are able to express ourselves digitally has direct consequences for the world we experience offline. This paper examines those consequences through a work of art that explores how a popular dating app prestructures sexual relationships: The author's collaborative multimedia installation No in Disguise features procedurally composited video of men reading interviews with dating app users algorithmically targeted by their views on sexual consent as expressed in their profiles.",
+  "file": "3306211.3320144.png"
+ },
+ {
+  "t": "NOISE AQUARIUM",
+  "a": [
+   "Victoria Vesna",
+   "Alfred Vendl",
+   "Martina Fröschl",
+   "Glenn Bristol",
+   "Paul Geluso",
+   "Stephan Handschuh",
+   "Thomas Schwaha"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2019,
+  "k": "Art Gallery",
+  "doi": "10.1145/3306211.3324024",
+  "abs": "Plankton serve as one of the primary bases of the marine food chain and are as a result a crucial component of Earth's ecosystem. Project Noise Aquarium deals with unnatural noise in the oceans largely associated with fossil fuels as an environmental issue. This project offers a species-rich idyll as well as visual attractiveness, thus evoking interest in and attention for these vital microcreatures and their disturbance from noise pressure waves. Noise Aquarium aims to awaken awareness for biodiversity and introduces a collection of accurate tomographic 3D-scanned 3D models as a resource for scientific and artistic research. The academic and creative potential of a cooperation, as it was developed for this project, allowed all participants to learn to move beyond the comfort of their fields and communicate with experts from other disciplines. The animation was expanded with various scientific imaging techniques. This specific 3D scanning microcreatures technique developed by the biologists adds a layer of authenticity to the animation that has not previously been done with planktons by an art-science team. The installation lets participants interact with enormously enlarged plankton surrounded by microplastics. The ecosystem gets balanced by stillness so that the noise disappears and audiences watching can hear the whale sounds and think about the complex interconnections of the living systems in Earth's bodies of water.",
+  "file": "3306211.3324024.png"
+ },
+ {
+  "t": "Pachinko machine",
+  "a": [
+   "Brigitta Zics"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2019,
+  "k": "Art Gallery",
+  "doi": "10.1145/3306211.3324020",
+  "abs": "The pachinko machine is a vertical pinball machine (or pachinko) played by a large number of people mainly in This digital version is a self-learning pachinko displayed on a screen with a highly detailed kinetic graphics simulation. The machine plays the game by itself in an automated setup. Through machine learning algorithms the pachinko becomes increasingly accurate in achieving the winning result. During the period of the exhibition the machine optimizes its own performance and improves its results hour after hour. The only obstruction to fulfill the complete learning cycle is beyond the machine's control; there is a second intelligence embedded within the machine that aims to obfuscate. The work aims to represent the walk of life---although we may be able to control some part of it, there is always an element of chance that may encourage us to stray from our original path.",
+  "file": "3306211.3324020.png"
+ },
+ {
+  "t": "Robotic voice-activated word-kicking machine",
+  "a": [
+   "Neil Mendoza"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2019,
+  "k": "Art Gallery",
+  "doi": "10.1145/3306211.3324032",
+  "abs": "The Robotic Voice-Activated Word-Kicking Machine is a surreal exploration of language and our strange relationship with talking to machines, from customer service bots to \"intelligent assistants.\" It combines projection and robotics to explore the crossover between the virtual and the physical. Viewers' spoken words are converted into text and launched into the virtual world. They accumulate there, sometimes kicked by a robotic foot and sometimes sucked back out into the world as sound, depending on where the words end up. If they touch the foot, it kicks them, and if they get near to the opening of the right hand horn, it sucks them out.",
+  "file": "3306211.3324032.png"
+ },
+ {
+  "t": "RuShi",
+  "a": [
+   "John Wong"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2019,
+  "k": "Art Gallery",
+  "doi": "10.1145/3306211.3324027",
+  "abs": "Is big data the new superstition now? Will a data scientist or artificial intelligence (AI) be the new fortune-teller?",
+  "file": "3306211.3324027.png"
+ },
+ {
+  "t": "Tentacle flora",
+  "a": [
+   "Akira Nakayasu"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2019,
+  "k": "Art Gallery",
+  "doi": "10.1145/3306211.3324021",
+  "abs": "The tentacles of a sea anemone swaying in the ocean waves recall the image of a primitive organism. Among the studies published in Genome Research in 2014, it was found that sea anemones are genetically half plant and half animal [1,2]. Their primitive mode of life that encompasses diversity amid a chaos that human beings cannot understand reflects a vitality and beauty. Tentacle Flora is a robotic sculpture created with the mysterious sea anemone as its motif.",
+  "file": "3306211.3324021.png"
+ },
+ {
+  "t": "Terra mars",
+  "a": [
+   "Weili Shi"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2019,
+  "k": "Art Gallery",
+  "doi": "10.1145/3306211.3320134",
+  "abs": "Terra Mars presents artistic renderings of Mars with visual reference to our very own planet Earth. The author trained an artificial neural network with topographical data and satellite imagery of Earth so that it can learn the relation between them. The author then applied the trained model to topographical data of Mars to generate images that resemble satellite imagery of Earth. This project suggests a new approach to creative applications of artificial intelligence---using its capability of remapping to broaden the domain of artistic imagination.",
+  "file": "3306211.3320134.png"
+ },
+ {
+  "t": "The trained particles circus",
+  "a": [
+   "Patxi Araujo"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2019,
+  "k": "Art Gallery",
+  "doi": "10.1145/3306211.3320133",
+  "abs": "The Trained Particles Circus proposes an improbable, precarious and potentially dangerous meeting place caged between the real and the virtual worlds. Embodied in the relationship between synthetic biomechanics and an automaton, it recreates the figure of the circus artist, the puppet with its own life or the fantastic animal; and it places us as spectators into a contemporary spectacle of hybrid and augmented subjects that conjugate light and shadow, fake and magic, virtual and physical reality, machine and organism [1].",
+  "file": "3306211.3320133.png"
+ },
+ {
+  "t": "The yawn chorus",
+  "a": [
+   "Alex Rothera",
+   "Christopher G. Thompson",
+   "Christopher Baker",
+   "Shekpoint Charlie"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2019,
+  "k": "Art Gallery",
+  "doi": "10.1145/3306211.3324030",
+  "abs": "The Yawn Chorus involves creating a yawning orchestra.",
+  "file": "3306211.3324030.png"
+ },
+ {
+  "t": "TransVision",
+  "a": [
+   "Jiabao Li",
+   "Honghao Deng",
+   "Panagiotis Michalatos"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2019,
+  "k": "Art Gallery",
+  "doi": "10.1145/3306211.3324023",
+  "abs": "Through three extreme ideal types of perceptual machines, TransVision questions the habitual ways in which we interpret, operate and understand the visual world intervened by digital media: hypersensitive vision---a speculation on social media's amplification effect and our filtered communication landscape; hyperfocused vision---an analog version of the searching behavior on the Internet; hypercommoditized vision---a monetized vision that meditates on the omnipresent advertisement that targets our visual field.",
+  "file": "3306211.3324023.png"
+ },
+ {
+  "t": "Watertight",
+  "a": [
+   "Ziv Schneider",
+   "Caitlin Robinson"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2019,
+  "k": "Art Gallery",
+  "doi": "10.1145/3306211.3324026",
+  "abs": "As we hurtle toward the future, some things don't keep up with rapid technological and social change. Housing infrastructure adapts in a far longer time frame, resulting in contemporary life being retrofitted to our legacy-built environment.",
+  "file": "3306211.3324026.png"
+ },
+ {
+  "t": "Artist residencies for innovation",
+  "a": [
+   "Nicolas Henchoz",
+   "Pierre-Xavier Puissant",
+   "Ana Solange Leal",
+   "Tânia Moreira",
+   "Hugues Vinet"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2019,
+  "k": "Art Papers",
+  "doi": "10.1145/3306211.3320140",
+  "abs": "Artists can play a major role in the success of innovation. The European program STARTS aims to increase their impact in high-tech environments. An international consortium has the mission to implement 45 residencies and set a complete framework for such partnerships. The authors identify methodological gaps from the literature and observe how the STARTS program fills them. The authors discuss the impact of the implemented solutions, providing the leading global study on this large-scale action. The resulting residency framework, including the methodology and its associated tools, will be released publicly, making it available to institutions and companies."
+ },
+ {
+  "t": "Off-lining to tape is not archiving",
+  "a": [
+   "Evanthia Samaras",
+   "Andrew Johnston"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2019,
+  "k": "Art Papers",
+  "doi": "10.1145/3306211.3320135",
+  "abs": "This paper examines digital asset archiving and preservation practice in the visual effects (VFX) industry. The authors briefly summarize media archaeology theory and provide an overview of how VFX studios presently archive project assets and records, based on case study and interview research conducted with expert VFX practitioners from leading international studios. In addition, the authors propose that current practice could be improved by adopting archival science methods, including digital preservation practices. Doing so will support media archaeology studies of digital cultures over time and ensure that the legacy of VFX creative and technical production thrives for future generations."
+ },
+ {
+  "t": "Secrets of balanced composition as seen through a painter's window",
+  "a": [
+   "Jin Wan Park"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2019,
+  "k": "Art Papers",
+  "doi": "10.1145/3306211.3320136",
+  "abs": "In this paper, the author implements and uses a subset barycenter pattern to analyze various paintings. The suggested visualization and analysis tool is inspired by Gombrich's theory of a painter's window and Locher's psychological research on computational balance. An image's or an image group's subset (set of cropped images) may reveal genre and artist characteristics. Moreover, it may also reveal forensic information about each artist's individual style and its changes over time with barycenter dispersion patterns. The suggested barycenter pattern analysis can enrich the methods of art history and criticism."
+ },
+ {
+  "t": "Weaving objects",
+  "a": [
+   "Claire Harvey",
+   "Emily Holtzman",
+   "Joy Ko",
+   "Brooks Hagan",
+   "Rundong Wu",
+   "Steve Marschner",
+   "David Kessler"
+  ],
+  "c": "SIGGRAPH",
+  "y": 2019,
+  "k": "Art Papers",
+  "doi": "10.1145/3306211.3320137",
+  "abs": "3D weaving is an industrial process for creating volumetric material through organized multiaxis interlacing of yarns. The overall complexity and rarity of 3D weaving have limited its market to aerospace and military applications. Current textile design software does not address the ease of iterating through physical trialing so necessary for designers to access this medium. This paper describes the development of a series of volumetric textile samples culminating in the creation of a fully formed shoe and the collaboration with computer scientists to develop a visualization tool that addresses the consumer accessory design opportunities for this medium."
+ },
+ {
+  "t": "\"Rebooting memories\"",
+  "a": [
+   "Anju Niwata",
+   "Hidenori Watanave"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2019,
+  "k": "Art Papers",
+  "doi": "10.1145/3354918.3361904",
+  "abs": "In this paper, we explain the creation of \"flow\" in social media and real spaces using AI technology to colorize black-and-white stock photographs from digital archives and other locations. When visualizing the colors that the photographs should have had, the impressions of \"freezing\" in black-and-white photographs are \"rebooted,\" and viewers can more easily imagine the events depicted. This bridges the psychological gap between past events and modern daily life, sparking conversations. The \"flow\" generated here causes the emergence of lively communication and increases the value of information. This method can help to pass precious materials and memories of past events into the future."
+ },
+ {
+  "t": "Artistic license in heritage visualisation",
+  "a": [
+   "Kit Devine"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2019,
+  "k": "Art Papers",
+  "doi": "10.1145/3354918.3361903",
+  "abs": "Heritage visualisations are works of the cultural imaginary and this paper examines the artwork Artistic License: VR Sydney Cove ca. 1800 which foregrounds the interpretive nature of heritage visualisation. It is a re-imagining in virtual reality of A View of Sydney Cove, New South Wales, 1804, a contemporaneous print of Sydney Cove. Existing in the liminal space between accuracy and authenticity it is both art object and heritage visualisation. The dual nature of this work supports engagement with wider audiences, fostering and broadening debate at individual, institutional, academic and societal levels about the nature and role of heritage."
+ },
+ {
+  "t": "Bridging knowledge between craftsman and learner in Chinese intangible cultural heritage through WebAR",
+  "a": [
+   "Peng Tan",
+   "Yi Ji",
+   "Damian Hills",
+   "Tieming Fu"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2019,
+  "k": "Art Papers",
+  "doi": "10.1145/3354918.3361900",
+  "abs": "The purpose of this paper is to explore new perspectives to learning Intangible Cultural Heritage (ICH) through embodied interaction with focus on learning and experience with traditional Cantonese Porcelain crafting. This research developed a WebAR application where various processes are presented through the tangible interaction of virtual porcelain represented by physical objects. The learner is able to directly interact with the plate that bridges the tangible materials and making processes of ICH utilizing WebAR. Empirical studies found that the WebAR and embodied interaction can enhance student's tangible learning experience to transfer knowledge between craftsman and student."
+ },
+ {
+  "t": "CharActor",
+  "a": [
+   "Masaru Mizuochi"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2019,
+  "k": "Art Papers",
+  "doi": "10.1145/3354918.3366358",
+  "abs": "The personality of living things is beautiful. Is it possible to have a personality in the digital world? CharActor is a video work that produces animation by recognizing shader programs as genes and by changing the mathematical expression itself using evolutionary computation.",
+  "file": "3354918.3366358.png"
+ },
+ {
+  "t": "Contact/sense",
+  "a": [
+   "Rewa Wright",
+   "Simon Howden"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2019,
+  "k": "Art Papers",
+  "doi": "10.1145/3354918.3366368",
+  "abs": "When we feel and sense through machines, are we still ourselves? In a mixed reality where embodied actions and blinding visions are part woman/part machine, the tactile surface of plants is a portal that conjures augmented materialities into existence.",
+  "file": "3354918.3366368.png"
+ },
+ {
+  "t": "Dream clanger",
+  "a": [
+   "Baden Pailthorpe"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2019,
+  "k": "Art Papers",
+  "doi": "10.1145/3354918.3366355",
+  "abs": "'Dream Clanger' is a hybrid art/computer science project that re-imagines AFL Player GPS data and match video. Building on Baden Pailthorpe's 2017 major exhibition 'Clanger', this work pushes the envelope further by integrating machine learning.",
+  "file": "3354918.3366355.png"
+ },
+ {
+  "t": "Extraordinary accident",
+  "a": [
+   "Tomas Laurenzo",
+   "Alejandro Rodríguez",
+   "Tatjana Kudinova"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2019,
+  "k": "Art Papers",
+  "doi": "10.1145/3354918.3361901",
+  "abs": "This paper presents Extraordinary Accident, an immersive experience exploring how different levels of abstraction can coexist and collaborate in the representation and recreation of urban space. Using Hong Kong as both inspiration and data source, the work attempts to liberate virtual reality compositions from their metaphorical ballast -that is, their recreational onus- and instead, with a temporal amalgamation of poetic representation at different scales, contribute to an alternative, potentially more intimate, understanding of the urban experience."
+ },
+ {
+  "t": "gravityZero",
+  "a": [
+   "Suguru Goto",
+   "Satoru Higa",
+   "johnsmith",
+   "Chihiro Suzuki"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2019,
+  "k": "Art Papers",
+  "doi": "10.1145/3354918.3361899",
+  "abs": "This paper reports the exposition of an artistic installation, gravityZERO, and its ongoing technical development. It consists of virtual sound, VR and robotic technologies in order to simulate the state of zero gravity. Audience members can experience a floating sensation within this virtual environment. gravityZERO (zero gravity) is an installation that combines video, sound, and robotics. Translucent cubes are assembled at the venue. Images are quasi-holographically projected on the cube's surfaces, and speakers are placed in the cube's corners. A person is suspended from the ceiling and floats as if there is no gravity. Each rope can be freely moved in 3D space within the cube through motor operation. This project is based upon an idea that utilizes an interface closely related to a human body, and also pursues new possibilities of the performance of Augmented Reality and Projection Mapping."
+ },
+ {
+  "t": "Hybrid animation production and the dream of flight",
+  "a": [
+   "Simon Rippingale",
+   "Andrew Johnston",
+   "Andrew Bluff"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2019,
+  "k": "Art Papers",
+  "doi": "10.1145/3354918.3361906",
+  "abs": "Through a detailed account of a recent practice-based research project - a short animation project called Jasper, this paper explores how a hybrid analogue/digital production approach can generate a unique and engaging visual style - one that sits between the tangible, handcrafted feel of miniatures and the cleanness, fluidity and flexibility of computer-generated animation. The author examines the new creative possibilities and challenges that a hybrid animation production approach presents and also outlines various technical platforms encountered during the production of Jasper, including motion-controlled camera systems, 3D printing, game engines, point cloud scans and augmented reality."
+ },
+ {
+  "t": "Instababy generator",
+  "a": [
+   "Emi Kusano",
+   "Junichi Yamaoka"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2019,
+  "k": "Art Papers",
+  "doi": "10.1145/3354918.3366364",
+  "abs": "This artwork is an installation that expresses the future in which users can manufacture designer's babies themselves. You can design, customize and manufacture your baby with your favorite gene on your laptop. A 3D printed child appears from the display, and the child's face created based on the visitor's face.",
+  "file": "3354918.3366364.png"
+ },
+ {
+  "t": "LightWing II",
+  "a": [
+   "Uwe Rieger",
+   "Yinan Liu"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2019,
+  "k": "Art Papers",
+  "doi": "10.1145/3354918.3366362",
+  "abs": "LightWing II creates a mysterious sensation of tactile data. In this interactive installation, a kinetic construction is augmented with stereoscopic 3D projections and spatial sound. A light touch sets the delicate wing-like structure into a rotational oscillation and enables the visitor to navigate through holographic spaces and responsive narratives.",
+  "file": "3354918.3366362.png"
+ },
+ {
+  "t": "Narrative's impact on quality of experience in digital storytelling",
+  "a": [
+   "Øyvind Sørdal Klungre",
+   "Asim Hameed",
+   "Andrew Perkis"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2019,
+  "k": "Art Papers",
+  "doi": "10.1145/3354918.3361905",
+  "abs": "Our ways of telling stories have evolved along with advances in technology. This has led to the emergence of digital storytelling. This project explores narrative influences on Quality of Experience of users in digital stories. This is done by creating and implementing a location driven digital story presented to the user by an augmented reality application on a mobile device. This narrative system has been evaluated by 30 people who have participated in a subjective evaluation. The results show that the narrative setup results in a richer, livelier and more engaging experience."
+ },
+ {
+  "t": "Numb",
+  "a": [
+   "Taeil Lee"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2019,
+  "k": "Art Papers",
+  "doi": "10.1145/3354918.3366356",
+  "abs": "Numb, shaped as an exaggerated eyeball, follows you and reflects the blinks of yours. It makes you become aware of your own blinking and sensitive to your own sensation. Numb illustrates how we build relationship with technology through senses, and how we become sensitive to ourselves by and with technology.",
+  "file": "3354918.3366356.png"
+ },
+ {
+  "t": "Smile",
+  "a": [
+   "Tomas Laurenzo"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2019,
+  "k": "Art Papers",
+  "doi": "10.1145/3354918.3366367",
+  "abs": "Smile is a mixed-media installation consisting of a screen in a black box, mounted on the wall. When an interactor smiles, drone-footage of the ruins of Gaza fades in. If the interactor stops smiling, the video stops. It only plays when the interactor widely smiles at it.",
+  "file": "3354918.3366367.png"
+ },
+ {
+  "t": "Tactile microcosm of alife",
+  "a": [
+   "Toshikazu Ohshima"
+  ],
+  "c": "SIGGRAPH Asia",
+  "y": 2019,
+  "k": "Art Papers",
+  "doi": "10.1145/3354918.3366357",
+  "abs": "Tactile Microcosm of ALife offers interaction with artificial organisms, whereby the user can enjoy playing with fish-like organisms through aerial imaging and haptic feedback. The holographic organisms float in water in a petri dish, and the user can feel a forcefield of the vital of the organisms via force feedback.",
+  "file": "3354918.3366357.png"
+ }
+]

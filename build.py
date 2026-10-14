@@ -230,8 +230,26 @@ def add_extra_data(items, out_dir, report):
                 by_doi[e["doi"].lower()] = e
             added += 1
         report.append(f"過去分（legacy.json）: {added}件 / 画像 {with_img}")
+    # data/backfill.json: older years (2005-2019) from Crossref / OpenAlex; each entry may name
+    # its image in data/backfill-thumbs/ ("file"), taken from the SIGGRAPH History Archives
+    backfill = data / "backfill.json"
+    if backfill.exists():
+        added = with_img = 0
+        for e in json.loads(backfill.read_text(encoding="utf-8")):
+            if e.get("doi", "").lower() in by_doi:
+                continue
+            e = {"v": "", "img": "", **e}
+            src = data / "backfill-thumbs" / e.pop("file", "")
+            if src.is_file():
+                h = hashlib.sha1(e["doi"].encode()).hexdigest()[:12]
+                e["img"] = put_thumb(src, out_dir, h)
+                with_img += 1
+            items.append(e)
+            by_doi[e["doi"].lower()] = e
+            added += 1
+        report.append(f"追加の過去分（backfill.json）: {added}件 / 画像 {with_img}")
     for f in sorted(data.glob("*.json")):
-        if f.name in ("legacy.json", "thumb-pos.json"):
+        if f.name in ("legacy.json", "backfill.json", "thumb-pos.json"):
             continue
         n = 0
         for doi, v in json.loads(f.read_text(encoding="utf-8")).items():
