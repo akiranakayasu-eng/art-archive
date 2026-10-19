@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Art Archive Statistics</title>
+<link rel="stylesheet" href="../siggraph/style.css">
+<style>
+/* 統計ページだけの見た目。色は ../siggraph/style.css の --bg / --fg / --mut / --line / --acc を使う */
+:root{--s1:#2a78d6;--s2:#eb6834;--s3:#1baf7a;--s4:#6250d6;--grid:#e9e6df}
+@media (prefers-color-scheme:dark){:root{--s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#9085e9;--grid:#262522}}
+.tabs{position:relative;display:flex;justify-content:flex-start;background:var(--bg);padding:14px calc(16px + clamp(0px,1.5vw,24px)) 10px}
+.tabs .wrap{display:inline-flex;gap:4px;margin:0;padding:4px;border-radius:999px;background:var(--chip);border:1px solid var(--line);max-width:none}
+.tab{position:relative;padding:7px 18px;border:0;border-radius:999px;font-size:14px;font-weight:600;color:var(--mut);text-decoration:none}
+.tab:hover{color:var(--fg)}
+.tab[aria-current=page]{background:var(--acc);color:#fff}
+.tab[aria-current=page]::after{content:"";position:absolute;left:50%;bottom:-15px;transform:translateX(-50%);border:5px solid transparent;border-top:0;border-bottom-color:var(--acc)}
+@media (max-width:520px){.tab{padding:6px 11px;font-size:13px}}
+header .lede{color:var(--mut);font-size:13px;margin:0 0 10px;max-width:60em}
+.ctl{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center}
+.ctl label{font-size:12px;color:var(--mut)}
+main .wrap{max-width:1100px}
+section{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px 12px;margin:16px 0}
+section h2{margin:0 0 2px;color:var(--fg);font-size:16px;display:block}
+section h2 small{color:var(--mut);font-weight:400;font-size:13px;margin-left:6px}
+.note{color:var(--mut);font-size:12.5px;margin:4px 0 10px}
+.chart{position:relative;width:100%}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+.chart text{fill:var(--mut);font-size:11px}
+.chart .lbl{fill:var(--fg);font-size:12px;font-weight:600}
+.chart .gl{stroke:var(--grid);stroke-width:1}
+.chart .ax{stroke:var(--line);stroke-width:1}
+.chart .xh{stroke:var(--mut);stroke-width:1;stroke-dasharray:2 3}
+.tip{position:absolute;pointer-events:none;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:6px 9px;font-size:12px;line-height:1.45;box-shadow:0 2px 8px rgba(0,0,0,.12);white-space:nowrap;z-index:3}
+.tip b{font-weight:650}
+.tip i{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:6px;vertical-align:0}
+.legend{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12.5px;margin:2px 0 6px}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:14px;height:3px;border-radius:2px;display:inline-block}
+.legend i.sq{width:10px;height:10px;border-radius:2px}
+details{margin-top:6px;font-size:12.5px}
+summary{cursor:pointer;color:var(--mut)}
+table{border-collapse:collapse;margin-top:6px;font-variant-numeric:tabular-nums}
+th,td{padding:3px 10px 3px 0;text-align:right;border-bottom:1px solid var(--line)}
+th:first-child,td:first-child{text-align:left}
+.tw{overflow-x:auto}
+.empty{color:var(--mut);font-size:13px;padding:18px 0}
+.src{font-size:12px;color:var(--mut)}
+.src a{color:var(--mut)}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media (max-width:760px){.row2{grid-template-columns:1fr}}
+.kpis{display:flex;flex-wrap:wrap;gap:10px 28px;margin:6px 0 4px}
+.kpi b{display:block;font-size:24px;font-weight:650;color:var(--fg);font-variant-numeric:tabular-nums}
+.kpi span{font-size:12px;color:var(--mut)}
+</style>
+</head>
+<body>
+<nav class="tabs"><div class="wrap"><a class="tab" href="../siggraph/">SIGGRAPH</a><a class="tab" href="../ars/">Ars Electronica / Expanded</a><a class="tab" href="./" aria-current="page">Statistics</a></div></nav>
+<header><div class="wrap">
+  <h1>統計で見るアート＆テクノロジー｜Art Archive Statistics</h1>
+  <p class="lede">SIGGRAPH・SIGGRAPH Asia の Art Papers / Art Gallery と、Ars Electronica・Expanded の作品データから、時代の変化を見るページです。会場を切り替えて比べられます。</p>
+  <div class="ctl">
+    <div class="chips" id="venue" role="group" aria-label="Venue"></div>
+    <div class="chips" id="prog" role="group" aria-label="Program"></div>
+  </div>
+</div></header>
+<main><div class="wrap">
+
+<section id="sec-official">
+  <h2>投稿数・採択数・採択率<small>Submissions &amp; acceptance</small></h2>
+  <p class="note">主催者が公表した数値です（出典は下）。公表値が見つからない年は空けています。</p>
+  <div id="official"></div>
+</section>
+
+<section>
+  <h2>アーカイブの作品数<small>Works in the archive</small></h2>
+  <p class="note">このアーカイブに収録している採択作品・論文の数です。</p>
+  <div id="counts"></div>
+</section>
+
+<section>
+  <h2>テーマの推移<small>Themes over time</small></h2>
+  <p class="note">概要（abstract）にそのテーマの語が出てくる作品の割合です。キーワード一致による目安で、作品数が少ない年は大きく振れます。</p>
+  <div class="chips" id="themepick" role="group" aria-label="Themes"></div>
+  <div id="themes"></div>
+</section>
+
+<section>
+  <h2>会場どうしの比較<small>Venues compared</small></h2>
+  <p class="note">選んだテーマが概要に出てくる割合を、4つの会場で比べます。</p>
+  <div class="ctl"><label for="cmpTheme">テーマ</label><select id="cmpTheme"></select></div>
+  <div id="compare"></div>
+</section>
+
+<section>
+  <h2>1作品あたりの作者数<small>Authors per work</small></h2>
+  <p class="note">共同制作・研究チームの規模の変化。グループ名は1名として数えています。</p>
+  <div id="authors"></div>
+</section>
+
+<section id="sec-country">
+  <h2>国・地域<small>Countries &amp; regions</small></h2>
+  <p class="note" id="countryNote"></p>
+  <div class="ctl"><label for="cYear">年</label><select id="cYear"></select></div>
+  <div id="country"></div>
+</section>
+
+<section id="sec-awards">
+  <h2>賞と部門<small>Awards &amp; categories</small></h2>
+  <p class="note">Ars Electronica の作品に付いている賞・部門の内訳です。</p>
+  <div class="ctl"><label for="aYear">年</label><select id="aYear"></select></div>
+  <div class="row2"><div id="awards"></div><div id="cats"></div></div>
+</section>
+
+<section>
+  <h2>判定の方法<small>Method</small></h2>
+  <p class="note">テーマはタイトルと概要に下の語（正規表現）が含まれるかで判定しています。国・地域は Ars Electronica の作者表記にある国コード「(AT)」などから数えています。</p>
+  <div class="tw"><table id="rules"></table></div>
+</section>
+
+</div></main>
+
+<script>
+const D = {"rows":[{"venue":"Ars Electronica","prog":"Works","y":2024,"n":149,"nabs":149,"authors":187,"nauth":146,"themes":{"sound":18,"body":25,"eco":20,"data":25,"ai":32,"society":27,"bio":16,"xr":11,"genai":2,"robot":7},"awards":{"Golden Nica":4,"Award of Distinction":12,"Honorary Mention":38,"Special Prize":1,"Young Creatives Prize":3,"S+T+ARTS Grand Prize":2,"S+T+ARTS Honorary Mention":10,"S+T+ARTS Nomination":18,"Exhibited (no award)":61},"cats":{"Prix Ars Electronica – u19–create your world":23,"Prix Ars Electronica – Interactive Art +":15,"Prix Ars Electronica – New Animation Art":15,"Prix Ars Electronica – AI in Art Award":3,"Prix Ars Electronica – Digital Humanity":2,"Festival – Theme Exhibition":30,"S+T+ARTS Prize":30,"Festival – S+T+ARTS Exhibition":31,"Festival – Features Exhibition":14},"countries":{"AU":2,"RS":1,"GB":5,"JP":8,"MX":1,"UA":1,"ES":6,"AT":10,"IT":2,"US":6,"SI":3,"NL":8,"PS":2,"DE":3,"PT":1,"FR":7,"UK":2,"GR":1,"SG":2,"SK":1,"SY":1,"CA":4,"CN":1,"RU":1,"PL":4,"SE":1,"GH":2,"RO":1,"BE":2,"TZ":1,"ZA":1,"TR":1,"TW":3,"TH":1,"CH":3,"NG":3,"CL":1,"AR":1,"IR":1,"GL":1,"MH":1,"EH":1,"IN":1,"BO":1},"ncountry":83},{"venue":"Ars Electronica","prog":"Works","y":2025,"n":158,"nabs":158,"authors":199,"nauth":156,"themes":{"society":31,"robot":13,"bio":13,"sound":35,"body":16,"ai":32,"data":12,"xr":14,"genai":8,"eco":32},"awards":{"Golden Nica":4,"Award of Distinction":12,"Honorary Mention":50,"S+T+ARTS Nomination":18,"Special Prize":10,"S+T+ARTS Honorary Mention":10,"Young Creatives Prize":3,"S+T+ARTS Grand Prize":2,"Exhibited (no award)":51},"cats":{"Prix Ars Electronica – u19–create your world":23,"Prix Ars Electronica – Artificial Life & Intelligence":15,"Prix Ars Electronica – Digital Musics & Sound Art":16,"Prix Ars Electronica – New Animation Art":15,"Prix Ars Electronica – Digital Humanity":2,"Festival – Theme Exhibition":37,"S+T+ARTS Prize":30,"Prix Ars Electronica – Media Literacy Award":8,"Festival – S+T+ARTS Exhibition":8,"Festival – Features Exhibition":16},"countries":{"AT":15,"US":6,"DE":7,"JP":6,"GB":8,"IT":7,"NL":6,"ES":12,"AR":2,"UY":1,"GE":1,"UK":1,"GR":1,"SI":1,"CN":2,"LB":1,"CH":3,"CO":1,"CD":1,"TW":3,"AI":1,"PS":1,"TR":1,"KR":1,"IR":1,"SG":1,"DK":1,"NG":1,"CL":1,"KE":1,"MX":1,"RO":1,"UA":1},"ncountry":83},{"venue":"Ars Electronica","prog":"Works","y":2026,"n":164,"nabs":164,"authors":236,"nauth":164,"themes":{"data":26,"ai":37,"genai":7,"society":41,"xr":19,"body":30,"bio":15,"eco":21,"sound":16,"robot":6},"awards":{"Golden Nica":4,"Grand Prize":2,"Award of Distinction":15,"Honorary Mention":49,"S+T+ARTS Nomination":18,"Young Creatives Prize":3,"S+T+ARTS Grand Prize":2,"S+T+ARTS Honorary Mention":10,"Exhibited (no award)":62},"cats":{"Prix Ars Electronica – Interactive Art +":15,"Prix Ars Electronica – New Animation Art":15,"Prix Ars Electronica – Digital Humanity":15,"Prix Ars Electronica – u19–create your world":23,"Prix Ars Electronica – AI for Social Impact Initiative":5,"Festival – Theme Exhibition: Negotiating the Real":41,"S+T+ARTS Prize":30,"Festival – Theme Exhibition: Negotiating Beyond Humanity":10,"Festival – Features Exhibition":16},"countries":{"AT":38,"NG":2,"DE":15,"US":7,"AF":1,"IT":3,"UA":2,"CO":4,"ES":6,"XK":1,"UK":2,"AR":1,"BR":2,"CA":2,"PE":2,"IE":1,"PL":1,"SI":3,"CN":2,"CH":5,"FR":3,"SE":1,"AU":1,"JP":7,"KE":1,"GB":5,"NO":1,"KR":3,"NL":7,"IR":1,"CL":1,"IL":1,"PS":1,"CZ":1,"RS":2,"BE":3,"EG":1,"IN":1,"HR":1,"MX":1,"BA":1,"ME":1,"EU":2,"GR":1,"TR":1,"RO":1,"DK":1},"ncountry":109},{"venue":"Expanded","prog":"Papers","y":2024,"n":27,"nabs":27,"authors":52,"nauth":27,"themes":{"body":11,"xr":15,"data":11,"ai":9,"genai":4,"sound":9,"society":6,"eco":3,"bio":3},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"Expanded","prog":"Papers","y":2025,"n":28,"nabs":28,"authors":93,"nauth":28,"themes":{"ai":12,"genai":5,"bio":3,"data":11,"sound":5,"society":7,"body":14,"xr":4,"eco":2},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"Expanded","prog":"Papers","y":2026,"n":31,"nabs":31,"authors":52,"nauth":31,"themes":{"ai":11,"genai":6,"xr":10,"bio":3,"eco":7,"data":9,"body":9,"society":9,"robot":2,"sound":6},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Gallery","y":2009,"n":34,"nabs":32,"authors":102,"nauth":34,"themes":{"data":17,"body":3,"society":4,"bio":3,"eco":2,"xr":1,"sound":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Gallery","y":2010,"n":13,"nabs":13,"authors":17,"nauth":13,"themes":{"robot":1,"body":7,"bio":1,"sound":2,"data":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Gallery","y":2011,"n":20,"nabs":20,"authors":32,"nauth":20,"themes":{"data":6,"sound":3,"bio":2,"body":6,"society":4,"eco":1,"robot":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Gallery","y":2012,"n":12,"nabs":0,"authors":15,"nauth":12,"themes":{},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Gallery","y":2013,"n":14,"nabs":14,"authors":29,"nauth":14,"themes":{"xr":2,"body":1,"bio":1,"data":3,"sound":1,"robot":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Gallery","y":2014,"n":12,"nabs":12,"authors":18,"nauth":12,"themes":{"robot":2,"society":3,"sound":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Gallery","y":2016,"n":8,"nabs":8,"authors":16,"nauth":8,"themes":{"data":3,"sound":2,"xr":2},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Gallery","y":2017,"n":10,"nabs":10,"authors":13,"nauth":10,"themes":{"body":3,"bio":2,"sound":4,"robot":2,"xr":2,"society":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Gallery","y":2018,"n":12,"nabs":12,"authors":35,"nauth":12,"themes":{"sound":5,"society":3,"ai":1,"xr":1,"robot":2,"data":1,"eco":2,"body":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Gallery","y":2019,"n":23,"nabs":23,"authors":50,"nauth":23,"themes":{"eco":3,"data":6,"sound":5,"society":2,"bio":5,"xr":2,"body":4,"ai":5,"robot":2},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Gallery","y":2020,"n":13,"nabs":13,"authors":24,"nauth":13,"themes":{"body":4,"ai":2,"sound":5,"eco":2,"xr":3,"bio":3,"data":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Gallery","y":2021,"n":13,"nabs":13,"authors":25,"nauth":13,"themes":{"ai":3,"body":4,"society":3,"bio":1,"xr":2,"eco":2,"sound":1,"data":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Gallery","y":2022,"n":8,"nabs":8,"authors":28,"nauth":8,"themes":{"eco":2,"body":6,"bio":1,"xr":2,"data":3,"ai":1,"robot":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Gallery","y":2023,"n":14,"nabs":14,"authors":40,"nauth":14,"themes":{"eco":1,"ai":3,"genai":2,"xr":1,"sound":2,"robot":2,"data":1,"society":4,"body":3},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Gallery","y":2024,"n":12,"nabs":12,"authors":25,"nauth":12,"themes":{"data":2,"sound":2,"body":4,"ai":7,"robot":3,"genai":2,"society":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Gallery","y":2025,"n":17,"nabs":6,"authors":44,"nauth":17,"themes":{"ai":2,"eco":2,"data":1,"sound":1,"body":1,"society":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Gallery","y":2026,"n":14,"nabs":10,"authors":27,"nauth":14,"themes":{"ai":7,"genai":1,"sound":4,"xr":1,"body":6,"society":2,"data":2,"bio":1,"eco":2,"robot":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Papers","y":2009,"n":10,"nabs":9,"authors":25,"nauth":10,"themes":{"bio":2,"eco":2,"body":2,"sound":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Papers","y":2010,"n":8,"nabs":7,"authors":12,"nauth":7,"themes":{"data":3,"body":3,"sound":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Papers","y":2011,"n":1,"nabs":1,"authors":1,"nauth":1,"themes":{},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Papers","y":2012,"n":5,"nabs":5,"authors":14,"nauth":5,"themes":{"sound":1,"body":2,"xr":1,"data":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Papers","y":2013,"n":7,"nabs":7,"authors":11,"nauth":7,"themes":{"data":1,"sound":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Papers","y":2014,"n":9,"nabs":9,"authors":18,"nauth":9,"themes":{"robot":3,"data":3,"society":2,"eco":3,"body":3,"bio":1,"xr":3,"sound":3},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Papers","y":2015,"n":7,"nabs":7,"authors":9,"nauth":7,"themes":{"data":1,"eco":1,"society":3},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Papers","y":2016,"n":7,"nabs":7,"authors":10,"nauth":7,"themes":{"data":4,"bio":1,"sound":1,"body":1,"eco":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Papers","y":2017,"n":7,"nabs":7,"authors":13,"nauth":7,"themes":{"ai":1,"body":2,"xr":1,"eco":1,"data":1,"robot":1,"sound":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Papers","y":2018,"n":15,"nabs":15,"authors":32,"nauth":15,"themes":{"data":4,"xr":4,"sound":1,"society":3,"eco":1,"body":2,"robot":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Papers","y":2019,"n":4,"nabs":4,"authors":15,"nauth":4,"themes":{"data":2},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Papers","y":2020,"n":14,"nabs":14,"authors":39,"nauth":14,"themes":{"robot":1,"xr":4,"body":3,"sound":1,"data":3,"society":3,"ai":3},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Papers","y":2021,"n":14,"nabs":14,"authors":40,"nauth":14,"themes":{"sound":3,"body":4,"society":5,"ai":2,"robot":2,"data":4,"xr":3,"bio":2},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Papers","y":2022,"n":15,"nabs":15,"authors":54,"nauth":15,"themes":{"xr":4,"ai":6,"robot":3,"bio":1,"body":6,"data":5,"sound":2,"eco":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Papers","y":2023,"n":14,"nabs":14,"authors":36,"nauth":14,"themes":{"ai":6,"eco":3,"data":6,"bio":1,"xr":4,"body":5,"genai":2,"robot":2,"sound":4},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Papers","y":2024,"n":15,"nabs":15,"authors":36,"nauth":15,"themes":{"robot":1,"society":3,"data":5,"sound":2,"xr":3,"bio":2,"body":6,"ai":7,"eco":2,"genai":3},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Papers","y":2025,"n":17,"nabs":17,"authors":56,"nauth":17,"themes":{"ai":9,"xr":6,"data":5,"genai":4,"eco":3,"society":2,"body":6,"robot":2,"sound":2},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH","prog":"Art Papers","y":2026,"n":23,"nabs":23,"authors":95,"nauth":23,"themes":{"ai":11,"data":8,"body":11,"sound":5,"bio":1,"xr":8,"eco":1,"robot":1,"genai":2,"society":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH Asia","prog":"Art Gallery","y":2009,"n":40,"nabs":35,"authors":61,"nauth":40,"themes":{"xr":3,"sound":7,"body":8,"eco":1,"data":3,"society":4,"bio":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH Asia","prog":"Art Gallery","y":2011,"n":29,"nabs":29,"authors":54,"nauth":29,"themes":{"xr":6,"data":3,"sound":7,"body":8,"society":3,"bio":2,"eco":1,"robot":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH Asia","prog":"Art Gallery","y":2012,"n":20,"nabs":20,"authors":38,"nauth":20,"themes":{"sound":7,"data":4,"body":6,"robot":2,"xr":1,"bio":1,"eco":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH Asia","prog":"Art Gallery","y":2013,"n":1,"nabs":1,"authors":4,"nauth":1,"themes":{"xr":1,"sound":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH Asia","prog":"Art Gallery","y":2016,"n":19,"nabs":19,"authors":42,"nauth":19,"themes":{"sound":7,"body":5,"ai":1,"xr":2,"robot":3,"data":2,"bio":2},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH Asia","prog":"Art Gallery","y":2017,"n":16,"nabs":16,"authors":27,"nauth":16,"themes":{"data":2,"body":6,"robot":3,"sound":4,"ai":2,"xr":2,"society":2},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH Asia","prog":"Art Gallery","y":2018,"n":14,"nabs":14,"authors":20,"nauth":14,"themes":{"bio":4,"body":3,"data":4,"sound":4,"robot":1,"ai":1,"eco":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH Asia","prog":"Art Gallery","y":2020,"n":65,"nabs":65,"authors":118,"nauth":65,"themes":{"ai":20,"bio":3,"xr":8,"robot":4,"body":8,"society":3,"data":13,"sound":10,"eco":3},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH Asia","prog":"Art Gallery","y":2021,"n":15,"nabs":15,"authors":42,"nauth":15,"themes":{"xr":4,"body":4,"sound":3,"eco":1,"data":1,"robot":1,"bio":1,"society":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH Asia","prog":"Art Gallery","y":2022,"n":25,"nabs":25,"authors":65,"nauth":25,"themes":{"eco":7,"society":5,"bio":4,"body":6,"xr":3,"ai":6,"data":5,"sound":4},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH Asia","prog":"Art Gallery","y":2023,"n":23,"nabs":23,"authors":59,"nauth":23,"themes":{"bio":1,"ai":6,"data":7,"genai":1,"society":3,"xr":4,"eco":3,"sound":3,"body":5},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH Asia","prog":"Art Gallery","y":2024,"n":18,"nabs":18,"authors":33,"nauth":18,"themes":{"ai":7,"data":5,"society":4,"body":3,"sound":2,"genai":1,"xr":2,"bio":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH Asia","prog":"Art Gallery","y":2025,"n":17,"nabs":14,"authors":44,"nauth":17,"themes":{"ai":8,"bio":3,"eco":2,"genai":4,"society":3,"robot":3,"data":5,"xr":3,"sound":2,"body":5},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH Asia","prog":"Art Papers","y":2010,"n":2,"nabs":0,"authors":0,"nauth":0,"themes":{},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH Asia","prog":"Art Papers","y":2013,"n":8,"nabs":8,"authors":18,"nauth":8,"themes":{"robot":2,"data":3,"body":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH Asia","prog":"Art Papers","y":2015,"n":8,"nabs":8,"authors":19,"nauth":8,"themes":{"data":4,"body":3,"sound":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH Asia","prog":"Art Papers","y":2017,"n":1,"nabs":1,"authors":1,"nauth":1,"themes":{"body":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH Asia","prog":"Art Papers","y":2018,"n":1,"nabs":1,"authors":2,"nauth":1,"themes":{"sound":1,"society":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH Asia","prog":"Art Papers","y":2019,"n":15,"nabs":15,"authors":31,"nauth":15,"themes":{"ai":2,"data":5,"xr":6,"body":5,"robot":1,"sound":2,"bio":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH Asia","prog":"Art Papers","y":2023,"n":13,"nabs":13,"authors":36,"nauth":13,"themes":{"ai":5,"society":3,"genai":1,"eco":2,"data":2,"sound":1,"body":3,"xr":2},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH Asia","prog":"Art Papers","y":2024,"n":28,"nabs":28,"authors":102,"nauth":28,"themes":{"ai":17,"xr":12,"data":9,"body":8,"genai":6,"society":4,"eco":4,"bio":3,"sound":5,"robot":1},"awards":{},"cats":{},"countries":{},"ncountry":0},{"venue":"SIGGRAPH Asia","prog":"Art Papers","y":2025,"n":30,"nabs":30,"authors":110,"nauth":30,"themes":{"ai":14,"eco":8,"data":10,"society":6,"robot":6,"body":18,"sound":6,"xr":9,"bio":2,"genai":5},"awards":{},"cats":{},"countries":{},"ncountry":0}],"themes":{"ai":["AI・機械学習","AI / machine learning"],"genai":["生成AI","Generative AI"],"xr":["VR・AR・XR","VR / AR / XR"],"robot":["ロボット・機械","Robotics"],"bio":["バイオ・生命","Bio / living systems"],"eco":["環境・気候","Ecology / climate"],"data":["データ・可視化","Data / visualization"],"sound":["音・音楽","Sound / music"],"body":["身体・知覚","Body / perception"],"society":["社会・政治","Society / politics"]},"themeRules":{"ai":"artificial intelligence|machine learning|machine-learning|neural network|deep learning|generative model|diffusion model|large language model|language model|chatbot|text-to-image|stable diffusion|midjourney|chatgpt | \\bAI\\b|\\bGANs?\\b|\\bLLMs?\\b|\\bGPT|\\bML\\b","genai":"generative ai|generative artificial|diffusion model|large language model|text-to-image|text-to-video|stable diffusion|midjourney|chatgpt|dall.?e|gpt-?\\d | \\bLLMs?\\b|\\bGenAI\\b","xr":"virtual reality|augmented reality|mixed reality|extended reality|head-mounted|immersive | \\bVR\\b|\\bAR\\b|\\bXR\\b|\\bMR\\b|\\bHMD\\b","robot":"robot|kinetic sculpture|actuator|mechatron","bio":"biolog|bioart|bio-art|living organism|organism|bacteri|microb|fung|mycel|cells?\\b|dna\\b|artificial life|\\balife\\b","eco":"climate|ecolog|anthropocene|environmental|sustainab|extinction|biodiversity|planetary","data":"\\bdata\\b|dataset|visuali[sz]","sound":"\\bsound|music|audio|sonic|sonif","body":"\\bbody\\b|bodies|embodi|wearable|haptic|tactile|perception|choreograph|dance","society":"colonial|politic|\\bwar\\b|migra|gender|feminis|identity|surveillance|democra|inequal|justice|activis|indigenous"},"countryNames":{"AT":"Austria","DE":"Germany","US":"United States","JP":"Japan","NL":"Netherlands","ES":"Spain","CH":"Switzerland","GB":"United Kingdom","UK":"United Kingdom","CO":"Colombia","IT":"Italy","SI":"Slovenia","FR":"France","TW":"Taiwan","AR":"Argentina","CN":"China","CA":"Canada","PL":"Poland","KR":"South Korea","BE":"Belgium","BR":"Brazil","MX":"Mexico","AU":"Australia","DK":"Denmark","SE":"Sweden","NO":"Norway","FI":"Finland","PT":"Portugal","IE":"Ireland","CZ":"Czechia","HU":"Hungary","RO":"Romania","GR":"Greece","TR":"Türkiye","IL":"Israel","IN":"India","SG":"Singapore","HK":"Hong Kong","NZ":"New Zealand","ZA":"South Africa","NG":"Nigeria","KE":"Kenya","EG":"Egypt","LB":"Lebanon","IR":"Iran","CL":"Chile","PE":"Peru","UA":"Ukraine","RS":"Serbia","HR":"Croatia","SK":"Slovakia","EE":"Estonia","LT":"Lithuania","LV":"Latvia","LU":"Luxembourg","IS":"Iceland","TH":"Thailand","PH":"Philippines","ID":"Indonesia","MY":"Malaysia","VN":"Vietnam","BG":"Bulgaria","CY":"Cyprus","MT":"Malta","GH":"Ghana","UG":"Uganda","TN":"Tunisia","MA":"Morocco","PS":"Palestine","PK":"Pakistan","BD":"Bangladesh","EC":"Ecuador","UY":"Uruguay","VE":"Venezuela","CU":"Cuba","GE":"Georgia","AM":"Armenia","BA":"Bosnia and Herzegovina","MK":"North Macedonia","AL":"Albania","ZM":"Zambia","ZW":"Zimbabwe","RW":"Rwanda","SN":"Senegal"},"awardOrder":["Golden Nica","S+T+ARTS Grand Prize","Grand Prize","Award of Distinction","Special Prize","Young Creatives Prize","Honorary Mention","S+T+ARTS Honorary Mention","S+T+ARTS Nomination","Exhibited (no award)"],"official":{"SIGGRAPH|Art Papers":[{"y":2018,"sub":130,"subMin":true,"src":"https://www.academia.edu/39712153/"},{"y":2019,"acc":15,"src":"https://www.academia.edu/39712153/"},{"y":2021,"sub":90,"subMin":true,"acc":14,"src":"https://www.awn.com/news/siggraph-2021-reveals-technical-and-art-papers-selections"},{"y":2022,"sub":70,"subMin":true,"acc":15,"src":"https://gfxspeak.com/?p=69323"},{"y":2025,"acc":17,"src":"https://www.prnewswire.com/news-releases/art-and-technology-converge-through-nature-immersion-and-speculation-at-siggraph-2025-302488633.html"}],"SIGGRAPH|Art Gallery":[{"y":2019,"acc":12,"countries":5,"src":"https://www.awn.com/news/siggraph-2019-bringing-immersive-art-exhibit-la"},{"y":2021,"sub":150,"subMin":true,"acc":14,"countries":7,"src":"https://www.cgw.com/Press-Center/Siggraph/2021/SIGGRAPH-2021-Virtual-Art-Gallery.aspx"},{"y":2022,"sub":120,"subMin":true,"acc":9,"countries":5,"src":"https://gfxspeak.com/newswatch/siggraph-showcase-innovations/"},{"y":2023,"sub":100,"subMin":true,"acc":12,"src":"https://www.prnewswire.com/news-releases/art-and-design-merge-with-science-and-technology-for-innovative-storytelling-and-impact-based-experiences-at-siggraph-2023-301868219.html"},{"y":2024,"sub":188,"acc":12,"src":"https://www.prnewswire.com/news-releases/siggraph-2024-plays-key-role-in-the-evolution-of-how-arts-and-language-impact-the-next-era-of-computer-graphics-302178155.html"},{"y":2025,"acc":12,"src":"https://www.prnewswire.com/news-releases/art-and-technology-converge-through-nature-immersion-and-speculation-at-siggraph-2025-302488633.html"},{"y":2026,"sub":200,"subMin":false,"note":"nearly 200","src":"https://www.prnewswire.com/news-releases/siggraph-2026-explores-the-convergence-of-art-science-and-technology-302779636.html"}],"SIGGRAPH Asia|Art Gallery":[{"y":2024,"sub":200,"acc":18,"src":"https://asia.siggraph.org/2024/for-the-press/press-releases/press-release-4/"}],"Ars Electronica|Works":[{"y":2015,"sub":2889,"countries":75,"more":{"New Animation Art（旧 Computer Animation）投稿数":724,"u19 投稿数":657},"src":"https://ars.electronica.art/press/files/2015/05/Prix-Ars-Electronica-2015_PK_DE.pdf","note":"Prix Ars Electronica 全部門の合計（S+T+ARTS は別）"},{"y":2016,"sub":3159,"countries":84,"more":{"New Animation Art（旧 Computer Animation）投稿数":1327,"Interactive Art+ 投稿数":896,"u19 投稿数":637,"S+T+ARTS Prize 投稿数":1861},"src":"https://www.ecsite.eu/node/22521","note":"Prix Ars Electronica 全部門の合計（S+T+ARTS は別）"},{"y":2017,"sub":3677,"countries":106,"more":{"New Animation Art（旧 Computer Animation）投稿数":1157},"src":"https://www.tips.at/nachrichten/linz/kultur/393214","note":"Prix Ars Electronica 全部門の合計（S+T+ARTS は別）"},{"y":2018,"sub":3046,"countries":85,"more":{},"src":"https://de.readkong.com/page/die-gewinnerinnen-des-prix-ars-electronica-2018-5549192","note":"Prix Ars Electronica 全部門の合計（S+T+ARTS は別）"},{"y":2019,"sub":3256,"countries":82,"more":{"New Animation Art（旧 Computer Animation）投稿数":835,"u19 投稿数":708},"src":"https://www.tips.at/nachrichten/linz/kultur/467938","note":"Prix Ars Electronica 全部門の合計（S+T+ARTS は別）"},{"y":2020,"sub":3209,"countries":90,"more":{"New Animation Art（旧 Computer Animation）投稿数":930,"Interactive Art+ 投稿数":1236,"u19 投稿数":670,"S+T+ARTS Prize 投稿数":1775},"src":"https://ars.electronica.art/mediaservice/?p=31712","note":"Prix Ars Electronica 全部門の合計（S+T+ARTS は別）"},{"y":2021,"sub":3158,"countries":86,"more":{},"src":"https://ars.electronica.art/mediaservice/?p=31880","note":"Prix Ars Electronica 全部門の合計（S+T+ARTS は別）"},{"y":2022,"sub":2338,"countries":88,"more":{"New Animation Art（旧 Computer Animation）投稿数":657,"Interactive Art+ 投稿数":928,"u19 投稿数":358},"src":"https://ars.electronica.art/mediaservice/?p=32023","note":"Prix Ars Electronica 全部門の合計（S+T+ARTS は別）"},{"y":2023,"sub":3176,"countries":98,"more":{"New Animation Art（旧 Computer Animation）投稿数":1116},"src":"https://ars.electronica.art/mediaservice/en/2023/06/12/prix-winners-2023/","note":"Prix Ars Electronica 全部門の合計（S+T+ARTS は別）"},{"y":2024,"sub":2950,"countries":95,"more":{"New Animation Art（旧 Computer Animation）投稿数":893,"S+T+ARTS Prize 投稿数":1308,"AIを使った作品の割合 % New Animation Art":25,"AIを使った作品の割合 % Interactive Art+":21},"src":"https://ars.electronica.art/prix/en/jurystatements/statements2024/","note":"Prix Ars Electronica 全部門の合計（S+T+ARTS は別）"},{"y":2025,"sub":3987,"countries":98,"more":{"New Animation Art（旧 Computer Animation）投稿数":1430,"u19 投稿数":520},"src":"https://ars.electronica.art/mediaservice/en/2025/07/07/prix-winners-2025/","note":"Prix Ars Electronica 全部門の合計（S+T+ARTS は別）"},{"y":2026,"sub":4329,"countries":106,"more":{"New Animation Art（旧 Computer Animation）投稿数":1144,"Interactive Art+ 投稿数":1757,"u19 投稿数":674,"S+T+ARTS Prize 投稿数":2719},"src":"https://ars.electronica.art/mediaservice/en/2026/06/22/prix-ars-electronica-a-barometer-of-artistic-technological-and-social-change/","note":"Prix Ars Electronica 全部門の合計（S+T+ARTS は別）"}],"Expanded|Papers":[{"y":2025,"sub":98,"acc":28,"src":"https://ars.electronica.art/panic/en/view/expanded-2025-conference-on-animation-and-interactive-art-1e338ddb450c80e7954cee03101b6588"}]}};
+const VENUES = [
+  {id:'SIGGRAPH', label:'SIGGRAPH', progs:['Art Papers','Art Gallery']},
+  {id:'SIGGRAPH Asia', label:'SIGGRAPH Asia', progs:['Art Papers','Art Gallery']},
+  {id:'Ars Electronica', label:'Ars Electronica', progs:['Works']},
+  {id:'Expanded', label:'Expanded', progs:['Papers']},
+];
+const PROG_LABEL = {'both':'両方 Both','Art Papers':'Art Papers','Art Gallery':'Art Gallery'};
+const S = ['var(--s1)','var(--s2)','var(--s3)','var(--s4)'];
+const st = {venue:'SIGGRAPH', prog:'both', themes:['ai','xr','eco','bio'], cmp:'ai', cYear:null, aYear:null};
+try { Object.assign(st, JSON.parse(localStorage.getItem('stats-state')||'{}')); } catch(e) {}
+const save = () => { try { localStorage.setItem('stats-state', JSON.stringify(st)); } catch(e) {} };
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+const ALLYEARS = [...new Set(D.rows.map(r => r.y))].sort();
+const Y0 = ALLYEARS[0], Y1 = ALLYEARS[ALLYEARS.length-1];
+const YEARS = Array.from({length:Y1-Y0+1}, (_,i) => Y0+i);
+
+function rowsFor(venue, prog){
+  const v = VENUES.find(x => x.id===venue);
+  const progs = prog==='both' || !v.progs.includes(prog) ? v.progs : [prog];
+  return D.rows.filter(r => r.venue===venue && progs.includes(r.prog));
+}
+function byYear(rows){
+  const m = new Map();
+  for (const r of rows){
+    const a = m.get(r.y) || {y:r.y,n:0,nabs:0,authors:0,nauth:0,themes:{},awards:{},cats:{},countries:{},ncountry:0};
+    a.n+=r.n; a.nabs+=r.nabs; a.authors+=r.authors; a.nauth+=r.nauth; a.ncountry+=r.ncountry;
+    for (const k of ['themes','awards','cats','countries']) for (const [x,c] of Object.entries(r[k])) a[k][x]=(a[k][x]||0)+c;
+    m.set(r.y,a);
+  }
+  return m;
+}
+
+/* ---------- chart primitives (plain SVG) ---------- */
+const NS='http://www.w3.org/2000/svg';
+function el(tag, attrs, parent){ const e=document.createElementNS(NS,tag); for(const k in attrs) e.setAttribute(k,attrs[k]); if(parent) parent.appendChild(e); return e; }
+function ticks(top){ for(const n of [5,4,6,3]){ const st=top/n; if(Number.isInteger(st*10)&&(st>=1?Number.isInteger(st):true)) return n; } return 4; }
+function yearsOf(maps){ const ys=new Set(); for(const m of maps) for(const [y,v] of Object.entries(m)) if(v!=null&&(typeof v!=='object'||v.v!=null)) ys.add(+y); if(!ys.size) return []; const a=Math.min(...ys), b=Math.max(...ys); return Array.from({length:b-a+1},(_,i)=>a+i); }
+function niceMax(v, pct){ if(pct) return Math.min(100, Math.max(10, Math.ceil(v/10)*10)); if(v<=5) return 5; const p=Math.pow(10,Math.floor(Math.log10(v))); const m=v/p; return (m<=1?1:m<=2?2:m<=5?5:10)*p; }
+function tipFor(box){ let t=box.querySelector('.tip'); if(!t){ t=document.createElement('div'); t.className='tip'; t.hidden=true; box.appendChild(t);} return t; }
+function placeTip(box, tip, x, y){ const W=box.clientWidth; tip.hidden=false; const w=tip.offsetWidth; let left=x+12; if(left+w>W) left=x-12-w; tip.style.left=Math.max(0,left)+'px'; tip.style.top=Math.max(0,y-10)+'px'; }
+
+function legend(series, square){
+  return '<div class="legend">'+series.map(s=>`<span><i class="${square?'sq':''}" style="background:${s.color}"></i>${esc(s.name)}</span>`).join('')+'</div>';
+}
+
+/* line chart: series = [{name,color,pts:{year:{v,n,extra}}}] */
+function lineChart(box, series, {pct=false, fmt=v=>v, ymax=null, minN=0, years=null}={}){
+  const YEARS = years || yearsOf(series.map(s=>s.pts)); const Y0=YEARS[0], Y1=YEARS[YEARS.length-1];
+  if(!YEARS.length){ box.innerHTML='<div class="empty">データがありません</div>'; return; }
+  box.innerHTML = (series.length>1? legend(series):'') + '<div class="chart"></div>';
+  const c = box.querySelector('.chart');
+  const W=720, H=260, L=40, R=series.length>1?110:16, T=10, B=26;
+  const svg = el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img'},c);
+  let mx=0; for(const s of series) for(const p of Object.values(s.pts)) if(p && p.v!=null) mx=Math.max(mx,p.v);
+  const top = ymax ?? niceMax(mx||1,pct);
+  const x = y => L + (YEARS.length<2?(W-L-R)/2:(y-Y0)/(Y1-Y0)*(W-L-R));
+  const yv = v => T + (1 - v/top)*(H-T-B);
+  const nt=ticks(top); for(let i=0;i<=nt;i++){ const v=top*i/nt; el('line',{x1:L,x2:W-R,y1:yv(v),y2:yv(v),class:i?'gl':'ax'},svg); const t=el('text',{x:L-6,y:yv(v)+4,'text-anchor':'end'},svg); t.textContent=pct?Math.round(v)+'%':fmt(v); }
+  const step = YEARS.length>12?2:1;
+  YEARS.forEach((y,i)=>{ if((y-Y0)%step && y!==Y1) return; const t=el('text',{x:x(y),y:H-8,'text-anchor':'middle'},svg); t.textContent=y; });
+  const labels=[];
+  series.forEach(s=>{
+    const ys = YEARS.filter(y=>s.pts[y] && s.pts[y].v!=null);
+    // break the line where a year is missing
+    let d='', prev=null;
+    ys.forEach(y=>{ d += (prev!==null && y===prev+1 ? 'L':'M') + x(y)+','+yv(s.pts[y].v); prev=y; });
+    el('path',{d,fill:'none',stroke:s.color,'stroke-width':2,'stroke-linejoin':'round','stroke-linecap':'round'},svg);
+    ys.forEach(y=>{ const p=s.pts[y]; const faint = minN && p.n<minN; el('circle',{cx:x(y),cy:yv(p.v),r:faint?2.5:3.5,fill:faint?'var(--card)':s.color,stroke:s.color,'stroke-width':faint?1.5:2},svg); });
+    if(ys.length){ const ly=ys[ys.length-1]; labels.push({y:yv(s.pts[ly].v), x:x(ly)+8, s}); }
+  });
+  // direct labels (≤4 series), nudged apart
+  if(series.length>1 && series.length<=4){ labels.sort((a,b)=>a.y-b.y); for(let i=1;i<labels.length;i++) if(labels[i].y-labels[i-1].y<16) labels[i].y=labels[i-1].y+16;
+    labels.forEach(l=>{ const t=el('text',{x:l.x,y:l.y+4,class:'lbl'},svg); t.textContent=l.s.short||l.s.name; }); }
+  const xh = el('line',{class:'xh',y1:T,y2:H-B,x1:-9,x2:-9,visibility:'hidden'},svg);
+  const hit = el('rect',{x:L,y:T,width:W-L-R,height:H-T-B,fill:'transparent'},svg);
+  const tip = tipFor(c);
+  const move = ev=>{ const r=svg.getBoundingClientRect(); const px=(ev.clientX-r.left)*W/r.width; const y=YEARS.length<2?Y0:Math.round(Y0+(px-L)/(W-L-R)*(Y1-Y0)); if(y<Y0||y>Y1) return;
+    const lines = series.filter(s=>s.pts[y]&&s.pts[y].v!=null).map(s=>{const p=s.pts[y]; return `<div><i style="background:${s.color}"></i>${esc(s.name)} <b>${pct?p.v.toFixed(0)+'%':fmt(p.v)}</b>${p.extra?' <span style="color:var(--mut)">'+p.extra+'</span>':''}</div>`;});
+    if(!lines.length){ tip.hidden=true; xh.setAttribute('visibility','hidden'); return; }
+    xh.setAttribute('x1',x(y)); xh.setAttribute('x2',x(y)); xh.setAttribute('visibility','visible');
+    tip.innerHTML=`<b>${y}</b>`+lines.join(''); placeTip(c,tip,(x(y))*r.width/W,(ev.clientY-r.top)); };
+  hit.addEventListener('pointermove',move); hit.addEventListener('pointerleave',()=>{tip.hidden=true; xh.setAttribute('visibility','hidden');});
+}
+
+/* vertical bars per year, optionally stacked: series=[{name,color,vals:{year:v}}] */
+function barChart(box, series, {years=null, showLegend=false}={}){
+  const YEARS = years || yearsOf(series.map(s=>s.vals)); const Y0=YEARS[0], Y1=YEARS[YEARS.length-1];
+  if(!YEARS.length){ box.innerHTML='<div class="empty">データがありません</div>'; return; }
+  box.innerHTML = (series.length>1||showLegend? legend(series,true):'') + '<div class="chart"></div>';
+  const c=box.querySelector('.chart');
+  const W=720,H=230,L=40,R=10,T=10,B=26;
+  const svg=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img'},c);
+  const tot = y => series.reduce((a,s)=>a+(s.vals[y]||0),0);
+  const top = niceMax(Math.max(1,...YEARS.map(tot)));
+  const bw = (W-L-R)/YEARS.length, gap=Math.min(6,bw*.25);
+  const yv=v=>T+(1-v/top)*(H-T-B);
+  const nt=ticks(top); for(let i=0;i<=nt;i++){ const v=top*i/nt; el('line',{x1:L,x2:W-R,y1:yv(v),y2:yv(v),class:i?'gl':'ax'},svg); const t=el('text',{x:L-6,y:yv(v)+4,'text-anchor':'end'},svg); t.textContent=Math.round(v); }
+  const step = YEARS.length>12?2:1;
+  const tip=tipFor(c);
+  YEARS.forEach((y,i)=>{
+    const w=Math.min(bw-gap,44), x0=L+i*bw+(bw-w)/2; let base=0;
+    if((y-Y0)%step===0||y===Y1){ const t=el('text',{x:x0+w/2,y:H-8,'text-anchor':'middle'},svg); t.textContent=y; }
+    series.forEach((s,si)=>{ const v=s.vals[y]||0; if(!v) return; const y1=yv(base+v), y2=yv(base);
+      const isTop = series.slice(si+1).every(s2=>!(s2.vals[y]));
+      const h=Math.max(1,y2-y1-(base?2:0));
+      if(isTop){ const r=Math.min(4,w/2,h); el('path',{d:`M${x0},${y2-(base?2:0)}V${y1+r}Q${x0},${y1} ${x0+r},${y1}H${x0+w-r}Q${x0+w},${y1} ${x0+w},${y1+r}V${y2-(base?2:0)}Z`,fill:s.color},svg); }
+      else el('rect',{x:x0,y:y1,width:w,height:h,fill:s.color},svg);
+      base+=v; });
+    const hit=el('rect',{x:L+i*bw,y:T,width:bw,height:H-T-B,fill:'transparent'},svg);
+    hit.addEventListener('pointermove',ev=>{ const r=svg.getBoundingClientRect(); const t=tot(y);
+      tip.innerHTML=`<b>${y}</b>`+(t? series.filter(s=>s.vals[y]).map(s=>`<div><i style="background:${s.color}"></i>${esc(s.name)} <b>${s.vals[y]}</b></div>`).join('')+(series.length>1?`<div>計 <b>${t}</b></div>`:''):'<div>データなし</div>');
+      placeTip(c,tip,ev.clientX-r.left,ev.clientY-r.top); });
+    hit.addEventListener('pointerleave',()=>tip.hidden=true);
+  });
+}
+
+/* horizontal bars: items=[{name,v,extra}] */
+function hbar(box, items, {color='var(--acc)', unit=''}={}){
+  if(!items.length){ box.innerHTML='<div class="empty">データがありません</div>'; return; }
+  const mx=Math.max(...items.map(i=>i.v));
+  box.innerHTML = '<div class="chart">'+items.map(i=>`<div style="display:grid;grid-template-columns:minmax(90px,38%) 1fr;gap:8px;align-items:center;margin:3px 0;font-size:12.5px" title="${esc(i.name)}: ${i.v}${unit}">
+    <div style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(i.name)}</div>
+    <div style="display:flex;align-items:center;gap:6px"><div style="height:12px;width:${Math.max(2,i.v/mx*100*0.85)}%;background:${color};border-radius:0 4px 4px 0"></div><span style="font-variant-numeric:tabular-nums">${i.v}${unit}${i.extra?' <span style="color:var(--mut)">'+i.extra+'</span>':''}</span></div></div>`).join('')+'</div>';
+}
+
+function table(head, rows){
+  return '<details><summary>表で見る</summary><div class="tw"><table><tr>'+head.map(h=>`<th>${esc(h)}</th>`).join('')+'</tr>'+rows.map(r=>'<tr>'+r.map(c=>`<td>${c==null?'–':esc(c)}</td>`).join('')+'</tr>').join('')+'</table></div></details>';
+}
+
+/* ---------- controls ---------- */
+function chips(box, opts, cur, onpick, multi){
+  box.innerHTML = opts.map(o=>`<button class="chip" data-v="${esc(o.v)}" aria-pressed="${multi?cur.includes(o.v):cur===o.v}">${esc(o.l)}</button>`).join('');
+  box.onclick = e=>{ const b=e.target.closest('button'); if(b) onpick(b.dataset.v); };
+}
+function renderControls(){
+  chips($('#venue'), VENUES.map(v=>({v:v.id,l:v.label})), st.venue, v=>{st.venue=v; st.cYear=st.aYear=null; render();});
+  const v=VENUES.find(x=>x.id===st.venue);
+  if(v.progs.length>1){ $('#prog').hidden=false; chips($('#prog'), [{v:'both',l:PROG_LABEL.both},...v.progs.map(p=>({v:p,l:PROG_LABEL[p]}))], st.prog, p=>{st.prog=p; render();}); }
+  else $('#prog').hidden=true;
+  chips($('#themepick'), Object.entries(D.themes).map(([k,t])=>({v:k,l:t[0]})), st.themes, k=>{
+    const i=st.themes.indexOf(k); if(i>=0){ if(st.themes.length>1) st.themes.splice(i,1); } else { if(st.themes.length>=4) st.themes.shift(); st.themes.push(k); } render(); }, true);
+  $('#cmpTheme').innerHTML = Object.entries(D.themes).map(([k,t])=>`<option value="${k}" ${k===st.cmp?'selected':''}>${esc(t[0])}｜${esc(t[1])}</option>`).join('');
+}
+$('#cmpTheme').onchange=e=>{st.cmp=e.target.value; render();};
+$('#cYear').onchange=e=>{st.cYear=+e.target.value; render();};
+$('#aYear').onchange=e=>{st.aYear=+e.target.value; render();};
+
+/* ---------- sections ---------- */
+function progName(){ const v=VENUES.find(x=>x.id===st.venue); return v.progs.length>1 ? (st.prog==='both'?v.progs.join(' + '):st.prog) : ''; }
+
+function renderOfficial(){
+  const v=VENUES.find(x=>x.id===st.venue);
+  const progs = v.progs.length>1 && st.prog!=='both' ? [st.prog] : v.progs;
+  const box=$('#official'); let html='';
+  const blocks = progs.map(p=>({p, recs:(D.official[st.venue+'|'+p]||[]).slice().sort((a,b)=>a.y-b.y)}));
+  if(blocks.every(b=>!b.recs.length)){ box.innerHTML='<div class="empty">この会場の公表値はまだ集められていません。</div>'; return; }
+  box.innerHTML = blocks.map((b,i)=>`<div id="off-${i}"></div>`).join('');
+  blocks.forEach((b,i)=>{
+    const div=$('#off-'+i); if(!b.recs.length){ div.innerHTML=`<p class="note"><b>${esc(b.p)}</b>：公表値が見つかっていません。</p>`; return; }
+    const hasSub=b.recs.some(r=>r.sub!=null), hasRate=b.recs.some(r=>r.sub!=null&&r.acc!=null);
+    const last=b.recs[b.recs.length-1];
+    let k='<div class="kpis">';
+    if(last.sub!=null) k+=`<div class="kpi"><b>${last.sub.toLocaleString()}${last.subMin?'+':''}</b><span>${last.y} 投稿数 submissions</span></div>`;
+    if(last.acc!=null) k+=`<div class="kpi"><b>${last.acc.toLocaleString()}</b><span>${last.y} 採択数 accepted</span></div>`;
+    if(last.sub&&last.acc!=null) k+=`<div class="kpi"><b>${last.subMin?'≤':''}${(100*last.acc/last.sub).toFixed(1)}%</b><span>${last.y} 採択率 rate</span></div>`;
+    if(last.countries) k+=`<div class="kpi"><b>${last.countries}</b><span>${last.y} 参加国・地域 countries</span></div>`;
+    k+='</div>';
+    div.innerHTML = (v.progs.length>1?`<h3 style="font-size:14px;margin:10px 0 0">${esc(b.p)}</h3>`:'')+k+'<div class="c1"></div><p class="note" style="margin-top:10px">採択率 acceptance rate</p><div class="c2"></div><div class="extra"></div><div class="t"></div>';
+    if(hasSub) barChart(div.querySelector('.c1'), [{name:'採択 accepted',color:'var(--acc)',vals:Object.fromEntries(b.recs.filter(r=>r.acc!=null).map(r=>[r.y,r.acc]))},{name:'不採択 not accepted',color:'var(--line)',vals:Object.fromEntries(b.recs.filter(r=>r.sub!=null&&r.acc!=null).map(r=>[r.y,r.sub-r.acc]))},{name:'投稿数のみ公表 submissions only',color:'var(--s1)',vals:Object.fromEntries(b.recs.filter(r=>r.sub!=null&&r.acc==null).map(r=>[r.y,r.sub]))}].filter(s=>Object.keys(s.vals).length), {showLegend:true});
+    else barChart(div.querySelector('.c1'), [{name:'採択 accepted',color:'var(--acc)',vals:Object.fromEntries(b.recs.filter(r=>r.acc!=null).map(r=>[r.y,r.acc]))}]);
+    if(hasRate) lineChart(div.querySelector('.c2'), [{name:'採択率 acceptance rate',color:'var(--s1)',pts:Object.fromEntries(b.recs.filter(r=>r.sub&&r.acc!=null).map(r=>[r.y,{v:100*r.acc/r.sub,extra:`${r.acc}/${r.sub}${r.subMin?'+（上限値）':''}`}]))}], {pct:true});
+    else { div.querySelector('.c2').previousElementSibling.hidden=true; div.querySelector('.c2').innerHTML='<p class="note">'+(hasSub?'採択数（入選・受賞数）は公表されていないため、採択率は出せません。':'投稿数が公表されていないため、採択率は出せません。')+'</p>'; }
+    // extra numeric series published by the organiser (e.g. countries, AI share)
+    const extraKeys=[...new Set(b.recs.flatMap(r=>Object.keys(r.more||{})))];
+    const ex=div.querySelector('.extra'); let exh='';
+    const cRecs=b.recs.filter(r=>r.countries);
+    const numKeys=extraKeys.filter(k=>!/%/.test(k)), pctKeys=extraKeys.filter(k=>/%/.test(k));
+    if(cRecs.length>1) exh+='<p class="note" style="margin-top:12px">参加国・地域の数 countries</p><div class="ec"></div>';
+    if(numKeys.length) exh+='<p class="note" style="margin-top:12px">部門別の投稿数 submissions by category</p><div class="en"></div>';
+    if(pctKeys.length) exh+='<p class="note" style="margin-top:12px">主催者が公表した割合</p><div class="kpis">'+pctKeys.map(k=>{const r=b.recs.find(r=>r.more&&r.more[k]!=null); return `<div class="kpi"><b>${r.more[k]}%</b><span>${r.y} ${esc(k.replace(/ ?%/,''))}</span></div>`;}).join('')+'</div>';
+    ex.innerHTML=exh;
+    if(cRecs.length>1) lineChart(ex.querySelector('.ec'),[{name:'国・地域 countries',color:'var(--s3)',pts:Object.fromEntries(cRecs.map(r=>[r.y,{v:r.countries}]))}],{fmt:v=>Math.round(v)});
+    if(numKeys.length) lineChart(ex.querySelector('.en'), numKeys.slice(0,4).map((k,j)=>({name:k.replace(/\s*投稿数$/,''),short:k.replace(/（.*?）|\s*投稿数$/g,''),color:S[j],pts:Object.fromEntries(b.recs.filter(r=>r.more&&r.more[k]!=null).map(r=>[r.y,{v:r.more[k]}]))})),{fmt:v=>Math.round(v).toLocaleString()});
+    const cols=['年','投稿 submissions','採択 accepted','採択率 rate','国・地域 countries',...extraKeys,'出典 source'];
+    div.querySelector('.t').innerHTML = (b.recs.some(r=>r.subMin)?'<p class="note">「+」は「〜件以上」と公表された投稿数で、そこから出した採択率は上限値（≤）です。</p>':'')+table(cols, b.recs.map(r=>[r.y,r.sub==null?null:r.sub+(r.subMin?'+':''),r.acc,(r.sub&&r.acc!=null)?(r.subMin?'≤':'')+(100*r.acc/r.sub).toFixed(1)+'%':null,r.countries,...extraKeys.map(k=>(r.more||{})[k]),(r.note?r.note+' · ':'')+(r.src||'').replace(/^https?:\/\/(www\.)?/,'').split('/')[0]]))
+      + '<p class="src">'+[...new Set(b.recs.map(r=>r.src).filter(Boolean))].map(u=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\//,'').slice(0,70))}</a>`).join('<br>')+'</p>';
+  });
+}
+
+function renderCounts(){
+  const v=VENUES.find(x=>x.id===st.venue);
+  const progs = v.progs.length>1 && st.prog!=='both' ? [st.prog] : v.progs;
+  const series = progs.map((p,i)=>{ const m=byYear(rowsFor(st.venue,p)); return {name:p==='Works'?'作品 works':p==='Papers'?'論文 papers':p, color:progs.length>1?S[i]:'var(--acc)', vals:Object.fromEntries([...m].map(([y,a])=>[y,a.n]))}; });
+  barChart($('#counts'), series);
+  $('#counts').insertAdjacentHTML('beforeend', table(['年',...series.map(s=>s.name)], YEARS.filter(y=>series.some(s=>s.vals[y])).map(y=>[y,...series.map(s=>s.vals[y]||0)])));
+}
+
+function themePts(m, key){ return Object.fromEntries([...m].filter(([y,a])=>a.nabs).map(([y,a])=>[y,{v:100*(a.themes[key]||0)/a.nabs, n:a.nabs, extra:`${a.themes[key]||0}/${a.nabs}`}])); }
+
+function renderThemes(){
+  const m=byYear(rowsFor(st.venue,st.prog));
+  const series=st.themes.map((k,i)=>({name:D.themes[k][0], short:D.themes[k][0], color:S[i], pts:themePts(m,k)}));
+  lineChart($('#themes'), series, {pct:true, minN:10});
+  const ys=[...m.keys()].filter(y=>m.get(y).nabs).sort();
+  $('#themes').insertAdjacentHTML('beforeend', '<p class="note">白抜きの点は概要のある作品が10件未満の年です。</p>'+table(['年','概要のある作品',...Object.values(D.themes).map(t=>t[0])], ys.map(y=>{const a=m.get(y); return [y,a.nabs,...Object.keys(D.themes).map(k=>Math.round(100*(a.themes[k]||0)/a.nabs)+'%')];})));
+}
+
+function renderCompare(){
+  const series=VENUES.map((v,i)=>({name:v.label, short:v.label, color:S[i], pts:themePts(byYear(rowsFor(v.id,'both')),st.cmp)}));
+  lineChart($('#compare'), series, {pct:true, minN:10, years:YEARS});
+}
+
+function renderAuthors(){
+  const m=byYear(rowsFor(st.venue,st.prog));
+  const pts=Object.fromEntries([...m].filter(([y,a])=>a.nauth).map(([y,a])=>[y,{v:a.authors/a.nauth, n:a.nauth, extra:`${a.nauth}件`}]));
+  lineChart($('#authors'), [{name:'平均作者数 mean authors', color:'var(--s1)', pts}], {fmt:v=>v.toFixed(1), minN:10});
+}
+
+function yearSelect(sel, years, cur){ sel.innerHTML=years.map(y=>`<option value="${y}" ${y===cur?'selected':''}>${y}</option>`).join(''); }
+
+function renderCountry(){
+  const m=byYear(rowsFor(st.venue,st.prog));
+  const ys=[...m.keys()].filter(y=>m.get(y).ncountry).sort();
+  const sec=$('#sec-country');
+  if(!ys.length){ $('#countryNote').textContent = st.venue.startsWith('SIGGRAPH') ? 'SIGGRAPH の作品データには作者の所属国が入っていないため、まだ集計できません（所属データの取得を準備中）。' : 'この会場のデータには国の情報がありません。'; $('#cYear').parentElement.hidden=true; $('#country').innerHTML=''; return; }
+  $('#cYear').parentElement.hidden=false;
+  if(!ys.includes(st.cYear)) st.cYear=ys[ys.length-1];
+  yearSelect($('#cYear'), ys, st.cYear);
+  const a=m.get(st.cYear);
+  $('#countryNote').textContent=`作者表記に国コードがある作品だけを数えています（${st.cYear}年：${a.n}件中${a.ncountry}件）。共同制作は国ごとに1件ずつ数えます。`;
+  const items=Object.entries(a.countries).sort((x,y)=>y[1]-x[1]).slice(0,15).map(([c,v])=>({name:(D.countryNames[c]||c)+' ('+c+')', v}));
+  hbar($('#country'), items);
+  // share of top countries over years (Austria vs rest) is visible through the year switch; table for all years
+  const allC=[...new Set(ys.flatMap(y=>Object.keys(m.get(y).countries)))];
+  $('#country').insertAdjacentHTML('beforeend', `<p class="note">国・地域の数：${ys.map(y=>`${y}年 ${Object.keys(m.get(y).countries).length}`).join('、')}</p>` + table(['国・地域',...ys], allC.sort((p,q)=>ys.reduce((s,y)=>s+(m.get(y).countries[q]||0)-(m.get(y).countries[p]||0),0)).map(c=>[(D.countryNames[c]||c)+' ('+c+')',...ys.map(y=>m.get(y).countries[c]||0)])));
+}
+
+function renderAwards(){
+  const sec=$('#sec-awards');
+  if(st.venue!=='Ars Electronica'){ sec.hidden=true; return; } sec.hidden=false;
+  const m=byYear(rowsFor(st.venue,st.prog)); const ys=[...m.keys()].sort();
+  if(!ys.includes(st.aYear)) st.aYear=ys[ys.length-1];
+  yearSelect($('#aYear'), ys, st.aYear);
+  const a=m.get(st.aYear);
+  const order=D.awardOrder; const aw=Object.entries(a.awards).sort((x,y)=>(order.indexOf(x[0])+1||99)-(order.indexOf(y[0])+1||99));
+  hbar($('#awards'), aw.map(([k,v])=>({name:k,v})));
+  hbar($('#cats'), Object.entries(a.cats).sort((x,y)=>y[1]-x[1]).map(([k,v])=>({name:k.replace(/^Prix Ars Electronica – /,'Prix – '),v})), {color:'var(--s1)'});
+}
+
+function renderRules(){
+  $('#rules').innerHTML='<tr><th>テーマ</th><th style="text-align:left">判定に使う語</th></tr>'+Object.entries(D.themes).map(([k,t])=>`<tr><td>${esc(t[0])}<br><span style="color:var(--mut)">${esc(t[1])}</span></td><td style="text-align:left;font-size:11.5px;color:var(--mut)">${esc(D.themeRules[k])}</td></tr>`).join('');
+}
+
+function render(){ renderControls(); renderOfficial(); renderCounts(); renderThemes(); renderCompare(); renderAuthors(); renderCountry(); renderAwards(); save(); }
+renderRules(); render();
+</script>
+</body>
+</html>

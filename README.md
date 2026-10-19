@@ -37,3 +37,10 @@
 公開サイトの更新は `./update.sh` を実行するだけ（ビルド → commit → push。GitHub Pages に数分で反映）。
 
 公開URL: https://akiranakayasu-eng.github.io/siggraph-art-archive/
+
+## 統計ページ（docs/stats/）
+
+`./update.sh` の中で `python3 stats.py` が動き、SIGGRAPH と Ars の作品データから統計ページを作ります（公開URL: https://akiranakayasu-eng.github.io/art-archive/stats/）。
+- テーマの判定（AI、VR・XR、環境 など）は概要のキーワード一致です。語は `stats.py` の `THEMES` で変えられます
+- 主催者が公表した投稿数・採択数・参加国数などは `data/stats-official.json` に出典URLつきで手で書き足します。`"sub"`（投稿数）、`"acc"`（採択数）、`"subMin": true`（「〜件以上」と公表された値）、`"countries"`、`"more"`（部門別の投稿数や割合）が使えます
+- 見た目は `stats.html`（テンプレート）で変えます
