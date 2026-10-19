@@ -1,0 +1,234 @@
+{
+ "SIGGRAPH|Art Papers": [
+  {
+   "y": 2018,
+   "sub": 130,
+   "subMin": true,
+   "src": "https://www.academia.edu/39712153/"
+  },
+  {
+   "y": 2019,
+   "acc": 15,
+   "src": "https://www.academia.edu/39712153/"
+  },
+  {
+   "y": 2021,
+   "sub": 90,
+   "subMin": true,
+   "acc": 14,
+   "src": "https://www.awn.com/news/siggraph-2021-reveals-technical-and-art-papers-selections"
+  },
+  {
+   "y": 2022,
+   "sub": 70,
+   "subMin": true,
+   "acc": 15,
+   "src": "https://gfxspeak.com/?p=69323"
+  },
+  {
+   "y": 2025,
+   "acc": 17,
+   "src": "https://www.prnewswire.com/news-releases/art-and-technology-converge-through-nature-immersion-and-speculation-at-siggraph-2025-302488633.html"
+  }
+ ],
+ "SIGGRAPH|Art Gallery": [
+  {
+   "y": 2019,
+   "acc": 12,
+   "countries": 5,
+   "src": "https://www.awn.com/news/siggraph-2019-bringing-immersive-art-exhibit-la"
+  },
+  {
+   "y": 2021,
+   "sub": 150,
+   "subMin": true,
+   "acc": 14,
+   "countries": 7,
+   "src": "https://www.cgw.com/Press-Center/Siggraph/2021/SIGGRAPH-2021-Virtual-Art-Gallery.aspx"
+  },
+  {
+   "y": 2022,
+   "sub": 120,
+   "subMin": true,
+   "acc": 9,
+   "countries": 5,
+   "src": "https://gfxspeak.com/newswatch/siggraph-showcase-innovations/"
+  },
+  {
+   "y": 2023,
+   "sub": 100,
+   "subMin": true,
+   "acc": 12,
+   "src": "https://www.prnewswire.com/news-releases/art-and-design-merge-with-science-and-technology-for-innovative-storytelling-and-impact-based-experiences-at-siggraph-2023-301868219.html"
+  },
+  {
+   "y": 2024,
+   "sub": 188,
+   "acc": 12,
+   "src": "https://www.prnewswire.com/news-releases/siggraph-2024-plays-key-role-in-the-evolution-of-how-arts-and-language-impact-the-next-era-of-computer-graphics-302178155.html"
+  },
+  {
+   "y": 2025,
+   "acc": 12,
+   "src": "https://www.prnewswire.com/news-releases/art-and-technology-converge-through-nature-immersion-and-speculation-at-siggraph-2025-302488633.html"
+  },
+  {
+   "y": 2026,
+   "sub": 200,
+   "subMin": false,
+   "note": "nearly 200",
+   "src": "https://www.prnewswire.com/news-releases/siggraph-2026-explores-the-convergence-of-art-science-and-technology-302779636.html"
+  }
+ ],
+ "SIGGRAPH Asia|Art Gallery": [
+  {
+   "y": 2024,
+   "sub": 200,
+   "acc": 18,
+   "src": "https://asia.siggraph.org/2024/for-the-press/press-releases/press-release-4/"
+  }
+ ],
+ "Ars Electronica|Works": [
+  {
+   "y": 2015,
+   "sub": 2889,
+   "countries": 75,
+   "more": {
+    "New Animation Art（旧 Computer Animation）投稿数": 724,
+    "u19 投稿数": 657
+   },
+   "src": "https://ars.electronica.art/press/files/2015/05/Prix-Ars-Electronica-2015_PK_DE.pdf",
+   "note": "Prix Ars Electronica 全部門の合計（S+T+ARTS は別）"
+  },
+  {
+   "y": 2016,
+   "sub": 3159,
+   "countries": 84,
+   "more": {
+    "New Animation Art（旧 Computer Animation）投稿数": 1327,
+    "Interactive Art+ 投稿数": 896,
+    "u19 投稿数": 637,
+    "S+T+ARTS Prize 投稿数": 1861
+   },
+   "src": "https://www.ecsite.eu/node/22521",
+   "note": "Prix Ars Electronica 全部門の合計（S+T+ARTS は別）"
+  },
+  {
+   "y": 2017,
+   "sub": 3677,
+   "countries": 106,
+   "more": {
+    "New Animation Art（旧 Computer Animation）投稿数": 1157
+   },
+   "src": "https://www.tips.at/nachrichten/linz/kultur/393214",
+   "note": "Prix Ars Electronica 全部門の合計（S+T+ARTS は別）"
+  },
+  {
+   "y": 2018,
+   "sub": 3046,
+   "countries": 85,
+   "more": {},
+   "src": "https://de.readkong.com/page/die-gewinnerinnen-des-prix-ars-electronica-2018-5549192",
+   "note": "Prix Ars Electronica 全部門の合計（S+T+ARTS は別）"
+  },
+  {
+   "y": 2019,
+   "sub": 3256,
+   "countries": 82,
+   "more": {
+    "New Animation Art（旧 Computer Animation）投稿数": 835,
+    "u19 投稿数": 708
+   },
+   "src": "https://www.tips.at/nachrichten/linz/kultur/467938",
+   "note": "Prix Ars Electronica 全部門の合計（S+T+ARTS は別）"
+  },
+  {
+   "y": 2020,
+   "sub": 3209,
+   "countries": 90,
+   "more": {
+    "New Animation Art（旧 Computer Animation）投稿数": 930,
+    "Interactive Art+ 投稿数": 1236,
+    "u19 投稿数": 670,
+    "S+T+ARTS Prize 投稿数": 1775
+   },
+   "src": "https://ars.electronica.art/mediaservice/?p=31712",
+   "note": "Prix Ars Electronica 全部門の合計（S+T+ARTS は別）"
+  },
+  {
+   "y": 2021,
+   "sub": 3158,
+   "countries": 86,
+   "more": {},
+   "src": "https://ars.electronica.art/mediaservice/?p=31880",
+   "note": "Prix Ars Electronica 全部門の合計（S+T+ARTS は別）"
+  },
+  {
+   "y": 2022,
+   "sub": 2338,
+   "countries": 88,
+   "more": {
+    "New Animation Art（旧 Computer Animation）投稿数": 657,
+    "Interactive Art+ 投稿数": 928,
+    "u19 投稿数": 358
+   },
+   "src": "https://ars.electronica.art/mediaservice/?p=32023",
+   "note": "Prix Ars Electronica 全部門の合計（S+T+ARTS は別）"
+  },
+  {
+   "y": 2023,
+   "sub": 3176,
+   "countries": 98,
+   "more": {
+    "New Animation Art（旧 Computer Animation）投稿数": 1116
+   },
+   "src": "https://ars.electronica.art/mediaservice/en/2023/06/12/prix-winners-2023/",
+   "note": "Prix Ars Electronica 全部門の合計（S+T+ARTS は別）"
+  },
+  {
+   "y": 2024,
+   "sub": 2950,
+   "countries": 95,
+   "more": {
+    "New Animation Art（旧 Computer Animation）投稿数": 893,
+    "S+T+ARTS Prize 投稿数": 1308,
+    "AIを使った作品の割合 % New Animation Art": 25,
+    "AIを使った作品の割合 % Interactive Art+": 21
+   },
+   "src": "https://ars.electronica.art/prix/en/jurystatements/statements2024/",
+   "note": "Prix Ars Electronica 全部門の合計（S+T+ARTS は別）"
+  },
+  {
+   "y": 2025,
+   "sub": 3987,
+   "countries": 98,
+   "more": {
+    "New Animation Art（旧 Computer Animation）投稿数": 1430,
+    "u19 投稿数": 520
+   },
+   "src": "https://ars.electronica.art/mediaservice/en/2025/07/07/prix-winners-2025/",
+   "note": "Prix Ars Electronica 全部門の合計（S+T+ARTS は別）"
+  },
+  {
+   "y": 2026,
+   "sub": 4329,
+   "countries": 106,
+   "more": {
+    "New Animation Art（旧 Computer Animation）投稿数": 1144,
+    "Interactive Art+ 投稿数": 1757,
+    "u19 投稿数": 674,
+    "S+T+ARTS Prize 投稿数": 2719
+   },
+   "src": "https://ars.electronica.art/mediaservice/en/2026/06/22/prix-ars-electronica-a-barometer-of-artistic-technological-and-social-change/",
+   "note": "Prix Ars Electronica 全部門の合計（S+T+ARTS は別）"
+  }
+ ],
+ "Expanded|Papers": [
+  {
+   "y": 2025,
+   "sub": 98,
+   "acc": 28,
+   "src": "https://ars.electronica.art/panic/en/view/expanded-2025-conference-on-animation-and-interactive-art-1e338ddb450c80e7954cee03101b6588"
+  }
+ ]
+}
